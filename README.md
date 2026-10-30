@@ -53,11 +53,41 @@
 
 ## 公开汇总数据案例
 
-**PLOS ONE 2024：五个结局。** 从作者已整理的研究级汇总数据进入分析，覆盖疼痛、恢复正常活动时间、复发、感染和血清肿；在选定 FE / DL 与 MH–RevMan 兼容配置下，估计值和 95% CI 与论文显示精度相符，形成森林图、事实报告与 Word。[论文与资料来源](https://doi.org/10.1371/journal.pone.0314334)
+### PLOS ONE 2024：五个结局
 
-**BMJ 2024 偏头痛：2 小时无痛。** 使用作者公开汇总数据中的 115 项研究、18 个治疗节点，以频率学随机效应 DL 配置生成网络图、森林图、153 个治疗对的比较表与 Word；相应参照效应、网络比较及已导出局部/全局指标按作者显示精度对照。REML 配置单独保留。[论文与资料来源](https://doi.org/10.1136/bmj-2024-080107)
+从作者已整理的研究级汇总数据进入分析，覆盖疼痛、恢复正常活动时间、复发、感染和血清肿；在选定 FE / DL 与 MH–RevMan 兼容配置下，估计值和 95% CI 与论文显示精度相符，形成森林图、事实报告与 Word。[论文与资料来源](https://doi.org/10.1371/journal.pone.0314334)
 
-两个案例均以作者汇总数据为起点，展示统计分析、来源绑定表图与报告流程。
+**六个月疼痛｜固定效应 MD 森林图。** 来自 PLOS ONE 公开汇总数据的 FE/NONE 复现输出，点击查看原图。
+
+<a href="assets/cases/plos2024/pain-6-months-fe-forest.png?raw=1">
+  <img src="assets/cases/plos2024/pain-6-months-fe-forest.png" alt="PLOS ONE 2024 六个月疼痛：固定效应 MD 森林图" width="900">
+</a>
+
+**复发｜MH／RevMan 兼容 RR 森林图。** 使用 `revman_0.5` 配置，保留零事件处理与排除信息。
+
+<a href="assets/cases/plos2024/recurrence-mh-revman-forest.png?raw=1">
+  <img src="assets/cases/plos2024/recurrence-mh-revman-forest.png" alt="PLOS ONE 2024 复发：MH revman_0.5 RR 森林图" width="900">
+</a>
+
+[更多 PLOS 结果图与敏感性图](assets/cases/MORE-RESULTS.md)
+
+### BMJ 2024 偏头痛：2 小时无痛
+
+使用作者公开汇总数据中的 115 项研究、18 个治疗节点，以频率学随机效应 DL 配置生成网络图、森林图、153 个治疗对的比较表与 Word；相应参照效应、网络比较及已导出局部/全局指标按作者显示精度对照。REML 配置单独保留。[论文与资料来源](https://doi.org/10.1136/bmj-2024-080107)
+
+**治疗网络图｜同一次 RE/DL 案例输出。** 115 项研究、18 个治疗节点、32 条直接比较连线；节点面积对应参与者数，线宽对应研究数。
+
+<a href="assets/cases/bmj2024/pain-free-2h-re-dl-network.png?raw=1">
+  <img src="assets/cases/bmj2024/pain-free-2h-re-dl-network.png" alt="BMJ 2024 两小时无痛 RE/DL 案例网络图：115项研究、18治疗、32条直接比较" width="1000">
+</a>
+
+**相对安慰剂的森林图｜随机效应 DL。** 展示各治疗的 OR 和 95% CI，较高 OR 对应更多 2 小时无痛。
+
+<a href="assets/cases/bmj2024/pain-free-2h-re-dl-forest.png?raw=1">
+  <img src="assets/cases/bmj2024/pain-free-2h-re-dl-forest.png" alt="BMJ 2024 两小时无痛：随机效应 DL、治疗相对安慰剂 OR 森林图" width="1000">
+</a>
+
+两个案例均以作者汇总数据为起点，展示统计分析、来源绑定表图与报告流程。图片保留原数值与标签。[图片来源与原文件索引](assets/cases/README.md)
 
 ## 联系与许可
 
