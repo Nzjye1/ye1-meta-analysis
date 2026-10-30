@@ -1,0 +1,19 @@
+{
+  "schema": "meta-native-dependencies-v1",
+  "python_minimum": "3.10",
+  "r_version": "4.6.1",
+  "tested_python": "3.14.5",
+  "supported_hosts": ["win32:x86_64", "darwin:arm64"],
+  "packages": [
+    {"name": "numDeriv", "version": "2016.8-1.1", "license": "GPL-2"},
+    {"name": "digest", "version": "0.6.39", "license": "GPL (>= 2)"},
+    {"name": "mathjaxr", "version": "2.0-0", "license": "GPL-3"},
+    {"name": "pbapply", "version": "1.7-5", "license": "GPL (>= 2)"},
+    {"name": "metadat", "version": "1.6-0", "license": "GPL (>= 2)"},
+    {"name": "metafor", "version": "5.2-1", "license": "GPL (>= 2)"}
+  ],
+  "base_recommended": ["Matrix", "nlme"],
+  "network_default": "DISABLED",
+  "runtime_included": false,
+  "notes": "Exact candidate package versions. Native compatible binaries are required. Local hashes check consistency, not independent CRAN authentication. No statistical method code is changed by setup."
+}

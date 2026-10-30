@@ -1,0 +1,105 @@
+{
+  "title": "Home blood pressure monitoring with remote team support for hypertension at twelve weeks",
+  "Introduction": [
+    {
+      "text": "This manuscript describes a wholly synthetic clinical evidence scenario. It addresses whether adding home blood pressure monitoring and remote team support to usual follow-up lowers clinic systolic blood pressure after twelve weeks in adults with hypertension. No participant data, observed clinical trial, database retrieval or real-world treatment effect is represented by the fictional trial records.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    },
+    {
+      "text": "The review question defines the intervention as a combined monitoring and support program. A comparison restricted to usual follow-up is intended to estimate the effect of that package; it would not isolate the contribution of the monitoring device, clinician contact or medication adjustment. Clinic systolic blood pressure was selected as a common endpoint measured in mmHg, allowing a mean difference without standardizing across unlike scales.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    },
+    {
+      "text": "The objective was to synthesize one independent twelve-week estimate from each simulated randomized trial and examine the direction, precision and sensitivity of the combined estimate. The analysis was designed to show how a clinically framed question can be followed through evidence selection and statistical interpretation while keeping all synthetic evidence explicitly separate from clinical recommendations.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    }
+  ],
+  "Methods": [
+    {
+      "text": "The prespecified PICO included adults with hypertension, a home monitoring program with remote team review, and a usual-follow-up comparator. Only independent parallel-group randomized comparisons with a twelve-week clinic systolic blood pressure endpoint were eligible. The endpoint was a between-group difference at follow-up rather than a within-group change. Simulated endpoint values were supplied on a common mmHg scale with Wald-type 95% confidence intervals.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    },
+    {
+      "text": "Five fictional citation records were supplied in a local CSV fixture. There was no database search or full-text retrieval. One duplicate citation was explicitly removed before screening. Four retained reports were treated as available within the fixture, and all four met the simulated eligibility criteria. A companion report was mapped to the same trial as its primary report; only one effect from that trial entered the synthesis. The resulting four-report, three-trial distinction was retained in the selection ledger.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    },
+    {
+      "text": "Trial labels and sample sizes in the characteristics table are fictional. Each of the three statistical inputs has a sampling standard error of one mmHg, recovered from its supplied 95% interval. The fixed-effect inverse-variance model specified in the synthetic protocol combines these inputs under a common-effect assumption. Heterogeneity was summarized using Q, I2 and tau2; a leave-one-trial-out analysis examined whether any single simulated estimate determined the direction of the result.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    },
+    {
+      "text": "No real risk-of-bias instrument was applied. The evidence packet contains synthetic-only review statuses rather than low-risk judgments. Allocation procedures, masking, missing outcomes, intervention adherence and selective reporting are unspecified in the fictional dataset. Consequently, the report cannot assign certainty of evidence or infer that the simulated trials would withstand a real source-based appraisal.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    }
+  ],
+  "Discussion": [
+    {
+      "text": "The simulated synthesis favored the remote support package under the prespecified intervention-minus-control coding. This direction is internally consistent with all three trial estimates, and it persisted when each trial was omitted. The result concerns the defined twelve-week clinic endpoint; it does not estimate long-term blood pressure control, cardiovascular outcomes or adherence.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    },
+    {
+      "text": "The common-effect interpretation assumes that the fictional studies target one underlying effect. Their equal sampling precision and similar endpoint definitions make the numerical comparison straightforward, but that construction is a feature of the simulation. A small heterogeneity statistic in three studies would not, by itself, establish clinical homogeneity or rule out meaningful differences in populations, devices, contact intensity or medication management.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    },
+    {
+      "text": "A real review of this question would need to establish the actual monitoring and support components, baseline blood pressure, diagnostic criteria, background treatment, follow-up setting and measurement protocol in each trial. Reports sharing participants would need to be linked before pooling, and alternative adjusted estimates or additional timepoints could not simply be counted as independent trials. The companion-report mapping in this scenario illustrates that reporting multiplicity changes the number of reports without increasing the number of independent studies.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    },
+    {
+      "text": "The principal limitation is that all evidence here is synthetic. No real article was assessed, no database coverage was established, and no clinical bias or certainty judgment was completed. Even the nominally precise interval only describes the imposed statistical inputs. It cannot support a treatment recommendation, a claim of effectiveness or a publishable systematic-review conclusion. For a real project, any interpretation of a blood pressure reduction would also require patient relevance, harms, implementation burden and longer follow-up, supported by verified sources.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    },
+    {
+      "text": "Within the simulated question, the negative pooled difference and consistent sensitivity direction demonstrate what the configured model estimates from the specified aggregate effects. The appropriate conclusion is conditional: these fictional inputs imply lower twelve-week clinic systolic pressure under remote support, while real clinical benefit remains unassessed.",
+      "record_ids": [],
+      "review_status": "synthetic_test",
+      "source_locator": "Synthetic scenario protocol and generated aggregate tables"
+    }
+  ],
+  "declarations": "All trials, citations and participant counts are fictional. No human participants or identifiable data were used. This is an unregistered synthetic scenario, with no completed real-literature review, funding assessment or author conflict declaration. No real references are claimed.",
+  "study_characteristics": [
+    {
+      "study_id": "SYN-01",
+      "design": "Synthetic randomized parallel trial",
+      "n_intervention": 100,
+      "n_control": 100,
+      "followup": "12 weeks"
+    },
+    {
+      "study_id": "SYN-02",
+      "design": "Synthetic randomized parallel trial",
+      "n_intervention": 120,
+      "n_control": 120,
+      "followup": "12 weeks"
+    },
+    {
+      "study_id": "SYN-03",
+      "design": "Synthetic randomized parallel trial",
+      "n_intervention": 90,
+      "n_control": 90,
+      "followup": "12 weeks"
+    }
+  ]
+}

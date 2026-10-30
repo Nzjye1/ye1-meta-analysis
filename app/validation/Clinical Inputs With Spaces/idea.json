@@ -1,0 +1,27 @@
+{
+  "project_id": "SYNTHETIC-HTN-IDEA",
+  "question": "Among adults with hypertension, does home blood pressure monitoring with remote team support, compared with usual follow-up, reduce clinic systolic blood pressure at 12 weeks?",
+  "population": "Adults with hypertension in a wholly synthetic trial scenario",
+  "intervention": "Home blood pressure monitoring with remote team review and support",
+  "comparator": "Usual clinic follow-up without the remote support program",
+  "outcome": "clinic_sbp_mmhg",
+  "timepoint": "week_12",
+  "effect_type": "MD",
+  "direction": "Intervention minus control; negative values favor lower systolic BP under remote support",
+  "eligible_designs": [
+    "Parallel randomized two-arm trials with independent participants"
+  ],
+  "search_concepts": [
+    [
+      "hypertension",
+      "high blood pressure"
+    ],
+    [
+      "home blood pressure monitoring",
+      "telemonitoring"
+    ],
+    [
+      "randomized trial"
+    ]
+  ]
+}

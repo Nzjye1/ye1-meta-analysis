@@ -1,0 +1,9 @@
+record_id,stage,decision,reason,reviewer,decision_date
+REF-17a9e491eb6631a2,title_abstract,include,,synthetic_reviewer,2099-01-01
+REF-17a9e491eb6631a2,full_text,include,,synthetic_reviewer,2099-01-02
+REF-32d792d34aa21094,title_abstract,include,,synthetic_reviewer,2099-01-01
+REF-32d792d34aa21094,full_text,include,,synthetic_reviewer,2099-01-02
+REF-7b8df6af37df75a4,title_abstract,include,,synthetic_reviewer,2099-01-01
+REF-7b8df6af37df75a4,full_text,include,,synthetic_reviewer,2099-01-02
+REF-9f7910af4cf51fb0,title_abstract,include,,synthetic_reviewer,2099-01-01
+REF-9f7910af4cf51fb0,full_text,include,,synthetic_reviewer,2099-01-02

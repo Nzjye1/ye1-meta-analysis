@@ -1,0 +1,4 @@
+record_id,study_id,source_document,source_location,status,source_file,source_sha256,reviewer,reviewed_at,note
+REF-7b8df6af37df75a4,SYN-01,synthetic fixture SRC-A,table 1 row 1,synthetic_test,,,synthetic_reviewer,2099-01-03,Synthetic row only; no PDF read
+REF-9f7910af4cf51fb0,SYN-02,synthetic fixture SRC-B,table 1 row 2,synthetic_test,,,synthetic_reviewer,2099-01-03,Synthetic corrected row only; no PDF read
+REF-32d792d34aa21094,SYN-03,synthetic fixture SRC-C,table 1 row 3,synthetic_test,,,synthetic_reviewer,2099-01-03,Synthetic row only; no PDF read

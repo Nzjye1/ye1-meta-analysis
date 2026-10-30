@@ -1,0 +1,40 @@
+{
+  "protocol_id": "SYNTHETIC-HTN-12W",
+  "question": "Among adults with hypertension, does home blood pressure monitoring with remote team support, compared with usual follow-up, reduce clinic systolic blood pressure at 12 weeks?",
+  "pico": {
+    "population": "Adults with hypertension in a wholly synthetic trial scenario",
+    "intervention": "Home blood pressure monitoring with remote team review and support",
+    "comparator": "Usual clinic follow-up without the remote support program"
+  },
+  "eligible_designs": [
+    "Parallel randomized two-arm trials with independent participants"
+  ],
+  "inclusion_criteria": [
+    "Adult participants with hypertension",
+    "Matched 12-week clinic systolic BP endpoint in mmHg",
+    "Between-group mean difference with an extractable confidence interval"
+  ],
+  "exclusion_criteria": [
+    "Nonrandomized comparisons for this specified trial-only scenario",
+    "Different primary follow-up without an eligible 12-week endpoint",
+    "Overlapping participant cohort already represented by a selected effect"
+  ],
+  "outcome": {
+    "name": "clinic_sbp_mmhg",
+    "timepoint": "week_12",
+    "effect_type": "MD",
+    "direction": "Intervention minus control; negative values favor lower systolic BP under remote support"
+  },
+  "analysis": {
+    "contrast": "intervention_vs_control",
+    "adjustment": "unadjusted",
+    "model": "FE",
+    "tau_method": "NONE",
+    "test": "z",
+    "alpha": 0.05
+  },
+  "sensitivity_plan": [
+    "Leave one independent trial out",
+    "Inspect consistency of endpoint definition, participant overlap and effect direction before synthesis"
+  ]
+}

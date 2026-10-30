@@ -1,0 +1,2 @@
+confirmed,effect_type,outcome,timepoint,contrast,adjustment,model,tau_method,test,alpha
+YES,MD,clinic_sbp_mmhg,week_12,intervention_vs_control,unadjusted,FE,NONE,z,0.05

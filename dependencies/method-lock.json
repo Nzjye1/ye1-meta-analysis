@@ -1,0 +1,560 @@
+{
+  "schema": "meta-private-method-dependencies-v1",
+  "scope": "PINNED_OBSERVED_METADATA_FOR_CUSTOMER_DEPENDENCIES",
+  "r_runtime": "4.6.1",
+  "python_runtime": "3.14.5",
+  "r_library": "libraries/r-extended",
+  "python_library": "python/standard",
+  "origin_note": "Official CRAN/PyPI repository access; local metadata hashes check installed bytes, not independent repository signatures",
+  "r_packages": [
+    {
+      "name": "abind",
+      "version": "1.4-8",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=abind",
+      "local_description_sha256": "23913c13b59903d1332c21a20ad5f0fdb66fb83e8af158c27b6a51b6d6a407f6"
+    },
+    {
+      "name": "bit",
+      "version": "4.6.0",
+      "license": "GPL-2 | GPL-3",
+      "source": "https://cran.r-project.org/package=bit",
+      "local_description_sha256": "b6edd53ac12ef6282e7bd3a8f6692862f9bf4b659fce1ffca23ab6cbc3c5d0a2"
+    },
+    {
+      "name": "bit64",
+      "version": "4.8.6",
+      "license": "GPL-2 | GPL-3",
+      "source": "https://cran.r-project.org/package=bit64",
+      "local_description_sha256": "bf4206af21772e31e3f8daa16afa1eea2ed51a93c5e4e2bb21799c80f4dba42c"
+    },
+    {
+      "name": "cli",
+      "version": "3.6.6",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=cli",
+      "local_description_sha256": "3a9495040c36f04ce4c6c282ad6acf1c7b561629840737effc34b3fb5a5bffdb"
+    },
+    {
+      "name": "clipr",
+      "version": "0.8.1",
+      "license": "GPL-3",
+      "source": "https://cran.r-project.org/package=clipr",
+      "local_description_sha256": "fbfe3e0e2888cad02bc9cb10107f3f4c909171e7da0a63ddac1aefd809ee1fc8"
+    },
+    {
+      "name": "clubSandwich",
+      "version": "0.7.0",
+      "license": "GPL-3",
+      "source": "https://cran.r-project.org/package=clubSandwich",
+      "local_description_sha256": "a10e2e93ac31892bd64395c8db9c55ae8f7c59c3ed83dcc7acf73835c9fa2a1d"
+    },
+    {
+      "name": "colorspace",
+      "version": "2.1-4",
+      "license": "BSD_3_clause + file LICENSE",
+      "source": "https://cran.r-project.org/package=colorspace",
+      "local_description_sha256": "223c0f40dc415667bb8687b5fe1e3c2ed3e05d11d8c27c5bcc0bde7b01cb0d7a"
+    },
+    {
+      "name": "CompQuadForm",
+      "version": "1.4.4",
+      "license": "GPL (>= 2)",
+      "source": "https://cran.r-project.org/package=CompQuadForm",
+      "local_description_sha256": "28a8830fe4340586e0ff9537e2697dfab2d2022dadaf3b795fb16f454c6aeff2"
+    },
+    {
+      "name": "cpp11",
+      "version": "0.5.5",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=cpp11",
+      "local_description_sha256": "4c52faa1c57e6e2823f88100f9199469864b87d7e02de1e02064631419ec9e9d"
+    },
+    {
+      "name": "crayon",
+      "version": "1.5.3",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=crayon",
+      "local_description_sha256": "ff1f836e2586826ab283f03c1821b04a50808c047ea7ee53e989998ef2e36883"
+    },
+    {
+      "name": "diagmeta",
+      "version": "0.5-1",
+      "license": "GPL (>= 2)",
+      "source": "https://cran.r-project.org/package=diagmeta",
+      "local_description_sha256": "fda255930265d278df2c6892d67c9bfc68bb640240461c98d1b32abdeefe2025"
+    },
+    {
+      "name": "dosresmeta",
+      "version": "2.2.0",
+      "license": "GPL-2",
+      "source": "https://cran.r-project.org/package=dosresmeta",
+      "local_description_sha256": "bc708a3efd01117d655c73be20f9891d852e6d2c24ba5591721a069de2247541"
+    },
+    {
+      "name": "dplyr",
+      "version": "1.2.1",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=dplyr",
+      "local_description_sha256": "0634d36fdec884cc4eff91295385a79ca489b32ef18730a8c5b5c7d1ad884f6e"
+    },
+    {
+      "name": "ellipse",
+      "version": "0.5.0",
+      "license": "GPL (>= 2)",
+      "source": "https://cran.r-project.org/package=ellipse",
+      "local_description_sha256": "af5d3a68d761e18a543b462cd2561a29a9bad8ee895b71812027f44239f8f452"
+    },
+    {
+      "name": "farver",
+      "version": "2.1.2",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=farver",
+      "local_description_sha256": "f982542e75a35f8222d5c34d67f8d05bc66cbb2e8aa2142770db57387d62ba4d"
+    },
+    {
+      "name": "generics",
+      "version": "0.1.4",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=generics",
+      "local_description_sha256": "2a97dc1503f576268d366e1e32f9b7cc5758c2329078e34a873110325c8db693"
+    },
+    {
+      "name": "ggplot2",
+      "version": "4.0.3",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=ggplot2",
+      "local_description_sha256": "1e3a9d212a772e875243ed42a57959dac4fc1bf2d5e318ae564005a6052e6760"
+    },
+    {
+      "name": "ggrepel",
+      "version": "0.9.8",
+      "license": "GPL-3 | file LICENSE",
+      "source": "https://cran.r-project.org/package=ggrepel",
+      "local_description_sha256": "b0ecb4aa1dfacc94c1f1543996508db08be9fcec260d48ed35b2f9e853f35c20"
+    },
+    {
+      "name": "glue",
+      "version": "1.8.1",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=glue",
+      "local_description_sha256": "6b42e9478e5184c08eb2c46e7567442303d66caa815f63c43e367aa8133c9617"
+    },
+    {
+      "name": "gtable",
+      "version": "0.3.6",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=gtable",
+      "local_description_sha256": "b353fad67db21740067292e8d3d420bbf803ccf31ce279064cb779d7cb181132"
+    },
+    {
+      "name": "hms",
+      "version": "1.1.4",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=hms",
+      "local_description_sha256": "3a6d5c8ec5a9a8669bae09977e9d4c9133d5c43a89cc1278825eea5a9ccb550b"
+    },
+    {
+      "name": "igraph",
+      "version": "2.3.4",
+      "license": "GPL (>= 2)",
+      "source": "https://cran.r-project.org/package=igraph",
+      "local_description_sha256": "a15227cd1123fe8bbb981cf198ea184cf8721fde13707877e4744f911436835b"
+    },
+    {
+      "name": "isoband",
+      "version": "0.3.0",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=isoband",
+      "local_description_sha256": "5a1cbfe74c65e342e463e1d117534e43e666ce6f0f3c1a89d38b38d807fddaec"
+    },
+    {
+      "name": "labeling",
+      "version": "0.4.3",
+      "license": "MIT + file LICENSE | Unlimited",
+      "source": "https://cran.r-project.org/package=labeling",
+      "local_description_sha256": "0fd581e08b3becd15153994bf0dc203432b46f4bf358fdd3e866b5c8ec5ebc0c"
+    },
+    {
+      "name": "lifecycle",
+      "version": "1.0.5",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=lifecycle",
+      "local_description_sha256": "3855c3fe24a0b5d7184ce9fac265f5c14164a0d8a9dea677bc54e64d0c344cea"
+    },
+    {
+      "name": "lme4",
+      "version": "2.1-0",
+      "license": "GPL (>= 2)",
+      "source": "https://cran.r-project.org/package=lme4",
+      "local_description_sha256": "3fdc31e0cd9e75cd2499252a0fa1d645772ac7a5b1b6deeba5c060d9e4b55f7d"
+    },
+    {
+      "name": "mada",
+      "version": "0.5.12",
+      "license": "GPL-2",
+      "source": "https://cran.r-project.org/package=mada",
+      "local_description_sha256": "5d1e84bc6c7880e37e1418713658242a67bfb3d63e04ba1ac3e9aa6f54295576"
+    },
+    {
+      "name": "magic",
+      "version": "1.6-1-1",
+      "license": "GPL-2",
+      "source": "https://cran.r-project.org/package=magic",
+      "local_description_sha256": "a05edfb787758fc4b8f0630f9d8781a670f8a5c9dcb15e24b66e060e6dc26bca"
+    },
+    {
+      "name": "magrittr",
+      "version": "2.0.5",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=magrittr",
+      "local_description_sha256": "ceadf58ef97a30c72d249e2ca71830504a76c0f6da95dc2ab475f2859fc4ff2b"
+    },
+    {
+      "name": "meta",
+      "version": "8.5-0",
+      "license": "GPL (>= 2)",
+      "source": "https://cran.r-project.org/package=meta",
+      "local_description_sha256": "7bf319153b66fc8371b5c478ba2ea451ab69c52151df890a19c55132353e4916"
+    },
+    {
+      "name": "metabook",
+      "version": "0.2-0",
+      "license": "GPL (>= 2)",
+      "source": "https://cran.r-project.org/package=metabook",
+      "local_description_sha256": "dd1a29b53d785fef03b71a70013d296112003b81437db24703066d9bf342ca45"
+    },
+    {
+      "name": "minqa",
+      "version": "1.2.8",
+      "license": "GPL-2",
+      "source": "https://cran.r-project.org/package=minqa",
+      "local_description_sha256": "81fdf6a68f1d330f05a26418f5a136af13135451c5c12517ac2aab8116c1d9bf"
+    },
+    {
+      "name": "mixmeta",
+      "version": "1.2.2",
+      "license": "GPL (>= 3)",
+      "source": "https://cran.r-project.org/package=mixmeta",
+      "local_description_sha256": "6e4dc396d36c7e79f10df65a76056ae18526b8436a3ef1306d8b461ae00e060a"
+    },
+    {
+      "name": "mvmeta",
+      "version": "1.0.3",
+      "license": "GPL (>= 2)",
+      "source": "https://cran.r-project.org/package=mvmeta",
+      "local_description_sha256": "36ef3fdb8381613596d79e941f2ae04a0e8b42e3e73ede1c11202bc0583c90de"
+    },
+    {
+      "name": "mvtnorm",
+      "version": "1.4-2",
+      "license": "GPL-2",
+      "source": "https://cran.r-project.org/package=mvtnorm",
+      "local_description_sha256": "52d3db1f0f5127ce4ce1c6062aefc9deba5d0f1b3a0de15760d0f3267be170a8"
+    },
+    {
+      "name": "netmeta",
+      "version": "3.7-0",
+      "license": "GPL (>= 2) | file LICENSE",
+      "source": "https://cran.r-project.org/package=netmeta",
+      "local_description_sha256": "245e46caeb29c9446f6cb499762c56b956c058171b44026db52cbe815fc337cc"
+    },
+    {
+      "name": "nloptr",
+      "version": "2.2.1",
+      "license": "LGPL (>= 3)",
+      "source": "https://cran.r-project.org/package=nloptr",
+      "local_description_sha256": "af2fda938ae1cef8d1ad6589427774325bbf85601733929dcaa7f63fcf4688c6"
+    },
+    {
+      "name": "pillar",
+      "version": "1.11.1",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=pillar",
+      "local_description_sha256": "b253c7b7a6c11ec5e41265568253d3bb48e6cd85a36a053b39de89b5df5d262b"
+    },
+    {
+      "name": "pkgconfig",
+      "version": "2.0.3",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=pkgconfig",
+      "local_description_sha256": "0b09f34a3f8b330f7f325fd1950e0d1ba77dd1106342d586f8045c9aaffa52ac"
+    },
+    {
+      "name": "plyr",
+      "version": "1.8.9",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=plyr",
+      "local_description_sha256": "51555ba401ff0ec8b02a6dd84818b1e9bf68cf863a78cc4a6b0eca8a6ba0fcbc"
+    },
+    {
+      "name": "prettyunits",
+      "version": "1.2.0",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=prettyunits",
+      "local_description_sha256": "a08e7510c37ae41c579cfea9f4e6940c5954ca823103ff8f75a0c7e78947b592"
+    },
+    {
+      "name": "progress",
+      "version": "1.2.3",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=progress",
+      "local_description_sha256": "243d21e2be2c4488e0f70bc666141fff5c5bb8a911a4b66e25d27c52ef2d2301"
+    },
+    {
+      "name": "purrr",
+      "version": "1.2.2",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=purrr",
+      "local_description_sha256": "279d12d2e7888689616656153d79daf0e67f97b12a430f2167e99444dfc095e2"
+    },
+    {
+      "name": "R6",
+      "version": "2.6.1",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=R6",
+      "local_description_sha256": "691b3112a169e5d83410872560b02e2a2bdf824a20253d93f8497215b81c794a"
+    },
+    {
+      "name": "rbibutils",
+      "version": "2.4.1",
+      "license": "GPL-2",
+      "source": "https://cran.r-project.org/package=rbibutils",
+      "local_description_sha256": "db9e9b371e55a3d3e3a4448393e83b11da2f0fdcba322ed2f8bb41959d15a1d9"
+    },
+    {
+      "name": "RColorBrewer",
+      "version": "1.1-3",
+      "license": "Apache License 2.0",
+      "source": "https://cran.r-project.org/package=RColorBrewer",
+      "local_description_sha256": "c3fcedf3dd21e12f5bd9125e635c6419a45a16402bba5478423b3f6a88aa86bb"
+    },
+    {
+      "name": "Rcpp",
+      "version": "1.1.2",
+      "license": "GPL (>= 2)",
+      "source": "https://cran.r-project.org/package=Rcpp",
+      "local_description_sha256": "60cc4082e4bb7a8937523769fc3d1cd605e9b3ebd62190e41029e32579febd53"
+    },
+    {
+      "name": "RcppEigen",
+      "version": "0.3.4.0.2",
+      "license": "GPL (>= 2) | file LICENSE",
+      "source": "https://cran.r-project.org/package=RcppEigen",
+      "local_description_sha256": "553b6ee2494eacd9ba7409c6a4e998501c34836cf37a4edf45e16a0059e1b7f8"
+    },
+    {
+      "name": "Rdpack",
+      "version": "2.6.6",
+      "license": "GPL (>= 2)",
+      "source": "https://cran.r-project.org/package=Rdpack",
+      "local_description_sha256": "26ad5eaa4aeec845c2444e75d0ca120559d768b458dc8d28ec0031553c072643"
+    },
+    {
+      "name": "readr",
+      "version": "2.2.0",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=readr",
+      "local_description_sha256": "ce77b6d81ec000379bc01c78094bcb3ef4f8875c866c5a59201d5f4c9d396b52"
+    },
+    {
+      "name": "reformulas",
+      "version": "0.4.4",
+      "license": "GPL-3",
+      "source": "https://cran.r-project.org/package=reformulas",
+      "local_description_sha256": "32ae72736b22e9690ab0f2e3c0b3afe300f20e20b16e0a71eddc07d1a9ebd982"
+    },
+    {
+      "name": "reshape2",
+      "version": "1.4.5",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=reshape2",
+      "local_description_sha256": "14fce3e580167aa1a1be42fd12285d350d9d847517bbbda617c7b4b38b68a78e"
+    },
+    {
+      "name": "rlang",
+      "version": "1.3.0",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=rlang",
+      "local_description_sha256": "d8fc4b099698a10cfa068dc9da507b9bf283c8057d0a27de6d9d6de6d160bfe3"
+    },
+    {
+      "name": "robvis",
+      "version": "0.3.1",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=robvis",
+      "local_description_sha256": "66c92cd062149450add423a9972a31265b08b2cc7cd81bf5bb094db465ae9464"
+    },
+    {
+      "name": "S7",
+      "version": "0.2.2",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=S7",
+      "local_description_sha256": "eae4be8d4a63a9edee32b95c039ec00e79989e190cba215de144f317a547176b"
+    },
+    {
+      "name": "sandwich",
+      "version": "3.1-3",
+      "license": "GPL-2 | GPL-3",
+      "source": "https://cran.r-project.org/package=sandwich",
+      "local_description_sha256": "2cad1c777434175c995a24ed1d7ecfda804b057793bbd816897cbff60c754ed8"
+    },
+    {
+      "name": "scales",
+      "version": "1.4.0",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=scales",
+      "local_description_sha256": "6aaef1904b629d6d549f59da355a4a789aac422ee9b482b8a2af0c1c8f4b98d7"
+    },
+    {
+      "name": "stringi",
+      "version": "1.8.9",
+      "license": "file LICENSE",
+      "source": "https://cran.r-project.org/package=stringi",
+      "local_description_sha256": "b84f832d2c83a025e5f7d9edd82725978037d08074dca139b9a561c844235cf1"
+    },
+    {
+      "name": "stringr",
+      "version": "1.6.0",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=stringr",
+      "local_description_sha256": "e46fb9bd77286cadab8635335f24722fd17195104fe03d4584288fbec991abc0"
+    },
+    {
+      "name": "tibble",
+      "version": "3.3.1",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=tibble",
+      "local_description_sha256": "5983a6edc092ecf7ad3ec96086db97a281fd75aedae3445a49eb705b5004bfac"
+    },
+    {
+      "name": "tidyr",
+      "version": "1.3.2",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=tidyr",
+      "local_description_sha256": "0bd145c46460425a7db710e8f653b83bc0702f49feca989c44ccfbd581cd6740"
+    },
+    {
+      "name": "tidyselect",
+      "version": "1.2.1",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=tidyselect",
+      "local_description_sha256": "062aad0bbd880fde2510359eb18dc827e35fc31dede6fc320a005de9d0b9a655"
+    },
+    {
+      "name": "tzdb",
+      "version": "0.5.0",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=tzdb",
+      "local_description_sha256": "b984f2b6b5c884323199a2613502da34766c850ba3c99cfb8ef8fc818b8a1284"
+    },
+    {
+      "name": "utf8",
+      "version": "1.2.6",
+      "license": "Apache License (== 2.0) | file LICENSE",
+      "source": "https://cran.r-project.org/package=utf8",
+      "local_description_sha256": "b747304c7dd9e36c37a9ceccdd8e76a5b7e20d4bf35faf32f2e5c5470157b4bf"
+    },
+    {
+      "name": "vctrs",
+      "version": "0.7.3",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=vctrs",
+      "local_description_sha256": "524eec0fccc01a21ced77549e7b850fbc9c401301e53e571069280bbe0516b74"
+    },
+    {
+      "name": "viridisLite",
+      "version": "0.4.3",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=viridisLite",
+      "local_description_sha256": "a079763bb959f204fc8a1e0e2eaafb5d80763c4c3e556d294e989e4629a45d4a"
+    },
+    {
+      "name": "vroom",
+      "version": "1.7.1",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=vroom",
+      "local_description_sha256": "d5e93203d60d565d66e2e5a8aaa242c5efa4e39a4155651e86793e71bef955d2"
+    },
+    {
+      "name": "withr",
+      "version": "3.0.3",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=withr",
+      "local_description_sha256": "350feeb39df642e49f085f672899358275a12d2f31e2912fe172635168817da6"
+    },
+    {
+      "name": "xml2",
+      "version": "1.6.0",
+      "license": "MIT + file LICENSE",
+      "source": "https://cran.r-project.org/package=xml2",
+      "local_description_sha256": "99ac10d54a8d3a0bb2fe5e0164fcd7dd06f78204eb29949da449728eb5b60ebe"
+    },
+    {
+      "name": "zoo",
+      "version": "1.9-1",
+      "license": "GPL-2 | GPL-3",
+      "source": "https://cran.r-project.org/package=zoo",
+      "local_description_sha256": "e3e3580f7419940bcfb89cfb82590870cc61e9751bd59b4c74f9994f902336cc"
+    }
+  ],
+  "python_packages": [
+    {
+      "name": "cffi",
+      "version": "2.1.1",
+      "license_metadata": "MIT-0",
+      "source": "https://pypi.org/project/cffi/2.1.1/",
+      "local_metadata_sha256": "67b6a7595df7ede2195016a05d285faa7d362a8f57c238984edb8bb674b5770d"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "license_metadata": "MIT",
+      "source": "https://pypi.org/project/charset-normalizer/3.5.2/",
+      "local_metadata_sha256": "49e955a09e1a159e0846872798006e8db7d518d8d70c637066fefdb08d3d9f7b"
+    },
+    {
+      "name": "cryptography",
+      "version": "50.0.2",
+      "license_metadata": "Apache-2.0 OR BSD-3-Clause",
+      "source": "https://pypi.org/project/cryptography/50.0.2/",
+      "local_metadata_sha256": "047cfc71226409de4318b360aef15c63a2adf609731e3dcf7fe932f14ea042ee"
+    },
+    {
+      "name": "pdfminer.six",
+      "version": "20260107",
+      "license_metadata": "MIT",
+      "source": "https://pypi.org/project/pdfminer.six/20260107/",
+      "local_metadata_sha256": "4ca427c77b90fe19db60c0b3b8dbb4c0adc82979d089ec2f1b9238acff15ff9c"
+    },
+    {
+      "name": "pdfplumber",
+      "version": "0.11.10",
+      "license_metadata": "SEE_UPSTREAM_LICENSE",
+      "source": "https://pypi.org/project/pdfplumber/0.11.10/",
+      "local_metadata_sha256": "11a7f2c3a00208fe38389ad3022fbcde4610aec3b9ded312d82701eda1f56c23"
+    },
+    {
+      "name": "pillow",
+      "version": "13.0.0",
+      "license_metadata": "MIT-CMU",
+      "source": "https://pypi.org/project/pillow/13.0.0/",
+      "local_metadata_sha256": "140f39cb31ec9b46109828a6286f034a4848621263d6aab38d2f142083dd06c5"
+    },
+    {
+      "name": "pycparser",
+      "version": "3.12",
+      "license_metadata": "BSD-3-Clause",
+      "source": "https://pypi.org/project/pycparser/3.12/",
+      "local_metadata_sha256": "ad8db5fe2b0e0a3b0e8419fe5041b80be92470a40b06bd9c1462a0a8bb637c92"
+    },
+    {
+      "name": "pypdfium2",
+      "version": "5.14.0",
+      "license_metadata": "BSD-3-Clause, Apache-2.0, dependency licenses",
+      "source": "https://pypi.org/project/pypdfium2/5.14.0/",
+      "local_metadata_sha256": "8733a714c056453b87b48c819495cc05f9038d38221b89505043d28c2501237e"
+    }
+  ],
+  "path_resolution": "relative to explicitly selected runtime root; dependencies not included in source ZIP"
+}

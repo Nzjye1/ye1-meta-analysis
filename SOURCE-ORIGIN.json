@@ -1,0 +1,8 @@
+{
+  "product": "Ye1 Meta",
+  "source_baseline_commit": "af3e3419481ff1a9c024e84a5d3893f50d43b251",
+  "installer_zip": "Ye1-Meta-Online-Candidate-20261031-r-version-fix.zip",
+  "installer_zip_sha256": "f676f983ee518d6aeee69569baaa67a6009b6c16fc8e984d7bd08d1b73a80084",
+  "installer_zip_bytes": 595847,
+  "scope": "Product scripts and dependency lock preserved; public-facing introduction and installation documents adapted for this repository. Original installer ZIP retained unchanged."
+}

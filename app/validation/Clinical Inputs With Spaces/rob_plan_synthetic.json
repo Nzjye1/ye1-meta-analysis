@@ -1,0 +1,5 @@
+{
+  "tool_name": "SYNTHETIC USER-DEFINED GRID",
+  "tool_version": "0.1-test-only",
+  "required_domains": ["synthetic_design", "synthetic_measurement"]
+}

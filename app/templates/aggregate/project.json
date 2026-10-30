@@ -1,0 +1,20 @@
+{
+  "schema": "meta-aggregate-project-v1",
+  "mode": "existing_summary_data",
+  "project_id": "replace_with_project_id",
+  "question": "Replace with the supplied-data analysis question",
+  "population": "Replace with the supplied population and its verification limits",
+  "direction": "Replace with intervention minus comparator",
+  "independence_assumption": "Replace with the one-independent-effect-per-study assumption and unresolved overlap limitations",
+  "effects": "inputs/effects.csv",
+  "analysis": "inputs/analysis.csv",
+  "original_inputs": ["inputs/original_summary.csv"],
+  "source": {
+    "citation": "Replace with the actual supplied article or dataset citation",
+    "locator": "Replace with the actual supplementary table or page reference",
+    "supplied_data_description": "Replace with what was supplied and how the study effects were derived",
+    "verification_status": "not_independently_verified"
+  },
+  "unit": {"status": "unverified", "value": ""},
+  "limitations": ["Replace with the source, independence, extraction and applicability limits that remain unresolved"]
+}

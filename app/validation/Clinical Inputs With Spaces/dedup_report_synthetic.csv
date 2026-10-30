@@ -1,0 +1,6 @@
+record_id,disposition,retained_record_id,reason,reviewer,decision_date
+REF-17a9e491eb6631a2,keep,,,synthetic_reviewer,2099-01-01
+REF-32d792d34aa21094,keep,,,synthetic_reviewer,2099-01-01
+REF-51f352b81f62523f,remove_duplicate,REF-7b8df6af37df75a4,Synthetic manual same-title duplicate import decision,synthetic_reviewer,2099-01-01
+REF-7b8df6af37df75a4,keep,,,synthetic_reviewer,2099-01-01
+REF-9f7910af4cf51fb0,keep,,,synthetic_reviewer,2099-01-01

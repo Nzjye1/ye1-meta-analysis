@@ -1,0 +1,7 @@
+study_id,outcome,timepoint,domain,status,judgment,rationale,evidence_locator,assessor,assessed_at
+SYN-01,clinic_sbp_mmhg,week_12,synthetic_design,synthetic_test,illustrative_only,Synthetic test row; no assessment,,synthetic_reviewer,2099-01-03
+SYN-01,clinic_sbp_mmhg,week_12,synthetic_measurement,synthetic_test,illustrative_only,Synthetic test row; no assessment,,synthetic_reviewer,2099-01-03
+SYN-02,clinic_sbp_mmhg,week_12,synthetic_design,synthetic_test,illustrative_only,Synthetic test row; no assessment,,synthetic_reviewer,2099-01-03
+SYN-02,clinic_sbp_mmhg,week_12,synthetic_measurement,synthetic_test,illustrative_only,Synthetic test row; no assessment,,synthetic_reviewer,2099-01-03
+SYN-03,clinic_sbp_mmhg,week_12,synthetic_design,synthetic_test,illustrative_only,Synthetic test row; no assessment,,synthetic_reviewer,2099-01-03
+SYN-03,clinic_sbp_mmhg,week_12,synthetic_measurement,synthetic_test,illustrative_only,Synthetic test row; no assessment,,synthetic_reviewer,2099-01-03

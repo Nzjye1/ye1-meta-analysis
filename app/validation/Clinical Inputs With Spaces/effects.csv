@@ -1,0 +1,4 @@
+record_id,study_id,cohort_id,effect_type,estimate,ci_lower,ci_upper,outcome,timepoint,contrast,adjustment,source_document,source_location
+REF-7b8df6af37df75a4,SYN-01,COHORT-01,MD,-5,-6.959963984540054,-3.040036015459946,clinic_sbp_mmhg,week_12,intervention_vs_control,unadjusted,synthetic fixture SRC-A,table 1 row 1
+REF-9f7910af4cf51fb0,SYN-02,COHORT-02,MD,-3,-4.959963984540054,-1.040036015459946,clinic_sbp_mmhg,week_12,intervention_vs_control,unadjusted,synthetic fixture SRC-B,table 1 row 2
+REF-32d792d34aa21094,SYN-03,COHORT-03,MD,-4,-5.959963984540054,-2.040036015459946,clinic_sbp_mmhg,week_12,intervention_vs_control,unadjusted,synthetic fixture SRC-C,table 1 row 3

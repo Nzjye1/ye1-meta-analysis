@@ -1,0 +1,151 @@
+{
+  "stages": [
+    {
+      "id": "prepare",
+      "script": "research_plan.py",
+      "args": {
+        "idea": "Clinical Inputs With Spaces/idea.json"
+      }
+    },
+    {
+      "id": "import",
+      "script": "literature.py",
+      "args": {
+        "input": "Clinical Inputs With Spaces/bibliography.csv",
+        "source": "synthetic-demo-v1"
+      },
+      "command": "import"
+    },
+    {
+      "id": "screen",
+      "script": "literature.py",
+      "args": {
+        "records": "@import/records.csv",
+        "dedup": "Clinical Inputs With Spaces/dedup_report_synthetic.csv",
+        "decisions": "Clinical Inputs With Spaces/protocol_screening_synthetic.csv"
+      },
+      "command": "screen"
+    },
+    {
+      "id": "link",
+      "script": "literature.py",
+      "args": {
+        "records": "@import/records.csv",
+        "dedup": "Clinical Inputs With Spaces/dedup_report_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "effects": "Clinical Inputs With Spaces/effects.csv"
+      },
+      "command": "link"
+    },
+    {
+      "id": "freeze",
+      "script": "review.py",
+      "args": {
+        "protocol": "Clinical Inputs With Spaces/protocol.json",
+        "records": "@import/records.csv",
+        "dedup": "Clinical Inputs With Spaces/dedup_report_synthetic.csv",
+        "decisions": "Clinical Inputs With Spaces/protocol_screening_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "source-effects": "Clinical Inputs With Spaces/effects.csv",
+        "effects": "@link/linked_effects.csv",
+        "analysis": "Clinical Inputs With Spaces/analysis.csv",
+        "report-map": "Clinical Inputs With Spaces/report_study_map_synthetic.csv",
+        "mode": "synthetic_test",
+        "reviewer": "synthetic-test",
+        "approval-reference": "automated fixture only",
+        "declaration": "SYNTHETIC TEST CONFIRMATION"
+      },
+      "command": "confirm"
+    },
+    {
+      "id": "counts",
+      "script": "review.py",
+      "args": {
+        "protocol": "Clinical Inputs With Spaces/protocol.json",
+        "records": "@import/records.csv",
+        "dedup": "Clinical Inputs With Spaces/dedup_report_synthetic.csv",
+        "decisions": "Clinical Inputs With Spaces/protocol_screening_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "source-effects": "Clinical Inputs With Spaces/effects.csv",
+        "effects": "@link/linked_effects.csv",
+        "analysis": "Clinical Inputs With Spaces/analysis.csv",
+        "report-map": "Clinical Inputs With Spaces/report_study_map_synthetic.csv",
+        "confirmation": "@freeze/confirmation.json"
+      },
+      "command": "count"
+    },
+    {
+      "id": "statistics",
+      "script": "run_protocol.py",
+      "args": {
+        "protocol": "Clinical Inputs With Spaces/protocol.json",
+        "records": "@import/records.csv",
+        "dedup": "Clinical Inputs With Spaces/dedup_report_synthetic.csv",
+        "decisions": "Clinical Inputs With Spaces/protocol_screening_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "source-effects": "Clinical Inputs With Spaces/effects.csv",
+        "effects": "@link/linked_effects.csv",
+        "analysis": "Clinical Inputs With Spaces/analysis.csv",
+        "report-map": "Clinical Inputs With Spaces/report_study_map_synthetic.csv",
+        "confirmation": "@freeze/confirmation.json",
+        "rscript": "{rscript}"
+      }
+    },
+    {
+      "id": "flow",
+      "script": "prisma2020_flow.py",
+      "args": {
+        "protocol": "Clinical Inputs With Spaces/protocol.json",
+        "records": "@import/records.csv",
+        "dedup": "Clinical Inputs With Spaces/dedup_report_synthetic.csv",
+        "decisions": "Clinical Inputs With Spaces/protocol_screening_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "source-effects": "Clinical Inputs With Spaces/effects.csv",
+        "effects": "@link/linked_effects.csv",
+        "analysis": "Clinical Inputs With Spaces/analysis.csv",
+        "report-map": "Clinical Inputs With Spaces/report_study_map_synthetic.csv",
+        "confirmation": "@freeze/confirmation.json",
+        "source-methods": "Clinical Inputs With Spaces/prisma_source_methods_synthetic.csv",
+        "retrieval": "Clinical Inputs With Spaces/prisma_retrieval_synthetic.csv"
+      }
+    },
+    {
+      "id": "packet",
+      "script": "report.py",
+      "args": {
+        "protocol": "Clinical Inputs With Spaces/protocol.json",
+        "records": "@import/records.csv",
+        "dedup": "Clinical Inputs With Spaces/dedup_report_synthetic.csv",
+        "decisions": "Clinical Inputs With Spaces/protocol_screening_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "source-effects": "Clinical Inputs With Spaces/effects.csv",
+        "effects": "@link/linked_effects.csv",
+        "analysis": "Clinical Inputs With Spaces/analysis.csv",
+        "report-map": "Clinical Inputs With Spaces/report_study_map_synthetic.csv",
+        "confirmation": "@freeze/confirmation.json",
+        "source-methods": "Clinical Inputs With Spaces/prisma_source_methods_synthetic.csv",
+        "retrieval": "Clinical Inputs With Spaces/prisma_retrieval_synthetic.csv",
+        "counts": "@counts",
+        "source-review": "Clinical Inputs With Spaces/source_review_synthetic.csv",
+        "corrections": "Clinical Inputs With Spaces/corrections.csv",
+        "rob-plan": "Clinical Inputs With Spaces/rob_plan_synthetic.json",
+        "rob-ledger": "Clinical Inputs With Spaces/rob.csv",
+        "stats-dir": "@statistics",
+        "prisma-dir": "@flow"
+      }
+    },
+    {
+      "id": "paper",
+      "script": "manuscript.py",
+      "args": {
+        "packet": "@packet",
+        "stats": "@statistics",
+        "protocol": "Clinical Inputs With Spaces/protocol.json",
+        "records": "@import/records.csv",
+        "narrative": "Clinical Inputs With Spaces/narrative.json",
+        "unit": "mmHg"
+      },
+      "command": "build"
+    }
+  ]
+}

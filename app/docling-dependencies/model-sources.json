@@ -1,0 +1,32 @@
+[
+  {
+    "repo_id": "docling-project/docling-layout-heron",
+    "url": "https://huggingface.co/docling-project/docling-layout-heron",
+    "resolved_commits": [
+      "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8"
+    ],
+    "license": "apache-2.0",
+    "selected_for_inference": true,
+    "bytes": 171764371
+  },
+  {
+    "repo_id": "docling-project/docling-layout-heron-onnx",
+    "url": "https://huggingface.co/docling-project/docling-layout-heron-onnx",
+    "resolved_commits": [
+      "40bde044036bb181c130ddf6c51792187268748f"
+    ],
+    "license": "apache-2.0",
+    "selected_for_inference": false,
+    "bytes": 171223607
+  },
+  {
+    "repo_id": "docling-project/docling-models",
+    "url": "https://huggingface.co/docling-project/docling-models",
+    "resolved_commits": [
+      "fc0f2d45e2218ea24bce5045f58a389aed16dc23"
+    ],
+    "license": "cdla-permissive-2.0",
+    "selected_for_inference": true,
+    "bytes": 358236323
+  }
+]

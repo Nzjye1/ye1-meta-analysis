@@ -1,0 +1,152 @@
+{
+  "stages": [
+    {
+      "id": "prepare",
+      "script": "research_plan.py",
+      "args": {
+        "idea": "{project_dir}/inputs/idea.json"
+      }
+    },
+    {
+      "id": "import",
+      "script": "literature.py",
+      "args": {
+        "input": "{project_dir}/inputs/bibliography.csv",
+        "source": "synthetic-demo-v1"
+      },
+      "command": "import"
+    },
+    {
+      "id": "screen",
+      "script": "literature.py",
+      "args": {
+        "records": "@import/records.csv",
+        "dedup": "{project_dir}/inputs/dedup_report_synthetic.csv",
+        "decisions": "{project_dir}/inputs/protocol_screening_synthetic.csv"
+      },
+      "command": "screen"
+    },
+    {
+      "id": "link",
+      "script": "literature.py",
+      "args": {
+        "records": "@import/records.csv",
+        "dedup": "{project_dir}/inputs/dedup_report_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "effects": "{project_dir}/inputs/effects.csv"
+      },
+      "command": "link"
+    },
+    {
+      "id": "freeze",
+      "script": "review.py",
+      "args": {
+        "protocol": "{project_dir}/inputs/protocol.json",
+        "records": "@import/records.csv",
+        "dedup": "{project_dir}/inputs/dedup_report_synthetic.csv",
+        "decisions": "{project_dir}/inputs/protocol_screening_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "source-effects": "{project_dir}/inputs/effects.csv",
+        "effects": "@link/linked_effects.csv",
+        "analysis": "{project_dir}/inputs/analysis.csv",
+        "report-map": "{project_dir}/inputs/report_study_map_synthetic.csv",
+        "mode": "real",
+        "reviewer": "",
+        "approval-reference": "",
+        "declaration": ""
+      },
+      "command": "confirm"
+    },
+    {
+      "id": "counts",
+      "script": "review.py",
+      "args": {
+        "protocol": "{project_dir}/inputs/protocol.json",
+        "records": "@import/records.csv",
+        "dedup": "{project_dir}/inputs/dedup_report_synthetic.csv",
+        "decisions": "{project_dir}/inputs/protocol_screening_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "source-effects": "{project_dir}/inputs/effects.csv",
+        "effects": "@link/linked_effects.csv",
+        "analysis": "{project_dir}/inputs/analysis.csv",
+        "report-map": "{project_dir}/inputs/report_study_map_synthetic.csv",
+        "confirmation": "@freeze/confirmation.json"
+      },
+      "command": "count"
+    },
+    {
+      "id": "statistics",
+      "script": "run_protocol.py",
+      "args": {
+        "protocol": "{project_dir}/inputs/protocol.json",
+        "records": "@import/records.csv",
+        "dedup": "{project_dir}/inputs/dedup_report_synthetic.csv",
+        "decisions": "{project_dir}/inputs/protocol_screening_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "source-effects": "{project_dir}/inputs/effects.csv",
+        "effects": "@link/linked_effects.csv",
+        "analysis": "{project_dir}/inputs/analysis.csv",
+        "report-map": "{project_dir}/inputs/report_study_map_synthetic.csv",
+        "confirmation": "@freeze/confirmation.json",
+        "rscript": "{rscript}"
+      }
+    },
+    {
+      "id": "flow",
+      "script": "prisma2020_flow.py",
+      "args": {
+        "protocol": "{project_dir}/inputs/protocol.json",
+        "records": "@import/records.csv",
+        "dedup": "{project_dir}/inputs/dedup_report_synthetic.csv",
+        "decisions": "{project_dir}/inputs/protocol_screening_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "source-effects": "{project_dir}/inputs/effects.csv",
+        "effects": "@link/linked_effects.csv",
+        "analysis": "{project_dir}/inputs/analysis.csv",
+        "report-map": "{project_dir}/inputs/report_study_map_synthetic.csv",
+        "confirmation": "@freeze/confirmation.json",
+        "source-methods": "{project_dir}/inputs/prisma_source_methods_synthetic.csv",
+        "retrieval": "{project_dir}/inputs/prisma_retrieval_synthetic.csv"
+      }
+    },
+    {
+      "id": "packet",
+      "script": "report.py",
+      "args": {
+        "protocol": "{project_dir}/inputs/protocol.json",
+        "records": "@import/records.csv",
+        "dedup": "{project_dir}/inputs/dedup_report_synthetic.csv",
+        "decisions": "{project_dir}/inputs/protocol_screening_synthetic.csv",
+        "ledger": "@screen/screening_ledger.csv",
+        "source-effects": "{project_dir}/inputs/effects.csv",
+        "effects": "@link/linked_effects.csv",
+        "analysis": "{project_dir}/inputs/analysis.csv",
+        "report-map": "{project_dir}/inputs/report_study_map_synthetic.csv",
+        "confirmation": "@freeze/confirmation.json",
+        "source-methods": "{project_dir}/inputs/prisma_source_methods_synthetic.csv",
+        "retrieval": "{project_dir}/inputs/prisma_retrieval_synthetic.csv",
+        "counts": "@counts",
+        "source-review": "{project_dir}/inputs/source_review_synthetic.csv",
+        "corrections": "{project_dir}/inputs/corrections.csv",
+        "rob-plan": "{project_dir}/inputs/rob_plan_synthetic.json",
+        "rob-ledger": "{project_dir}/inputs/rob.csv",
+        "stats-dir": "@statistics",
+        "prisma-dir": "@flow"
+      }
+    },
+    {
+      "id": "paper",
+      "script": "manuscript.py",
+      "args": {
+        "packet": "@packet",
+        "stats": "@statistics",
+        "protocol": "{project_dir}/inputs/protocol.json",
+        "records": "@import/records.csv",
+        "narrative": "{project_dir}/inputs/narrative.json",
+        "unit": "mmHg"
+      },
+      "command": "build"
+    }
+  ],
+  "purpose": "Real local aggregate project scaffold. Fill actual inputs and obtain actual review before running. No approved reviewer claim is supplied."
+}
