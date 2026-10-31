@@ -73,7 +73,9 @@ def install(root, profile, lock):
     if not (root / 'r-installed.json').exists():
         path = cache_path(root / 'cache', r_pkg)
         signature = run(root, 'r-signature', ['/usr/sbin/pkgutil', '--check-signature', path])
-        if 'R Foundation' not in signature:
+        # CRAN's official macOS builder signs as Simon Urbanek, not the
+        # organizational display name. Keep exact identity + Apple trust + SHA.
+        if 'Developer ID Installer: Simon Urbanek (VZLD955F6P)' not in signature:
             raise ValueError('Unexpected R installer signing identity')
         command = ['/usr/sbin/installer', '-pkg', path, '-target', '/']
         if os.geteuid() != 0:
