@@ -24,7 +24,14 @@ bash launch.sh "$HOME/Ye1 Meta Runtime" standard meta --help
 bash launch.sh "$HOME/Ye1 Meta Runtime" standard meta run --project /path/to/project.json --rscript /Library/Frameworks/R.framework/Resources/bin/Rscript --out /path/to/new-result
 ```
 
-全文仍优先 XML/HTML，并保留 PDF 解析。standard 提供 pdfplumber/pdfminer/pypdfium2；缺少全文时由用户补充。可选 Docling 的 Windows 安装方案和模型清单保留，Mac Docling 模型安装不包含在本次 standard 入口中，不能假称已完成模型推理验收。
+全文仍优先 XML/HTML，并保留 PDF 解析。standard 提供 pdfplumber/pdfminer/pypdfium2；Mac 需要结构化 PDF 解析时可选择 Docling 和本地模型：
+
+```bash
+bash setup-online.sh "$HOME/Ye1 Meta Docling Runtime" docling I_ACCEPT
+bash launch.sh "$HOME/Ye1 Meta Docling Runtime" docling check
+```
+
+Docling 配置从固定官方来源下载 225 项、合计 1,188,354,313 字节；已有同锁缓存可复用。客户离线包使用 [离线安装说明](INSTALL-MAC-OFFLINE.md)。缺少全文时由用户补充。
 
 第三方软件保留其原许可：Python 使用 PSF 及内含声明，R 与各 R 包保留各自 GPL/其他许可，Python wheels 保留各自许可。此联网 ZIP 不包含这些原生安装包、编译依赖或模型；自有代码使用仓库 MIT。官方文件的版本、来源、SHA256、字节数和许可摘要在锁文件中，安装后的原许可保留在各包目录。Windows 安装入口及下载文件保持不变。
 

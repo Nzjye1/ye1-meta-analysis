@@ -2,7 +2,7 @@
 
 先读 README.md，识别系统；Windows x64 读 INSTALL.md，Apple 芯片 macOS 14+ 读 INSTALL-MAC.md，再读所选方法教程。本地推进单项系统综述/Meta 研究。
 
-1. 从当前仓库取得完整源码；核对用户研究起点和独立运行目录，按已有授权准备固定官方依赖。默认 standard 覆盖八类统计路线；Windows Docling 在需要结构化 PDF 候选时单独追加，Mac standard 提供常用 PDF 解析。按对应平台安装文档执行。
+1. 从当前仓库取得完整源码；核对用户研究起点和独立运行目录，按已有授权准备固定官方依赖。默认 standard 覆盖八类统计路线；Mac 与 Windows 均可在需要结构化 PDF 候选时选择 docling 配置；standard 提供常用 PDF 解析。按对应平台安装文档执行。
 2. 安装后读取实际安装回执并完成自检：Windows 使用 READY.json、runtime.json 与 launch.cmd，Mac 使用 READY、macos-runtime.json 与 launch.sh。再引导用户提供研究问题、方案、题录、合法全文或研究级汇总数据，选择相应方法。保留原始材料，每次运行使用新成果目录。
 3. 文献流程优先使用许可允许的 XML/HTML，保留 PDF 解析；缺全文请用户补充合法文件。记录数值来源、页表定位、版本和复核判断。Docling 的 0,09 保留完整词法，原文 SD 冲突维持 HOLD，由来源复核解决。
 4. 按实际协议确认模型与配置后调用对应平台 launch.cmd 或 launch.sh 和原有 meta 子命令，生成统计表图、事实报告和英文 Word 草稿。真实审核、AI 审核与合成示例如实区分，不将 AI 决定冒充人工审核。
