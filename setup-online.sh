@@ -35,4 +35,18 @@ grep -q 'Python Software Foundation' "$ROOT/setup-logs/python-signature.txt"
 if [[ ! -f "$ROOT/python-installed.json" ]]; then
   if [[ $(id -u) -eq 0 ]]; then /usr/sbin/installer -pkg "$PKG" -target /; else sudo /usr/sbin/installer -pkg "$PKG" -target /; fi
 fi
-exec /Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14 -I -B "$SOURCE/tools/macos_setup.py" install --root "$ROOT" --profile "$2"
+PYTHON=/Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14
+# Official python.org installers require certificate setup. Bootstrap the fixed
+# certifi wheel with the system curl trust store, then use its CA bundle only in
+# this process/runtime, without modifying system trust or an existing Python.
+IFS=$'\t' read -r CA_URL CA_SHA CA_NAME <<< "$("$PYTHON" -I -c 'import json,sys; a=next(a for a in json.load(open(sys.argv[1]))["artifacts"] if a["name"]=="certifi"); print(a["url"],a["sha256"],a["filename"],sep="\t")' "$LOCK")"
+CA_WHEEL="$ROOT/cache/${CA_SHA}_${CA_NAME}"
+if [[ ! -f "$CA_WHEEL" ]]; then
+  /usr/bin/curl --fail --location --proto '=https' --tlsv1.2 "$CA_URL" -o "$CA_WHEEL.part"
+  [[ "$(shasum -a 256 "$CA_WHEEL.part" | awk '{print $1}')" == "$CA_SHA" ]] || { echo 'CA wheel SHA256 mismatch.' >&2; exit 2; }
+  mv "$CA_WHEEL.part" "$CA_WHEEL"
+fi
+[[ "$(shasum -a 256 "$CA_WHEEL" | awk '{print $1}')" == "$CA_SHA" ]] || { echo 'Cached CA wheel SHA256 mismatch.' >&2; exit 2; }
+"$PYTHON" -I -c 'import sys,zipfile,pathlib; pathlib.Path(sys.argv[2]).write_bytes(zipfile.ZipFile(sys.argv[1]).read("certifi/cacert.pem"))' "$CA_WHEEL" "$ROOT/bootstrap-ca.pem"
+export SSL_CERT_FILE="$ROOT/bootstrap-ca.pem"
+exec "$PYTHON" -I -B "$SOURCE/tools/macos_setup.py" install --root "$ROOT" --profile "$2"

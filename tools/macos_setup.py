@@ -33,6 +33,7 @@ def environment(root, library):
     for key in ('PYTHONHOME', 'PYTHONPATH', 'R_HOME', 'R_LIBS', 'R_LIBS_USER', 'R_LIBS_SITE'):
         env.pop(key, None)
     env.update(PYTHONNOUSERSITE='1', PYTHONDONTWRITEBYTECODE='1', PYTHONUTF8='1',
+               SSL_CERT_FILE=str(root / 'bootstrap-ca.pem'),
                R_LIBS_USER=str(library), R_LIBS_SITE=str(root / 'no-site-library'),
                R_ENVIRON_USER=str(root / 'no-renviron'), R_PROFILE_USER=str(root / 'no-profile'))
     return env
@@ -65,7 +66,8 @@ def install(root, profile, lock):
     if (root / '.mac-bootstrap').read_text().strip() != sha(LOCK):
         raise ValueError('Runtime bootstrap ownership mismatch')
     write(root / 'python-installed.json', dict(version=sys.version.split()[0], executable=sys.executable,
-          base_prefix=sys.base_prefix, platform=platform.platform(), installer='official signed Python pkg'))
+          base_prefix=sys.base_prefix, platform=platform.platform(), installer='official signed Python pkg',
+          ssl_ca_file=os.environ.get('SSL_CERT_FILE'), ca_sha256=sha(root / 'bootstrap-ca.pem')))
     items = [a for a in lock['artifacts'] if profile in a['profiles']]
     receipts = [download(a, root / 'cache', True) for a in items]
     write(root / 'download-receipts.json', receipts)
