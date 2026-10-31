@@ -15,7 +15,8 @@
       "license": "PSF-2.0 and incorporated notices",
       "profiles": [
         "core",
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "b28a8dc33c456dd06c97024697d63ca916cfb494594c06fa3e4ef4d41fa82335",
       "bytes": 76271654
@@ -30,7 +31,8 @@
       "license": "GPL-2 or GPL-3 and incorporated notices",
       "profiles": [
         "core",
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "67f6eea4ced4ce48f0a0d4fa3a1cac43d1859a05a88993ee3dff7c52e7edbc4b",
       "bytes": 105066342
@@ -44,7 +46,8 @@
       "filename": "CompQuadForm_1.4.4.tgz",
       "license": "GPL (>= 2)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.4.4",
       "sha256": "cd0766cbde5d1d4d757befe4f481c940354ca356a2ec81e125c93a145a624d8c",
@@ -60,7 +63,8 @@
       "filename": "R6_2.6.1.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.6.1",
       "sha256": "588a63f3a16b297bdffa5ac9ea344fa411d0337bf4c1dbd1eca168c044126e1f",
@@ -76,7 +80,8 @@
       "filename": "RColorBrewer_1.1-3.tgz",
       "license": "Apache License 2.0",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.1-3",
       "sha256": "edbba71c5ab01eb72ae7f9ea7a47b01be3eefa8f60aa0faf0f6a471b3a07a598",
@@ -92,7 +97,8 @@
       "filename": "Rcpp_1.1.2.tgz",
       "license": "GPL (>= 2)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.1.2",
       "sha256": "e135ad06daffae1f7f93da59b9789dd87b6b3c4a94ef61ccfe9b258593206aa3",
@@ -108,7 +114,8 @@
       "filename": "RcppEigen_0.3.4.0.2.tgz",
       "license": "GPL (>= 2) | file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.3.4.0.2",
       "sha256": "d2b9d4c83d82b23301e1a98e31fb2994db343d707fb72059dd6460ae826c14f5",
@@ -124,7 +131,8 @@
       "filename": "Rdpack_2.6.6.tgz",
       "license": "GPL (>= 2)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.6.6",
       "sha256": "f42d0623cfa2768a8e4bb8956186c552c951893843586ec3c2414e8b6e7e5bba",
@@ -140,7 +148,8 @@
       "filename": "S7_0.2.2.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.2.2",
       "sha256": "28e37e7f04a018356a73fc5d3e121ce70c0e3390d78a41a9edb63084c0f3abba",
@@ -156,7 +165,8 @@
       "filename": "abind_1.4-8.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.4-8",
       "sha256": "ad4e41d7ef9bef7c5d114104a74f3334bad942e19e24c740bc21539756f0ec70",
@@ -172,7 +182,8 @@
       "filename": "bit_4.6.0.tgz",
       "license": "GPL-2 | GPL-3",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "4.6.0",
       "sha256": "8def51ad36d9eaf8e8d38156efa3dda1d6fea043b1830d0e711cf79d31a8aa17",
@@ -188,7 +199,8 @@
       "filename": "bit64_4.8.6.tgz",
       "license": "GPL-2 | GPL-3",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "4.8.6",
       "sha256": "06ee1f07030abc63d18e346b4b151efa8e28fc6d1ea3160d3453e500e1070bcb",
@@ -204,7 +216,8 @@
       "filename": "cli_3.6.6.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "3.6.6",
       "sha256": "2657093517706d96047c4e30cd376dcd12651feebaaf9d7ea30a4a7227ec0464",
@@ -220,7 +233,8 @@
       "filename": "clipr_0.8.1.tgz",
       "license": "GPL-3",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.8.1",
       "sha256": "8e7c45acb1bb79f905f0485ef3fd91b6accac69f0a4bae6aa9011445eab7718d",
@@ -236,7 +250,8 @@
       "filename": "clubSandwich_0.7.0.tgz",
       "license": "GPL-3",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.7.0",
       "sha256": "c440f57ebca56538df1a432a4fe9a870e8920e3b044a61a3782a5de55e2e4330",
@@ -252,7 +267,8 @@
       "filename": "colorspace_2.1-4.tgz",
       "license": "BSD_3_clause + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.1-4",
       "sha256": "01eaeab4f434c2efc54f30a3b23b617e132b54f6a5a4f60e5e052d0370ed62d4",
@@ -268,7 +284,8 @@
       "filename": "cpp11_0.5.5.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.5.5",
       "sha256": "4e5f23da9816ff0555105f8718c0d80d9cb0a89281e97fe634ea797d3d337623",
@@ -284,7 +301,8 @@
       "filename": "crayon_1.5.3.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.5.3",
       "sha256": "56eb15fdd5494dabcf5fa8c7114b4d10f35b7f8640dc1fa6e643812082e6845b",
@@ -300,7 +318,8 @@
       "filename": "diagmeta_0.5-1.tgz",
       "license": "GPL (>= 2)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.5-1",
       "sha256": "a18d8f1925937afea6d09e58167f0f8d9852b48362e28a4307315c2ffff01d78",
@@ -317,7 +336,8 @@
       "license": "GPL (>= 2)",
       "profiles": [
         "core",
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.6.39",
       "sha256": "3a2a694c9d1ab8abf7829af29c851b5c82238e2f032b7d6c34a7c85a00c6a698",
@@ -333,7 +353,8 @@
       "filename": "dosresmeta_2.2.0.tgz",
       "license": "GPL-2",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.2.0",
       "sha256": "4fcf6ba39b6dbf34a66dfdb5c85eec86401e2b3aff6ee66c64a6fce450b52878",
@@ -349,7 +370,8 @@
       "filename": "dplyr_1.2.1.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.2.1",
       "sha256": "64d1dc74891b8195c443377494a990356fe4ca965a9677630921110b7810cbf1",
@@ -365,7 +387,8 @@
       "filename": "ellipse_0.5.0.tgz",
       "license": "GPL (>= 2)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.5.0",
       "sha256": "f6f834634fde40f598961ac1c84a807e57eca563b811f35c26260e6d1fae2630",
@@ -381,7 +404,8 @@
       "filename": "farver_2.1.2.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.1.2",
       "sha256": "6d89d456e9867ebdac90cb69406c7dbaab8dd7612d2fa96749febb2976deaa47",
@@ -397,7 +421,8 @@
       "filename": "generics_0.1.4.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.1.4",
       "sha256": "cc5e292cde210abfdd991656f65fa937d1221c826a16c2772bef4970dfa852a5",
@@ -413,7 +438,8 @@
       "filename": "ggplot2_4.0.3.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "4.0.3",
       "sha256": "dc40cb880728522e50bbefee886779963ef182de8b246be87b27f2e05e04516b",
@@ -429,7 +455,8 @@
       "filename": "ggrepel_0.9.8.tgz",
       "license": "GPL-3 | file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.9.8",
       "sha256": "fc5719e70610480e431f1a4728860ab18757f86d8cb372924e034fdbe1121c1f",
@@ -445,7 +472,8 @@
       "filename": "glue_1.8.1.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.8.1",
       "sha256": "de31852e70b7c0f06380a3eec157562ab2c2ddf3ce0927c01dc8afedd8492434",
@@ -461,7 +489,8 @@
       "filename": "gtable_0.3.6.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.3.6",
       "sha256": "ee9d336c79b9c06759de2476a8a24c222e0a60a7377e66ed5e4ca0aefe067c70",
@@ -477,7 +506,8 @@
       "filename": "hms_1.1.4.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.1.4",
       "sha256": "ae8e0c976ae341f96f4d44c15e1ce629dd136fab5cc4873b023f537ecd1bb5e8",
@@ -493,7 +523,8 @@
       "filename": "igraph_2.3.4.tgz",
       "license": "GPL (>= 2)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.3.4",
       "sha256": "1215aba42540ab9a66ecaae1ca4a66b90cb7c4b5f0e719d220d9677625e35ba7",
@@ -509,7 +540,8 @@
       "filename": "isoband_0.3.0.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.3.0",
       "sha256": "ce82b204e6a4bf973ad4f5ca5cfbc1cd00cc10f72fa089b418c2e37fd5139419",
@@ -525,7 +557,8 @@
       "filename": "labeling_0.4.3.tgz",
       "license": "MIT + file LICENSE | Unlimited",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.4.3",
       "sha256": "25a7bb8a3bd7586ea5c5bde28dcc4a753c00b5b428ae099b7949a2ad14147071",
@@ -541,7 +574,8 @@
       "filename": "lifecycle_1.0.5.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.0.5",
       "sha256": "53904ae5cf3d81fb8a4590e3b6fc12157d992ce07f595079253460f6ae92395d",
@@ -557,7 +591,8 @@
       "filename": "lme4_2.1-0.tgz",
       "license": "GPL (>= 2)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.1-0",
       "sha256": "6fba8705cf1bd9a7befed87708ca0a41687dac468912f0e5efccd29165295543",
@@ -573,7 +608,8 @@
       "filename": "mada_0.5.12.tgz",
       "license": "GPL-2",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.5.12",
       "sha256": "d28e6ec445e4669fdd4ba71a27f7c334b8ebdcb5704157461550ac1f74c41261",
@@ -589,7 +625,8 @@
       "filename": "magic_1.6-1-1.tgz",
       "license": "GPL-2",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.6-1-1",
       "sha256": "813fc31c5ad73224d1a652b3a8f4e426a7cf381ed9f1a7a6d0541bcb96024241",
@@ -605,7 +642,8 @@
       "filename": "magrittr_2.0.5.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.0.5",
       "sha256": "67bee98a2f7dc0f4ea7269db724142af758f660b105eb1d8d68308c7258fc19f",
@@ -622,7 +660,8 @@
       "license": "GPL-3",
       "profiles": [
         "core",
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.0-0",
       "sha256": "5cb0422008ba15a270100b7c32f09e9109658fd278f9cdb564c1355774cb9437",
@@ -638,7 +677,8 @@
       "filename": "meta_8.5-0.tgz",
       "license": "GPL (>= 2)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "8.5-0",
       "sha256": "ceef93725bac5e7ed70e17672aba87acc442230bb4c1ae3ca64eea4d770e54c9",
@@ -654,7 +694,8 @@
       "filename": "metabook_0.2-0.tgz",
       "license": "GPL (>= 2)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.2-0",
       "sha256": "16d6a20fbb45e403bb31b2e11cf009a2e9563a9cb0aff45dec795a6c5f06e56b",
@@ -671,7 +712,8 @@
       "license": "GPL (>= 2)",
       "profiles": [
         "core",
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.6-0",
       "sha256": "082bdb3b48078876a68a8bdb3b5f84cfbb2e9a1fbdb9362c5e2c6d5d9054ff13",
@@ -688,7 +730,8 @@
       "license": "GPL (>= 2)",
       "profiles": [
         "core",
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "5.2-1",
       "sha256": "732aef1c13e7e9695c6af2f4d329b654b1efc094da5e25a61c53e77a6b5b9b41",
@@ -704,7 +747,8 @@
       "filename": "minqa_1.2.8.tgz",
       "license": "GPL-2",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.2.8",
       "sha256": "f43e32cf9b3e87fd89b1a49745a61bd0e14b84b8e7ae824f9c8f009372ed6ac3",
@@ -720,7 +764,8 @@
       "filename": "mixmeta_1.2.2.tgz",
       "license": "GPL (>= 3)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.2.2",
       "sha256": "23a3df3f6465a9cc4f87b1630d382b9df969cff6bd78af635649c4bc55fc10a5",
@@ -736,7 +781,8 @@
       "filename": "mvmeta_1.0.3.tgz",
       "license": "GPL (>= 2)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.0.3",
       "sha256": "a3dbb98c5e8c1c12bdbe931500f8396841612c7f81d08f3bcb5a06fd706c415c",
@@ -752,7 +798,8 @@
       "filename": "mvtnorm_1.4-2.tgz",
       "license": "GPL-2",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.4-2",
       "sha256": "3b756221c8458289ee8b3385185995de84094924ed9b8e6ba2e9e3109b21be85",
@@ -768,7 +815,8 @@
       "filename": "netmeta_3.7-0.tgz",
       "license": "GPL (>= 2) | file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "3.7-0",
       "sha256": "077aaf7f0af21b8e31b54a13f9f13d4597ef817ec63906b73f42df4622857f4a",
@@ -784,7 +832,8 @@
       "filename": "nloptr_2.2.1.tgz",
       "license": "LGPL (>= 3)",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.2.1",
       "sha256": "d99f938f6d65d98ced6fe99365ceef84ed2c515810cb764d59244cd73e914507",
@@ -801,7 +850,8 @@
       "license": "GPL-2",
       "profiles": [
         "core",
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2016.8-1.1",
       "sha256": "cbbb50a0f0474265c6cbb55672a625be8b1382ad5507b0137c0db74e4491523e",
@@ -818,7 +868,8 @@
       "license": "GPL (>= 2)",
       "profiles": [
         "core",
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.7-5",
       "sha256": "993994d7e454914f0387dd4fd6125b8a6e891ea413949f4a9f0ab8803299c2b0",
@@ -834,7 +885,8 @@
       "filename": "pillar_1.11.1.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.11.1",
       "sha256": "75c5fd903e337290ba278b56d3bf325c5b0d6e9ceba2196bae4bf35274d6eb2f",
@@ -850,7 +902,8 @@
       "filename": "pkgconfig_2.0.3.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.0.3",
       "sha256": "b0ff5f2b2583a959d22fa62b1ec6c0043d59379c7dc49c9a210552a8b73959ed",
@@ -866,7 +919,8 @@
       "filename": "plyr_1.8.9.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.8.9",
       "sha256": "de8c920b7e7cd0e8b2b0a3a60f6a3d3eda2f5938edc831be4ce7e24effed0b5c",
@@ -882,7 +936,8 @@
       "filename": "prettyunits_1.2.0.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.2.0",
       "sha256": "8a8433c4a509a09458a41e21ad149803af60edea25408e2b375f39830d76fa67",
@@ -898,7 +953,8 @@
       "filename": "progress_1.2.3.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.2.3",
       "sha256": "03acf947a663f225d3944184b6436d1d463f41073a1e7a7b0a73c9e614034e14",
@@ -914,7 +970,8 @@
       "filename": "purrr_1.2.2.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.2.2",
       "sha256": "a3f4c578e2ae652207b35364d3fcac7044cda4cb53499e54fe115e016ce832e9",
@@ -930,7 +987,8 @@
       "filename": "rbibutils_2.4.1.tgz",
       "license": "GPL-2",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.4.1",
       "sha256": "04bf58c070a92cc11575e8b49251de8354027c86d87776dd68bbea89e765c401",
@@ -946,7 +1004,8 @@
       "filename": "readr_2.2.0.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "2.2.0",
       "sha256": "a79f9cf4168716ae3aa1d275fe9534ab91f7a8b6fe51a927969ec778c9971068",
@@ -962,7 +1021,8 @@
       "filename": "reformulas_0.4.4.tgz",
       "license": "GPL-3",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.4.4",
       "sha256": "a8aa5ed4a6eab01403071ac9c1c5bbbd6e5a21076c8c8d7b3b5568c9717e8720",
@@ -978,7 +1038,8 @@
       "filename": "reshape2_1.4.5.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.4.5",
       "sha256": "0774797b8596bcc9455c533cdd0c44c675e6617237f1c257ff954ae77f112a9e",
@@ -994,7 +1055,8 @@
       "filename": "rlang_1.3.0.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.3.0",
       "sha256": "edc1b88a8c6c26e8f370801677dd03b1348ac00dcc89b6f46ffc67c5e33965a8",
@@ -1010,7 +1072,8 @@
       "filename": "robvis_0.3.1.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.3.1",
       "sha256": "8537a186eb5b2dd86b16c1a9fe56acbdbe110ac2ffadf8fa44b642a697c6a6ba",
@@ -1026,7 +1089,8 @@
       "filename": "sandwich_3.1-3.tgz",
       "license": "GPL-2 | GPL-3",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "3.1-3",
       "sha256": "a3bd02858da3bfd1003148eee3fd23df4622bf0e425b70575d43bc47bb670020",
@@ -1042,7 +1106,8 @@
       "filename": "scales_1.4.0.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.4.0",
       "sha256": "01e01385cff48008bac341c514e79506a9c4df6e9b2c026ab996726e37fb42f9",
@@ -1058,7 +1123,8 @@
       "filename": "stringi_1.8.9.tgz",
       "license": "file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.8.9",
       "sha256": "fd953068a1797b4ae35b7b6b479882c4692d946111a29908a1192a8f691222b3",
@@ -1074,7 +1140,8 @@
       "filename": "stringr_1.6.0.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.6.0",
       "sha256": "18d978859add36d38d61787327a66710652691204b417954e9130e3a10ad5c45",
@@ -1090,7 +1157,8 @@
       "filename": "tibble_3.3.1.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "3.3.1",
       "sha256": "c18658af88dbd25005b083137679c67e2bb2768fdf0517ad90914d5aa14cb58e",
@@ -1106,7 +1174,8 @@
       "filename": "tidyr_1.3.2.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.3.2",
       "sha256": "b58265d41e70e04de1542257a279499d0b0ff91e3857289aeaf0f7ccb795e8c9",
@@ -1122,7 +1191,8 @@
       "filename": "tidyselect_1.2.1.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.2.1",
       "sha256": "64d91f5013e5f0c505addd4061b901b81d51a278b8e9f2b5bcd6f4178de30e1f",
@@ -1138,7 +1208,8 @@
       "filename": "tzdb_0.5.0.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.5.0",
       "sha256": "3e35303ea15e11c6c0bc7dac9d14cbc7c8b3780a49d7fde74978341c97f531e9",
@@ -1154,7 +1225,8 @@
       "filename": "utf8_1.2.6.tgz",
       "license": "Apache License (== 2.0) | file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.2.6",
       "sha256": "1427d3a0fbdc0f38ded6ab6227f4c4f5fa6cf0219977d9fafd38f5e6249000f1",
@@ -1170,7 +1242,8 @@
       "filename": "vctrs_0.7.3.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.7.3",
       "sha256": "be489b807f8e8353e24dc03ac411b9ee69fa420200550df37215c73e7450538c",
@@ -1186,7 +1259,8 @@
       "filename": "viridisLite_0.4.3.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "0.4.3",
       "sha256": "9c1f622eb7f9d2679d0ad25321fb85d438e39500e4c2455ff0bafeefc6df3620",
@@ -1202,7 +1276,8 @@
       "filename": "vroom_1.7.1.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.7.1",
       "sha256": "69781b6563d899b139271a9408f34693b1efd2e6749ec973cb80529d5ec56d9f",
@@ -1218,7 +1293,8 @@
       "filename": "withr_3.0.3.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "3.0.3",
       "sha256": "275298ea7376cff75549f822d309b90ad8416812ceacef70011b25c2f2a02f67",
@@ -1234,7 +1310,8 @@
       "filename": "xml2_1.6.0.tgz",
       "license": "MIT + file LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.6.0",
       "sha256": "98a742a8d8dcca43309c4071f1a95091085ea90d32d48f636f094334337e5386",
@@ -1250,7 +1327,8 @@
       "filename": "zoo_1.9-1.tgz",
       "license": "GPL-2 | GPL-3",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "index_version_observed": "1.9-1",
       "sha256": "ef4fd153d5a78a56f0ddbbc85740db99188d352b4d6e665035d39525371ab5ec",
@@ -1266,7 +1344,8 @@
       "filename": "cffi-2.1.1-cp314-cp314-macosx_11_0_arm64.whl",
       "license": "MIT-0",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "661c298b4821edebead0c91edd2b00374d67ad7c5a1f7a91d4442633b79d6a72",
       "bytes": 184962,
@@ -1281,7 +1360,8 @@
       "filename": "charset_normalizer-3.5.2-cp314-cp314-macosx_10_15_universal2.whl",
       "license": "MIT",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "fcff63213e8e6e47770541a4607175404f47cbb3ebea7b6058cc82d524a0e424",
       "bytes": 367815,
@@ -1296,7 +1376,8 @@
       "filename": "cryptography-50.0.2-cp311-abi3-macosx_11_0_arm64.whl",
       "license": "Apache-2.0 OR BSD-3-Clause",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "fa8f5efb344d6908a1ce62f4a24e2e5780f825d6f53f5f50ec5ffacac72936cb",
       "bytes": 3914904,
@@ -1311,7 +1392,8 @@
       "filename": "pdfminer_six-20260107-py3-none-any.whl",
       "license": "MIT",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "366585ba97e80dffa8f00cebe303d2f381884d8637af4ce422f1df3ef38111a9",
       "bytes": 6592252,
@@ -1326,7 +1408,8 @@
       "filename": "pdfplumber-0.11.10-py3-none-any.whl",
       "license": "SEE_UPSTREAM_LICENSE",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "7741ea81bf165b474b153e6789d10d18e06b6ddcf3ec84289c3ef2fed6802580",
       "bytes": 60047,
@@ -1341,7 +1424,8 @@
       "filename": "pillow-13.0.0-cp314-cp314-macosx_11_0_arm64.whl",
       "license": "MIT-CMU",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "d9b0a2bee3f3e03e9f29057aedb807dbf1e1d96ee1b9d0f422d9db6c8583271d",
       "bytes": 4852269,
@@ -1356,7 +1440,8 @@
       "filename": "pycparser-3.12-py3-none-any.whl",
       "license": "BSD-3-Clause",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "a076f3f489b39b43ed13563a1dafe42447445bec2e294154ec5c57fcdda4c85e",
       "bytes": 62600,
@@ -1371,7 +1456,8 @@
       "filename": "pypdfium2-5.14.0-py3-none-macosx_13_0_arm64.whl",
       "license": "BSD-3-Clause, Apache-2.0, dependency licenses",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "2de384df66ba55fcaab0775f30f28ec1090af3dfa60276a07821efc96d993118",
       "bytes": 3542294,
@@ -1386,7 +1472,8 @@
       "filename": "attrs-26.1.0-py3-none-any.whl",
       "license": "MIT",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
       "bytes": 67548,
@@ -1401,7 +1488,8 @@
       "filename": "bib_dedupe-0.11.0-py3-none-any.whl",
       "license": "MIT License",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "acc4f20f7ead74f88fba1a8e194e8cff8a79f6e99fbe5233c6aba38dda4a98e0",
       "bytes": 69209,
@@ -1417,7 +1505,8 @@
       "license": "MPL-2.0",
       "profiles": [
         "core",
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1",
       "bytes": 135082,
@@ -1432,7 +1521,8 @@
       "filename": "colorama-0.4.6-py2.py3-none-any.whl",
       "license": "NOT_DECLARED_IN_METADATA",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
       "bytes": 25335,
@@ -1447,7 +1537,8 @@
       "filename": "idna-3.20-py3-none-any.whl",
       "license": "BSD-3-Clause",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
       "bytes": 69583,
@@ -1462,7 +1553,8 @@
       "filename": "number_parser-0.3.2-py2.py3-none-any.whl",
       "license": "NOT_DECLARED_IN_METADATA",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "beb20ce4c66d8e8f34dde1512a21f7c2a2aa3b068c60e230c4388d548ef3e3ca",
       "bytes": 51260,
@@ -1477,7 +1569,8 @@
       "filename": "numpy-2.5.4-cp314-cp314-macosx_14_0_arm64.whl",
       "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "956555e0603a4d38019ae6925711cb9dc43195c076a928accf7ea5d50bddfe53",
       "bytes": 5455617,
@@ -1492,7 +1585,8 @@
       "filename": "pandas-3.1.0-cp314-cp314-macosx_11_0_arm64.whl",
       "license": "BSD-3-Clause",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "89b66823678cdd53cf97187e7cd6861402bdd147d11a383706093136a4e83f45",
       "bytes": 11262553,
@@ -1507,7 +1601,8 @@
       "filename": "python_dateutil-3.0.0-py2.py3-none-any.whl",
       "license": "Dual License",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd",
       "bytes": 94659,
@@ -1522,7 +1617,8 @@
       "filename": "rapidfuzz-3.14.6-cp314-cp314-macosx_11_0_arm64.whl",
       "license": "MIT",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "8fa7d45388dec34a86038f2a38380f4922b74b5dd8991247f629a531178db10f",
       "bytes": 1246072,
@@ -1537,7 +1633,8 @@
       "filename": "requests-2.34.2-py3-none-any.whl",
       "license": "Apache-2.0",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
       "bytes": 73075,
@@ -1552,7 +1649,8 @@
       "filename": "search_query-0.15.0-py3-none-any.whl",
       "license": "MIT",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "c73af1eb06a26b3863c38151c2dfecf3a1945f8df6a9608aec0b7970ee1ac638",
       "bytes": 112122,
@@ -1567,7 +1665,8 @@
       "filename": "six-1.17.0-py2.py3-none-any.whl",
       "license": "MIT",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
       "bytes": 11050,
@@ -1582,7 +1681,8 @@
       "filename": "tqdm-4.70.1-py3-none-any.whl",
       "license": "MPL-2.0 AND MIT",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
       "bytes": 80199,
@@ -1597,7 +1697,8 @@
       "filename": "tzdata-2026.5-py2.py3-none-any.whl",
       "license": "Apache-2.0",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac",
       "bytes": 347996,
@@ -1612,11 +1713,1748 @@
       "filename": "urllib3-2.8.0-py3-none-any.whl",
       "license": "MIT",
       "profiles": [
-        "standard"
+        "standard",
+        "docling"
       ],
       "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
       "bytes": 135717,
       "pypi_metadata_url": "https://pypi.org/pypi/urllib3/2.8.0/json"
+    },
+    {
+      "id": "mac-docling-accelerate",
+      "kind": "docling-wheel",
+      "name": "accelerate",
+      "version": "1.15.0",
+      "url": "https://files.pythonhosted.org/packages/8a/4c/34f0450479d01195027260da68d8a3880683f1640c3ca5adf64acb3185f1/accelerate-1.15.0-py3-none-any.whl",
+      "filename": "accelerate-1.15.0-py3-none-any.whl",
+      "license": "Apache",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "97eacca0b73e45cb867dbf8c5d5d4dc32219544300e0c8992c7334dc2ef33cec",
+      "bytes": 394295
+    },
+    {
+      "id": "mac-docling-annotated-doc",
+      "kind": "docling-wheel",
+      "name": "annotated-doc",
+      "version": "0.0.5",
+      "url": "https://files.pythonhosted.org/packages/3e/30/e900b21425a860e195f32e37657aa1f7c7f2b1bfb26f03ca209b90933c06/annotated_doc-0.0.5-py3-none-any.whl",
+      "filename": "annotated_doc-0.0.5-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "117bac03a25ede5df5440e855b32d556049ca169ead221505badf432fed4b101",
+      "bytes": 5302
+    },
+    {
+      "id": "mac-docling-annotated-types",
+      "kind": "docling-wheel",
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "url": "https://files.pythonhosted.org/packages/99/91/8acff4f5e50511b911bbccb72b8628a49c68ce14148cd9f6431094859a90/annotated_types-0.8.0-py3-none-any.whl",
+      "filename": "annotated_types-0.8.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0",
+      "bytes": 13427
+    },
+    {
+      "id": "mac-docling-anyio",
+      "kind": "docling-wheel",
+      "name": "anyio",
+      "version": "4.15.1",
+      "url": "https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl",
+      "filename": "anyio-4.15.1-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101",
+      "bytes": 132079
+    },
+    {
+      "id": "mac-docling-attrs",
+      "kind": "docling-wheel",
+      "name": "attrs",
+      "version": "26.1.0",
+      "url": "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl",
+      "filename": "attrs-26.1.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+      "bytes": 67548
+    },
+    {
+      "id": "mac-docling-beautifulsoup4",
+      "kind": "docling-wheel",
+      "name": "beautifulsoup4",
+      "version": "4.15.0",
+      "url": "https://files.pythonhosted.org/packages/88/c6/92fcd42f1ba33e1184263f25bfabf3d27c383410470f169e4b8163bf9c17/beautifulsoup4-4.15.0-py3-none-any.whl",
+      "filename": "beautifulsoup4-4.15.0-py3-none-any.whl",
+      "license": "MIT License",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "d6f88de62e1d4e38ecb1077eb9724cd0eff29d2a08ca16a401e9b9e93f117cf9",
+      "bytes": 109924
+    },
+    {
+      "id": "mac-docling-certifi",
+      "kind": "docling-wheel",
+      "name": "certifi",
+      "version": "2026.10.23",
+      "url": "https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl",
+      "filename": "certifi-2026.10.23-py3-none-any.whl",
+      "license": "MPL-2.0",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1",
+      "bytes": 135082
+    },
+    {
+      "id": "mac-docling-charset-normalizer",
+      "kind": "docling-wheel",
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "url": "https://files.pythonhosted.org/packages/7c/8a/40db9aa9f5907bb0e6f8b6d64064bf8852fb33d4b813ff9414911df7647c/charset_normalizer-3.5.2-cp314-cp314-macosx_10_15_universal2.whl",
+      "filename": "charset_normalizer-3.5.2-cp314-cp314-macosx_10_15_universal2.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "fcff63213e8e6e47770541a4607175404f47cbb3ebea7b6058cc82d524a0e424",
+      "bytes": 367815
+    },
+    {
+      "id": "mac-docling-click",
+      "kind": "docling-wheel",
+      "name": "click",
+      "version": "8.5.0",
+      "url": "https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl",
+      "filename": "click-8.5.0-py3-none-any.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+      "bytes": 125251
+    },
+    {
+      "id": "mac-docling-colorama",
+      "kind": "docling-wheel",
+      "name": "colorama",
+      "version": "0.4.6",
+      "url": "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl",
+      "filename": "colorama-0.4.6-py2.py3-none-any.whl",
+      "license": "",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+      "bytes": 25335
+    },
+    {
+      "id": "mac-docling-colorlog",
+      "kind": "docling-wheel",
+      "name": "colorlog",
+      "version": "6.12.0",
+      "url": "https://files.pythonhosted.org/packages/d4/19/0b6647bf5e331521e55d2b63bfbdc210bd9cd605189273f03614a05f702d/colorlog-6.12.0-py3-none-any.whl",
+      "filename": "colorlog-6.12.0-py3-none-any.whl",
+      "license": "MIT License",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "30d392604e9110045a2c2aeefc27d7a017abbab63f3a8aee594eac0801df784e",
+      "bytes": 12239
+    },
+    {
+      "id": "mac-docling-defusedxml",
+      "kind": "docling-wheel",
+      "name": "defusedxml",
+      "version": "0.7.1",
+      "url": "https://files.pythonhosted.org/packages/07/6c/aa3f2f849e01cb6a001cd8554a88d4c77c5c1a31c95bdf1cf9301e6d9ef4/defusedxml-0.7.1-py2.py3-none-any.whl",
+      "filename": "defusedxml-0.7.1-py2.py3-none-any.whl",
+      "license": "PSFL",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61",
+      "bytes": 25604
+    },
+    {
+      "id": "mac-docling-dill",
+      "kind": "docling-wheel",
+      "name": "dill",
+      "version": "0.4.1",
+      "url": "https://files.pythonhosted.org/packages/1e/77/dc8c558f7593132cf8fefec57c4f60c83b16941c574ac5f619abb3ae7933/dill-0.4.1-py3-none-any.whl",
+      "filename": "dill-0.4.1-py3-none-any.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "1e1ce33e978ae97fcfcff5638477032b801c46c7c65cf717f95fbc2248f79a9d",
+      "bytes": 120019
+    },
+    {
+      "id": "mac-docling-doclang",
+      "kind": "docling-wheel",
+      "name": "doclang",
+      "version": "0.8.1",
+      "url": "https://files.pythonhosted.org/packages/0f/23/4af9a8c5b23d5c3343fbe936b2b0bb2ac2b1a25ad818cc6e92f828d47b20/doclang-0.8.1-py3-none-any.whl",
+      "filename": "doclang-0.8.1-py3-none-any.whl",
+      "license": "Apache-2.0",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "35e97454d238dbb40923fa04f15e0c648f27e2138c1602ce927b5a7c197b7c96",
+      "bytes": 70066
+    },
+    {
+      "id": "mac-docling-docling",
+      "kind": "docling-wheel",
+      "name": "docling",
+      "version": "2.145.0",
+      "url": "https://files.pythonhosted.org/packages/e8/a1/5e6b3fe053e59725bded55a54320b75b2afcfdb8f03a38c024105727424b/docling-2.145.0-py3-none-any.whl",
+      "filename": "docling-2.145.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "167e7a4736498585040d1680fa93fe582d8c033ee0fdc7e0a39d3b47fcfa545e",
+      "bytes": 5240
+    },
+    {
+      "id": "mac-docling-docling-core",
+      "kind": "docling-wheel",
+      "name": "docling-core",
+      "version": "2.105.0",
+      "url": "https://files.pythonhosted.org/packages/c9/6b/4707c6082ae406cce567c45dd0625c401436af60d9acecc81a88f38aacf3/docling_core-2.105.0-py3-none-any.whl",
+      "filename": "docling_core-2.105.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "f5b270e23a9ae4b2cc028e43ad6ece31c3d6a9bebca382e41418ecf7e5f6e7ef",
+      "bytes": 330500
+    },
+    {
+      "id": "mac-docling-docling-ibm-models",
+      "kind": "docling-wheel",
+      "name": "docling-ibm-models",
+      "version": "4.0.4",
+      "url": "https://files.pythonhosted.org/packages/c4/69/b0f364a2906952a5741b5261659689bc8387f447db54cb3c26d411223ba1/docling_ibm_models-4.0.4-py3-none-any.whl",
+      "filename": "docling_ibm_models-4.0.4-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "5236a13d440135aa074e211981529424f7fd15acf7938c38431381e623430a3e",
+      "bytes": 69401
+    },
+    {
+      "id": "mac-docling-docling-parse",
+      "kind": "docling-wheel",
+      "name": "docling-parse",
+      "version": "7.24.2",
+      "url": "https://files.pythonhosted.org/packages/a8/59/4688f3feaf7b0048f01f2e62fb0a7d327a849780f0de78c0399894195ccf/docling_parse-7.24.2-cp314-cp314-macosx_14_0_arm64.whl",
+      "filename": "docling_parse-7.24.2-cp314-cp314-macosx_14_0_arm64.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "039a3336cd7117442ded29d73b0e8af54f5fe12555a96d894daa7ff3dd6c94e5",
+      "bytes": 9769193
+    },
+    {
+      "id": "mac-docling-docling-slim",
+      "kind": "docling-wheel",
+      "name": "docling-slim",
+      "version": "2.145.0",
+      "url": "https://files.pythonhosted.org/packages/4e/9f/6a56e93da350beb78781689c6ea407c55253d131365c017e13416da26fd4/docling_slim-2.145.0-py3-none-any.whl",
+      "filename": "docling_slim-2.145.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "789d93be17066ddfc9b451681bdb87ab206593a597ad93aa7bd4d5dca27092d8",
+      "bytes": 1145206
+    },
+    {
+      "id": "mac-docling-et_xmlfile",
+      "kind": "docling-wheel",
+      "name": "et_xmlfile",
+      "version": "2.0.0",
+      "url": "https://files.pythonhosted.org/packages/c1/8b/5fe2cc11fee489817272089c4203e679c63b570a5aaeb18d852ae3cbba6a/et_xmlfile-2.0.0-py3-none-any.whl",
+      "filename": "et_xmlfile-2.0.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa",
+      "bytes": 18059
+    },
+    {
+      "id": "mac-docling-Faker",
+      "kind": "docling-wheel",
+      "name": "Faker",
+      "version": "40.44.0",
+      "url": "https://files.pythonhosted.org/packages/58/9e/3da962809aefa00ddf457d1b11bba41d7766373a0ad9e537fa0804604361/faker-40.44.0-py3-none-any.whl",
+      "filename": "faker-40.44.0-py3-none-any.whl",
+      "license": "MIT License",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "db808a3ec33fe9ce5caf40b9fb61f85f46e429a56966f765209272adec83e4c6",
+      "bytes": 2069747
+    },
+    {
+      "id": "mac-docling-filelock",
+      "kind": "docling-wheel",
+      "name": "filelock",
+      "version": "4.2.4",
+      "url": "https://files.pythonhosted.org/packages/e0/1b/5e74289a1878e666bb4b65fe5805a04cafcac2aa5f519ef1ead67ef91c56/filelock-4.2.4-py3-none-any.whl",
+      "filename": "filelock-4.2.4-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "301241438c57936ef93f4243a94f2559022268bfcf9b375a9a72eb0f8db8358e",
+      "bytes": 162475
+    },
+    {
+      "id": "mac-docling-filetype",
+      "kind": "docling-wheel",
+      "name": "filetype",
+      "version": "1.2.0",
+      "url": "https://files.pythonhosted.org/packages/18/79/1b8fa1bb3568781e84c9200f951c735f3f157429f44be0495da55894d620/filetype-1.2.0-py2.py3-none-any.whl",
+      "filename": "filetype-1.2.0-py2.py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "7ce71b6880181241cf7ac8697a2f1eb6a8bd9b429f7ad6d27b8db9ba5f1c2d25",
+      "bytes": 19970
+    },
+    {
+      "id": "mac-docling-fsspec",
+      "kind": "docling-wheel",
+      "name": "fsspec",
+      "version": "2026.9.0",
+      "url": "https://files.pythonhosted.org/packages/6c/c0/a98505f18594f1bce828bb159cec0fcf9860562f1a2c85913409fc8f3d9e/fsspec-2026.9.0-py3-none-any.whl",
+      "filename": "fsspec-2026.9.0-py3-none-any.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "8dd6e646e99ea382bd85f97a45e6b526a442d79423a7dc673f1e2756d05fcb5f",
+      "bytes": 221738
+    },
+    {
+      "id": "mac-docling-h11",
+      "kind": "docling-wheel",
+      "name": "h11",
+      "version": "0.16.0",
+      "url": "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl",
+      "filename": "h11-0.16.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+      "bytes": 37515
+    },
+    {
+      "id": "mac-docling-hf-xet",
+      "kind": "docling-wheel",
+      "name": "hf-xet",
+      "version": "1.8.0",
+      "url": "https://files.pythonhosted.org/packages/d4/f2/ef25e2085e92dcaeaa675331e443923aed2006f6fe2d984e15d8b8d40766/hf_xet-1.8.0-cp38-abi3-macosx_11_0_arm64.whl",
+      "filename": "hf_xet-1.8.0-cp38-abi3-macosx_11_0_arm64.whl",
+      "license": "Apache-2.0",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "3e8934784425781f0f779b91044df441f3a7af4dab47375d7e3aeaecbb8eecb4",
+      "bytes": 3600947
+    },
+    {
+      "id": "mac-docling-httpcore",
+      "kind": "docling-wheel",
+      "name": "httpcore",
+      "version": "1.0.9",
+      "url": "https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl",
+      "filename": "httpcore-1.0.9-py3-none-any.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+      "bytes": 78784
+    },
+    {
+      "id": "mac-docling-httpx",
+      "kind": "docling-wheel",
+      "name": "httpx",
+      "version": "0.28.1",
+      "url": "https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl",
+      "filename": "httpx-0.28.1-py3-none-any.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+      "bytes": 73517
+    },
+    {
+      "id": "mac-docling-huggingface_hub",
+      "kind": "docling-wheel",
+      "name": "huggingface_hub",
+      "version": "1.33.0",
+      "url": "https://files.pythonhosted.org/packages/fc/16/963096d224b80909432dc16561a615fd33d2d13beef3ce4c63fa25e40867/huggingface_hub-1.33.0-py3-none-any.whl",
+      "filename": "huggingface_hub-1.33.0-py3-none-any.whl",
+      "license": "Apache-2.0",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "04e434b06e100eddbce9a6e817d72693a7884b10a79bd67ab48080d5c07eb899",
+      "bytes": 846435
+    },
+    {
+      "id": "mac-docling-idna",
+      "kind": "docling-wheel",
+      "name": "idna",
+      "version": "3.20",
+      "url": "https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl",
+      "filename": "idna-3.20-py3-none-any.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "bytes": 69583
+    },
+    {
+      "id": "mac-docling-Jinja2",
+      "kind": "docling-wheel",
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "url": "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl",
+      "filename": "jinja2-3.1.6-py3-none-any.whl",
+      "license": "",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "bytes": 134899
+    },
+    {
+      "id": "mac-docling-jsonref",
+      "kind": "docling-wheel",
+      "name": "jsonref",
+      "version": "1.1.0",
+      "url": "https://files.pythonhosted.org/packages/0c/ec/e1db9922bceb168197a558a2b8c03a7963f1afe93517ddd3cf99f202f996/jsonref-1.1.0-py3-none-any.whl",
+      "filename": "jsonref-1.1.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "590dc7773df6c21cbf948b5dac07a72a251db28b0238ceecce0a2abfa8ec30a9",
+      "bytes": 9425
+    },
+    {
+      "id": "mac-docling-jsonschema",
+      "kind": "docling-wheel",
+      "name": "jsonschema",
+      "version": "4.26.0",
+      "url": "https://files.pythonhosted.org/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl",
+      "filename": "jsonschema-4.26.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce",
+      "bytes": 90630
+    },
+    {
+      "id": "mac-docling-jsonschema-specifications",
+      "kind": "docling-wheel",
+      "name": "jsonschema-specifications",
+      "version": "2025.9.1",
+      "url": "https://files.pythonhosted.org/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl",
+      "filename": "jsonschema_specifications-2025.9.1-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe",
+      "bytes": 18437
+    },
+    {
+      "id": "mac-docling-langcodes",
+      "kind": "docling-wheel",
+      "name": "langcodes",
+      "version": "3.5.1",
+      "url": "https://files.pythonhosted.org/packages/dd/c1/d10b371bcba7abce05e2b33910e39c33cfa496a53f13640b7b8e10bb4d2b/langcodes-3.5.1-py3-none-any.whl",
+      "filename": "langcodes-3.5.1-py3-none-any.whl",
+      "license": "",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "b6a9c25c603804e2d169165091d0cdb23934610524a21d226e4f463e8e958a72",
+      "bytes": 183050
+    },
+    {
+      "id": "mac-docling-latex2mathml",
+      "kind": "docling-wheel",
+      "name": "latex2mathml",
+      "version": "3.81.1",
+      "url": "https://files.pythonhosted.org/packages/07/30/b8bcfb01a2514cb7554a048ed52883de276e66d757c3cc535a3c29eb9e98/latex2mathml-3.81.1-py3-none-any.whl",
+      "filename": "latex2mathml-3.81.1-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "c337668441b71c819b6733905a8058ba9a9d767bae11a0c5fdacb3aff31361bd",
+      "bytes": 79159
+    },
+    {
+      "id": "mac-docling-lxml",
+      "kind": "docling-wheel",
+      "name": "lxml",
+      "version": "6.1.3",
+      "url": "https://files.pythonhosted.org/packages/0c/15/fc75a70b0af6021d0ea16811f1fc71cc42cd06ce90fe10f007a69b2eed84/lxml-6.1.3-cp314-cp314-macosx_10_15_universal2.whl",
+      "filename": "lxml-6.1.3-cp314-cp314-macosx_10_15_universal2.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "2bec13085dc8ef48a3fe62f7dfcacfeda2c785cdf19cc8eeda2bb9ed081da165",
+      "bytes": 8609725
+    },
+    {
+      "id": "mac-docling-mail-parser",
+      "kind": "docling-wheel",
+      "name": "mail-parser",
+      "version": "4.9.0",
+      "url": "https://files.pythonhosted.org/packages/fc/8e/209531b4fbd7f92099092736602897415a8fa88abc235bbc2d5be25df954/mail_parser-4.9.0-py3-none-any.whl",
+      "filename": "mail_parser-4.9.0-py3-none-any.whl",
+      "license": "Apache-2.0",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "4911053276f4078c60959135c77b58e308f4acf78ec5ac7366117aa60dc74a97",
+      "bytes": 70912
+    },
+    {
+      "id": "mac-docling-markdown-it-py",
+      "kind": "docling-wheel",
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "url": "https://files.pythonhosted.org/packages/b3/81/4da04ced5a082363ecfa159c010d200ecbd959ae410c10c0264a38cac0f5/markdown_it_py-4.2.0-py3-none-any.whl",
+      "filename": "markdown_it_py-4.2.0-py3-none-any.whl",
+      "license": "",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a",
+      "bytes": 91687
+    },
+    {
+      "id": "mac-docling-marko",
+      "kind": "docling-wheel",
+      "name": "marko",
+      "version": "2.2.5",
+      "url": "https://files.pythonhosted.org/packages/63/67/be743617363627442717c2b865993eba99d17f2d1e0ad814bf703f190afb/marko-2.2.5-py3-none-any.whl",
+      "filename": "marko-2.2.5-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "26380a6b037b5b49cec3847ee3585ba66f6782a4b9aec0d1216b7194ec5871ee",
+      "bytes": 47218
+    },
+    {
+      "id": "mac-docling-MarkupSafe",
+      "kind": "docling-wheel",
+      "name": "MarkupSafe",
+      "version": "3.0.4",
+      "url": "https://files.pythonhosted.org/packages/ad/40/e2d117b048d47282ade906fbfd92814cbee5647afc13fda88a3406039372/markupsafe-3.0.4-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "markupsafe-3.0.4-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "52704c5d36eb6dda8866493decd61111fff86244c9b1ad225ca01b9e91e5970f",
+      "bytes": 12061
+    },
+    {
+      "id": "mac-docling-mdurl",
+      "kind": "docling-wheel",
+      "name": "mdurl",
+      "version": "0.1.2",
+      "url": "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl",
+      "filename": "mdurl-0.1.2-py3-none-any.whl",
+      "license": "",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+      "bytes": 9979
+    },
+    {
+      "id": "mac-docling-mpire",
+      "kind": "docling-wheel",
+      "name": "mpire",
+      "version": "2.10.2",
+      "url": "https://files.pythonhosted.org/packages/20/14/1db1729ad6db4999c3a16c47937d601fcb909aaa4224f5eca5a2f145a605/mpire-2.10.2-py3-none-any.whl",
+      "filename": "mpire-2.10.2-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "d627707f7a8d02aa4c7f7d59de399dec5290945ddf7fbd36cbb1d6ebb37a51fb",
+      "bytes": 272756
+    },
+    {
+      "id": "mac-docling-mpmath",
+      "kind": "docling-wheel",
+      "name": "mpmath",
+      "version": "1.3.0",
+      "url": "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl",
+      "filename": "mpmath-1.3.0-py3-none-any.whl",
+      "license": "BSD",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+      "bytes": 536198
+    },
+    {
+      "id": "mac-docling-multiprocess",
+      "kind": "docling-wheel",
+      "name": "multiprocess",
+      "version": "0.70.19",
+      "url": "https://files.pythonhosted.org/packages/a0/61/af9115673a5870fd885247e2f1b68c4f1197737da315b520a91c757a861a/multiprocess-0.70.19-py314-none-any.whl",
+      "filename": "multiprocess-0.70.19-py314-none-any.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "e8cc7fbdff15c0613f0a1f1f8744bef961b0a164c0ca29bdff53e9d2d93c5e5f",
+      "bytes": 160318
+    },
+    {
+      "id": "mac-docling-networkx",
+      "kind": "docling-wheel",
+      "name": "networkx",
+      "version": "3.7",
+      "url": "https://files.pythonhosted.org/packages/7e/cd/fe58041e9011f307c490e3e17dd48cc516448f7c698a3f2d9d9d65d7e6a8/networkx-3.7-py3-none-any.whl",
+      "filename": "networkx-3.7-py3-none-any.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "e3fd2c13a7814cee3746340d8d7f8598a67f16a58bf47fb7f8793fab6efca1b0",
+      "bytes": 2142205
+    },
+    {
+      "id": "mac-docling-numpy",
+      "kind": "docling-wheel",
+      "name": "numpy",
+      "version": "2.5.4",
+      "url": "https://files.pythonhosted.org/packages/d5/b2/c6ce165acffceb15a82c07b9cc77d391f86b3f379ba62911908ae5d34b91/numpy-2.5.4-cp314-cp314-macosx_14_0_arm64.whl",
+      "filename": "numpy-2.5.4-cp314-cp314-macosx_14_0_arm64.whl",
+      "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "956555e0603a4d38019ae6925711cb9dc43195c076a928accf7ea5d50bddfe53",
+      "bytes": 5455617
+    },
+    {
+      "id": "mac-docling-olefile",
+      "kind": "docling-wheel",
+      "name": "olefile",
+      "version": "0.47",
+      "url": "https://files.pythonhosted.org/packages/17/d3/b64c356a907242d719fc668b71befd73324e47ab46c8ebbbede252c154b2/olefile-0.47-py2.py3-none-any.whl",
+      "filename": "olefile-0.47-py2.py3-none-any.whl",
+      "license": "BSD",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "543c7da2a7adadf21214938bb79c83ea12b473a4b6ee4ad4bf854e7715e13d1f",
+      "bytes": 114565
+    },
+    {
+      "id": "mac-docling-omegaconf",
+      "kind": "docling-wheel",
+      "name": "omegaconf",
+      "version": "2.4.0",
+      "url": "https://files.pythonhosted.org/packages/4f/bd/0d9f8247b0819385213d09564eda5c52d3673313c2414d51f72883ec24cd/omegaconf-2.4.0-py3-none-any.whl",
+      "filename": "omegaconf-2.4.0-py3-none-any.whl",
+      "license": "",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "f141a664c777582405e3cc6e0545ecc79429e79f844995b1a6e71c35946a025c",
+      "bytes": 254152
+    },
+    {
+      "id": "mac-docling-opencv-python-headless",
+      "kind": "docling-wheel",
+      "name": "opencv-python-headless",
+      "version": "5.0.0.93",
+      "url": "https://files.pythonhosted.org/packages/53/7c/8c8097891c509d98cd128493835c95631c80be6a8f37ed9d25716c2e16f1/opencv_python_headless-5.0.0.93-cp37-abi3-macosx_13_0_arm64.whl",
+      "filename": "opencv_python_headless-5.0.0.93-cp37-abi3-macosx_13_0_arm64.whl",
+      "license": "Apache 2.0",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "030ca5e0837a2963ab36ef896baa9767eb8d2b83353fb28af5a521e40dd8756f",
+      "bytes": 48322581
+    },
+    {
+      "id": "mac-docling-openpyxl",
+      "kind": "docling-wheel",
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "url": "https://files.pythonhosted.org/packages/c0/da/977ded879c29cbd04de313843e76868e6e13408a94ed6b987245dc7c8506/openpyxl-3.1.5-py2.py3-none-any.whl",
+      "filename": "openpyxl-3.1.5-py2.py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2",
+      "bytes": 250910
+    },
+    {
+      "id": "mac-docling-packaging",
+      "kind": "docling-wheel",
+      "name": "packaging",
+      "version": "26.3",
+      "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+      "filename": "packaging-26.3-py3-none-any.whl",
+      "license": "Apache-2.0 OR BSD-2-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "bytes": 129956
+    },
+    {
+      "id": "mac-docling-pandas",
+      "kind": "docling-wheel",
+      "name": "pandas",
+      "version": "3.1.0",
+      "url": "https://files.pythonhosted.org/packages/83/38/6be618d98e2cbbb99a40349717532f0c2b6794ddc62f1199e3f83e45a40f/pandas-3.1.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "pandas-3.1.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "89b66823678cdd53cf97187e7cd6861402bdd147d11a383706093136a4e83f45",
+      "bytes": 11262553
+    },
+    {
+      "id": "mac-docling-pillow",
+      "kind": "docling-wheel",
+      "name": "pillow",
+      "version": "13.0.0",
+      "url": "https://files.pythonhosted.org/packages/b5/f4/0bf6f1ac9ba7ee2ffe9914aeb410a1035a0c1a3c42f122388d7fc950bc4b/pillow-13.0.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "pillow-13.0.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "MIT-CMU",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "d9b0a2bee3f3e03e9f29057aedb807dbf1e1d96ee1b9d0f422d9db6c8583271d",
+      "bytes": 4852269
+    },
+    {
+      "id": "mac-docling-pluggy",
+      "kind": "docling-wheel",
+      "name": "pluggy",
+      "version": "1.7.0",
+      "url": "https://files.pythonhosted.org/packages/40/9e/2b38731e0fc536806f16490e1a12d7f0dc2a1235aa8cc07bcc75416a7daa/pluggy-1.7.0-py3-none-any.whl",
+      "filename": "pluggy-1.7.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "7dd7b0d8832ba3cb632c306926ded123429211b83641b35dc5c41ad2d34f9bec",
+      "bytes": 27082
+    },
+    {
+      "id": "mac-docling-polyfactory",
+      "kind": "docling-wheel",
+      "name": "polyfactory",
+      "version": "3.5.0",
+      "url": "https://files.pythonhosted.org/packages/d6/bb/8667413181bfac2fee81b6f80710356222bf438df1eff6b3c12ab39480a8/polyfactory-3.5.0-py3-none-any.whl",
+      "filename": "polyfactory-3.5.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "2051105650e82ea7046afbab9ad4a7bf579fb6fd80ef65a51a7feaef3396d278",
+      "bytes": 63644
+    },
+    {
+      "id": "mac-docling-psutil",
+      "kind": "docling-wheel",
+      "name": "psutil",
+      "version": "7.2.2",
+      "url": "https://files.pythonhosted.org/packages/80/c4/f5af4c1ca8c1eeb2e92ccca14ce8effdeec651d5ab6053c589b074eda6e1/psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl",
+      "filename": "psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "1a7b04c10f32cc88ab39cbf606e117fd74721c831c98a27dc04578deb0c16979",
+      "bytes": 129859
+    },
+    {
+      "id": "mac-docling-pyclipper",
+      "kind": "docling-wheel",
+      "name": "pyclipper",
+      "version": "1.4.0",
+      "url": "https://files.pythonhosted.org/packages/1a/20/04d58c70f3ccd404f179f8dd81d16722a05a3bf1ab61445ee64e8218c1f8/pyclipper-1.4.0-cp314-cp314-macosx_10_15_universal2.whl",
+      "filename": "pyclipper-1.4.0-cp314-cp314-macosx_10_15_universal2.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "7c87480fc91a5af4c1ba310bdb7de2f089a3eeef5fe351a3cedc37da1fcced1c",
+      "bytes": 265167
+    },
+    {
+      "id": "mac-docling-pydantic",
+      "kind": "docling-wheel",
+      "name": "pydantic",
+      "version": "2.14.2",
+      "url": "https://files.pythonhosted.org/packages/97/01/c71a71258b58659c72504e5fd65b451f6e36e34dc931d0b237ded213c814/pydantic-2.14.2-py3-none-any.whl",
+      "filename": "pydantic-2.14.2-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "7efbf7507b937931cd32a5755acb00ea1cf5ccb1d4e8067a5850d5069e382118",
+      "bytes": 490403
+    },
+    {
+      "id": "mac-docling-pydantic-settings",
+      "kind": "docling-wheel",
+      "name": "pydantic-settings",
+      "version": "2.16.2",
+      "url": "https://files.pythonhosted.org/packages/39/88/4131c51ff87b7cd7f82a1194d0c0a2b7ca68c72d9da04c3b7e69ab91a79f/pydantic_settings-2.16.2-py3-none-any.whl",
+      "filename": "pydantic_settings-2.16.2-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "8d523e5c129b097686bde019bd6109bff53f4c8c3f63f1ddf9933ffa42e5ab4f",
+      "bytes": 81994
+    },
+    {
+      "id": "mac-docling-pydantic_core",
+      "kind": "docling-wheel",
+      "name": "pydantic_core",
+      "version": "2.50.2",
+      "url": "https://files.pythonhosted.org/packages/db/68/315701095f25687938ab79d263a6d939337456c2840fe69038fd38000338/pydantic_core-2.50.2-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "pydantic_core-2.50.2-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "6ffb4dce3ecb2cd563aa30f9eb5088a1cf1f4f688b90cbb374fa96e49fc50b02",
+      "bytes": 2095041
+    },
+    {
+      "id": "mac-docling-Pygments",
+      "kind": "docling-wheel",
+      "name": "Pygments",
+      "version": "2.21.0",
+      "url": "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl",
+      "filename": "pygments-2.21.0-py3-none-any.whl",
+      "license": "BSD-2-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "bytes": 1250147
+    },
+    {
+      "id": "mac-docling-pylatexenc",
+      "kind": "docling-wheel",
+      "name": "pylatexenc",
+      "version": "2.11",
+      "url": "https://files.pythonhosted.org/packages/e7/06/3d67bd912ef337aa4856b466121d03f304aa1bb4d804f9298b6227cd227e/pylatexenc-2.11-py2.py3-none-any.whl",
+      "filename": "pylatexenc-2.11-py2.py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "e78e7391d6c104f1ed150e21cfaa58016cdb50aa54406a2eecb793649ffdfdd0",
+      "bytes": 137533
+    },
+    {
+      "id": "mac-docling-pypdfium2",
+      "kind": "docling-wheel",
+      "name": "pypdfium2",
+      "version": "5.14.0",
+      "url": "https://files.pythonhosted.org/packages/d1/ea/14673bc9d8b7beeaa1eb46e9951b22543edaf2a4676c586e3b1e032ff6ee/pypdfium2-5.14.0-py3-none-macosx_13_0_arm64.whl",
+      "filename": "pypdfium2-5.14.0-py3-none-macosx_13_0_arm64.whl",
+      "license": "BSD-3-Clause, Apache-2.0, dependency licenses",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "2de384df66ba55fcaab0775f30f28ec1090af3dfa60276a07821efc96d993118",
+      "bytes": 3542294
+    },
+    {
+      "id": "mac-docling-python-dateutil",
+      "kind": "docling-wheel",
+      "name": "python-dateutil",
+      "version": "3.0.0",
+      "url": "https://files.pythonhosted.org/packages/5a/17/cebee01d1c0c1441174cf0456ddc91b280d79acb65340c05e41d77866ee8/python_dateutil-3.0.0-py2.py3-none-any.whl",
+      "filename": "python_dateutil-3.0.0-py2.py3-none-any.whl",
+      "license": "Dual License",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd",
+      "bytes": 94659
+    },
+    {
+      "id": "mac-docling-python-docx",
+      "kind": "docling-wheel",
+      "name": "python-docx",
+      "version": "1.2.0",
+      "url": "https://files.pythonhosted.org/packages/d0/00/1e03a4989fa5795da308cd774f05b704ace555a70f9bf9d3be057b680bcf/python_docx-1.2.0-py3-none-any.whl",
+      "filename": "python_docx-1.2.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "3fd478f3250fbbbfd3b94fe1e985955737c145627498896a8a6bf81f4baf66c7",
+      "bytes": 252987
+    },
+    {
+      "id": "mac-docling-python-dotenv",
+      "kind": "docling-wheel",
+      "name": "python-dotenv",
+      "version": "1.2.4",
+      "url": "https://files.pythonhosted.org/packages/60/d1/38f3a3405989a89ac18390803e70c6ad7c7760da4f9b83cbeca0c44a0c72/python_dotenv-1.2.4-py3-none-any.whl",
+      "filename": "python_dotenv-1.2.4-py3-none-any.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "42269a8a5b3fd54ffa6f3d84b18abed50064717576b4ecf03dc4a55d8aa04fdc",
+      "bytes": 23266
+    },
+    {
+      "id": "mac-docling-python-oxmsg",
+      "kind": "docling-wheel",
+      "name": "python-oxmsg",
+      "version": "0.0.2",
+      "url": "https://files.pythonhosted.org/packages/53/67/f56c69a98c7eb244025845506387d0f961681657c9fcd8b2d2edd148f9d2/python_oxmsg-0.0.2-py3-none-any.whl",
+      "filename": "python_oxmsg-0.0.2-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "22be29b14c46016bcd05e34abddfd8e05ee82082f53b82753d115da3fc7d0355",
+      "bytes": 31455
+    },
+    {
+      "id": "mac-docling-python-pptx",
+      "kind": "docling-wheel",
+      "name": "python-pptx",
+      "version": "1.0.2",
+      "url": "https://files.pythonhosted.org/packages/d9/4f/00be2196329ebbff56ce564aa94efb0fbc828d00de250b1980de1a34ab49/python_pptx-1.0.2-py3-none-any.whl",
+      "filename": "python_pptx-1.0.2-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "160838e0b8565a8b1f67947675886e9fea18aa5e795db7ae531606d68e785cba",
+      "bytes": 472788
+    },
+    {
+      "id": "mac-docling-PyYAML",
+      "kind": "docling-wheel",
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "url": "https://files.pythonhosted.org/packages/bd/9c/4d95bb87eb2063d20db7b60faa3840c1b18025517ae857371c4dd55a6b3a/pyyaml-6.0.3-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "pyyaml-6.0.3-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "34d5fcd24b8445fadc33f9cf348c1047101756fd760b4dacb5c3e99755703310",
+      "bytes": 173809
+    },
+    {
+      "id": "mac-docling-rapidocr",
+      "kind": "docling-wheel",
+      "name": "rapidocr",
+      "version": "3.10.0",
+      "url": "https://files.pythonhosted.org/packages/59/07/203065283bba0c5e9c10af3602dc25ab3e59ee54dc2d1d22c8faeabf5ed8/rapidocr-3.10.0-py3-none-any.whl",
+      "filename": "rapidocr-3.10.0-py3-none-any.whl",
+      "license": "Apache-2.0",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "2fc34e26cd0f48514804a94f8832283039c7334076bff60768b1fed9ad068050",
+      "bytes": 27288134
+    },
+    {
+      "id": "mac-docling-referencing",
+      "kind": "docling-wheel",
+      "name": "referencing",
+      "version": "0.37.0",
+      "url": "https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl",
+      "filename": "referencing-0.37.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231",
+      "bytes": 26766
+    },
+    {
+      "id": "mac-docling-regex",
+      "kind": "docling-wheel",
+      "name": "regex",
+      "version": "2026.9.29",
+      "url": "https://files.pythonhosted.org/packages/dd/5f/52bc2abc3fef040cd9de76ab29c918d6a717a454ae2b9dd7938b0c95656d/regex-2026.9.29-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "regex-2026.9.29-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "Apache-2.0 AND CNRI-Python",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "0166844493626c5015c6088ee15c9ca2fd060ca15b7641d1657da6a58432ae33",
+      "bytes": 293518
+    },
+    {
+      "id": "mac-docling-requests",
+      "kind": "docling-wheel",
+      "name": "requests",
+      "version": "2.34.2",
+      "url": "https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl",
+      "filename": "requests-2.34.2-py3-none-any.whl",
+      "license": "Apache-2.0",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "bytes": 73075
+    },
+    {
+      "id": "mac-docling-rich",
+      "kind": "docling-wheel",
+      "name": "rich",
+      "version": "15.0.0",
+      "url": "https://files.pythonhosted.org/packages/82/3b/64d4899d73f91ba49a8c18a8ff3f0ea8f1c1d75481760df8c68ef5235bf5/rich-15.0.0-py3-none-any.whl",
+      "filename": "rich-15.0.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb",
+      "bytes": 310654
+    },
+    {
+      "id": "mac-docling-rpds-py",
+      "kind": "docling-wheel",
+      "name": "rpds-py",
+      "version": "2026.9.1",
+      "url": "https://files.pythonhosted.org/packages/04/37/b751de2b59b0197a1d92a5dd491de88e8a5e928c2e6562581974f1e85263/rpds_py-2026.9.1-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "rpds_py-2026.9.1-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "3f0e9ac28fc067d4d34b88ae43c48e9489455c97fee9633d851f7eeed5a05d35",
+      "bytes": 341878
+    },
+    {
+      "id": "mac-docling-rtree",
+      "kind": "docling-wheel",
+      "name": "rtree",
+      "version": "1.4.1",
+      "url": "https://files.pythonhosted.org/packages/f3/cf/2710b6fd6b07ea0aef317b29f335790ba6adf06a28ac236078ed9bd8a91d/rtree-1.4.1-py3-none-macosx_11_0_arm64.whl",
+      "filename": "rtree-1.4.1-py3-none-macosx_11_0_arm64.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "a7e48d805e12011c2cf739a29d6a60ae852fb1de9fc84220bbcef67e6e595d7d",
+      "bytes": 436325
+    },
+    {
+      "id": "mac-docling-safetensors",
+      "kind": "docling-wheel",
+      "name": "safetensors",
+      "version": "0.8.0",
+      "url": "https://files.pythonhosted.org/packages/f5/b1/fa7c600e7dceae12e9606c7578cbc9ff1e1ed55844883ee5c92205e86226/safetensors-0.8.0-cp310-abi3-macosx_11_0_arm64.whl",
+      "filename": "safetensors-0.8.0-cp310-abi3-macosx_11_0_arm64.whl",
+      "license": "",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "c80201d22cbf405b80647a60ada77bba06c8fba2da2743ba1e89cdcc39a81f25",
+      "bytes": 484562
+    },
+    {
+      "id": "mac-docling-scipy",
+      "kind": "docling-wheel",
+      "name": "scipy",
+      "version": "1.18.1",
+      "url": "https://files.pythonhosted.org/packages/70/e8/6b0c288c50942d78193696c9f15f9a0874f5178aa0ddf40f83d9924b3e8d/scipy-1.18.1-cp314-cp314-macosx_14_0_arm64.whl",
+      "filename": "scipy-1.18.1-cp314-cp314-macosx_14_0_arm64.whl",
+      "license": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions\n are met:\n\n 1. Redistributions of source code must retain the above copyright\n    notice, this list of conditions and the following disclaimer.\n\n 2. Redistributions in binary form must reproduce the above\n    copyright notice, this list of conditions and the following\n    disclaimer in the documentation and/or other materials provided\n    with the distribution.\n\n 3. Neither the name of the copyright holder nor the names of its\n    contributors may be used to endorse or promote products derived\n    from this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\n LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n ----\n\n\n ----\n\n This binary distribution of SciPy can also bundle the following software\n (depending on the build):\n\n\n Name: OpenBLAS\n Files: scipy.libs\\libscipy_openblas*.dll\n Description: bundled as a dynamically linked library\n Availability: https://github.com/OpenMathLib/OpenBLAS/\n License: BSD-3-Clause\n   Copyright (c) 2011-2014, The OpenBLAS Project\n   All rights reserved.\n\n   Redistribution and use in source and binary forms, with or without\n   modification, are permitted provided that the following conditions are\n   met:\n\n      1. Redistributions of source code must retain the above copyright\n         notice, this list of conditions and the following disclaimer.\n\n      2. Redistributions in binary form must reproduce the above copyright\n         notice, this list of conditions and the following disclaimer in\n         the documentation and/or other materials provided with the\n         distribution.\n      3. Neither the name of the OpenBLAS project nor the names of \n         its contributors may be used to endorse or promote products \n         derived from this software without specific prior written \n         permission.\n\n   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n   AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n   IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\n   ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE\n   LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n   DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n   SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n   CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n   OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE\n   USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n\n Name: LAPACK\n Files: scipy.libs\\libscipy_openblas*.dll\n Description: bundled in OpenBLAS\n Availability: https://github.com/OpenMathLib/OpenBLAS/\n License: BSD-3-Clause-Open-MPI\n   Copyright (c) 1992-2013 The University of Tennessee and The University\n                           of Tennessee Research Foundation.  All rights\n                           reserved.\n   Copyright (c) 2000-2013 The University of California Berkeley. All\n                           rights reserved.\n   Copyright (c) 2006-2013 The University of Colorado Denver.  All rights\n                           reserved.\n\n   $COPYRIGHT$\n\n   Additional copyrights may follow\n\n   $HEADER$\n\n   Redistribution and use in source and binary forms, with or without\n   modification, are permitted provided that the following conditions are\n   met:\n\n   - Redistributions of source code must retain the above copyright\n     notice, this list of conditions and the following disclaimer.\n\n   - Redistributions in binary form must reproduce the above copyright\n     notice, this list of conditions and the following disclaimer listed\n     in this license in the documentation and/or other materials\n     provided with the distribution.\n\n   - Neither the name of the copyright holders nor the names of its\n     contributors may be used to endorse or promote products derived from\n     this software without specific prior written permission.\n\n   The copyright holders provide no reassurances that the source code\n   provided does not infringe any patent, copyright, or any other\n   intellectual property rights of third parties.  The copyright holders\n   disclaim any liability to any recipient for claims brought against\n   recipient by any third party for infringement of that parties\n   intellectual property rights.\n\n   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n   \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n   A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n   OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n   SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\n   LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n   DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n   THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n\n Name: GCC runtime library\n Files: scipy.libs\\libscipy_openblas*.dll\n Description: statically linked to files compiled with gcc\n Availability: https://gcc.gnu.org/git/?p=gcc.git;a=tree;f=libgfortran\n License: GPL-3.0-or-later WITH GCC-exception-3.1\n   Copyright (C) 2002-2017 Free Software Foundation, Inc.\n\n   Libgfortran is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 3, or (at your option)\n   any later version.\n\n   Libgfortran is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\n   Under Section 7 of GPL version 3, you are granted additional\n   permissions described in the GCC Runtime Library Exception, version\n   3.1, as published by the Free Software Foundation.\n\n   You should have received a copy of the GNU General Public License and\n   a copy of the GCC Runtime Library Exception along with this program;\n   see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see\n   <http://www.gnu.org/licenses/>.\n\n\n ----\n\n Full text of license texts referred to above follows (that they are\n listed below does not necessarily imply the conditions apply to the\n present binary release):\n\n ----\n\n GCC RUNTIME LIBRARY EXCEPTION\n\n Version 3.1, 31 March 2009\n\n Copyright (C) 2009 Free Software Foundation, Inc. <http://fsf.org/>\n\n Everyone is permitted to copy and distribute verbatim copies of this\n license document, but changing it is not allowed.\n\n This GCC Runtime Library Exception (\"Exception\") is an additional\n permission under section 7 of the GNU General Public License, version\n 3 (\"GPLv3\"). It applies to a given file (the \"Runtime Library\") that\n bears a notice placed by the copyright holder of the file stating that\n the file is governed by GPLv3 along with this Exception.\n\n When you use GCC to compile a program, GCC may combine portions of\n certain GCC header files and runtime libraries with the compiled\n program. The purpose of this Exception is to allow compilation of\n non-GPL (including proprietary) programs to use, in this way, the\n header files and runtime libraries covered by this Exception.\n\n 0. Definitions.\n\n A file is an \"Independent Module\" if it either requires the Runtime\n Library for execution after a Compilation Process, or makes use of an\n interface provided by the Runtime Library, but is not otherwise based\n on the Runtime Library.\n\n \"GCC\" means a version of the GNU Compiler Collection, with or without\n modifications, governed by version 3 (or a specified later version) of\n the GNU General Public License (GPL) with the option of using any\n subsequent versions published by the FSF.\n\n \"GPL-compatible Software\" is software whose conditions of propagation,\n modification and use would permit combination with GCC in accord with\n the license of GCC.\n\n \"Target Code\" refers to output from any compiler for a real or virtual\n target processor architecture, in executable form or suitable for\n input to an assembler, loader, linker and/or execution\n phase. Notwithstanding that, Target Code does not include data in any\n format that is used as a compiler intermediate representation, or used\n for producing a compiler intermediate representation.\n\n The \"Compilation Process\" transforms code entirely represented in\n non-intermediate languages designed for human-written code, and/or in\n Java Virtual Machine byte code, into Target Code. Thus, for example,\n use of source code generators and preprocessors need not be considered\n part of the Compilation Process, since the Compilation Process can be\n understood as starting with the output of the generators or\n preprocessors.\n\n A Compilation Process is \"Eligible\" if it is done using GCC, alone or\n with other GPL-compatible software, or if it is done without using any\n work based on GCC. For example, using non-GPL-compatible Software to\n optimize any GCC intermediate representations would not qualify as an\n Eligible Compilation Process.\n\n 1. Grant of Additional Permission.\n\n You have permission to propagate a work of Target Code formed by\n combining the Runtime Library with Independent Modules, even if such\n propagation would otherwise violate the terms of GPLv3, provided that\n all Target Code was generated by Eligible Compilation Processes. You\n may then convey such a combination under terms of your choice,\n consistent with the licensing of the Independent Modules.\n\n 2. No Weakening of GCC Copyleft.\n\n The availability of this Exception does not imply any general\n presumption that third-party software is unaffected by the copyleft\n requirements of the license of GCC.\n\n ----\n\n                     GNU GENERAL PUBLIC LICENSE\n                        Version 3, 29 June 2007\n\n  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n  Everyone is permitted to copy and distribute verbatim copies\n  of this license document, but changing it is not allowed.\n\n                             Preamble\n\n   The GNU General Public License is a free, copyleft license for\n software and other kinds of works.\n\n   The licenses for most software and other practical works are designed\n to take away your freedom to share and change the works.  By contrast,\n the GNU General Public License is intended to guarantee your freedom to\n share and change all versions of a program--to make sure it remains free\n software for all its users.  We, the Free Software Foundation, use the\n GNU General Public License for most of our software; it applies also to\n any other work released this way by its authors.  You can apply it to\n your programs, too.\n\n   When we speak of free software, we are referring to freedom, not\n price.  Our General Public Licenses are designed to make sure that you\n have the freedom to distribute copies of free software (and charge for\n them if you wish), that you receive source code or can get it if you\n want it, that you can change the software or use pieces of it in new\n free programs, and that you know you can do these things.\n\n   To protect your rights, we need to prevent others from denying you\n these rights or asking you to surrender the rights.  Therefore, you have\n certain responsibilities if you distribute copies of the software, or if\n you modify it: responsibilities to respect the freedom of others.\n\n   For example, if you distribute copies of such a program, whether\n gratis or for a fee, you must pass on to the recipients the same\n freedoms that you received.  You must make sure that they, too, receive\n or can get the source code.  And you must show them these terms so they\n know their rights.\n\n   Developers that use the GNU GPL protect your rights with two steps:\n (1) assert copyright on the software, and (2) offer you this License\n giving you legal permission to copy, distribute and/or modify it.\n\n   For the developers' and authors' protection, the GPL clearly explains\n that there is no warranty for this free software.  For both users' and\n authors' sake, the GPL requires that modified versions be marked as\n changed, so that their problems will not be attributed erroneously to\n authors of previous versions.\n\n   Some devices are designed to deny users access to install or run\n modified versions of the software inside them, although the manufacturer\n can do so.  This is fundamentally incompatible with the aim of\n protecting users' freedom to change the software.  The systematic\n pattern of such abuse occurs in the area of products for individuals to\n use, which is precisely where it is most unacceptable.  Therefore, we\n have designed this version of the GPL to prohibit the practice for those\n products.  If such problems arise substantially in other domains, we\n stand ready to extend this provision to those domains in future versions\n of the GPL, as needed to protect the freedom of users.\n\n   Finally, every program is threatened constantly by software patents.\n States should not allow patents to restrict development and use of\n software on general-purpose computers, but in those that do, we wish to\n avoid the special danger that patents applied to a free program could\n make it effectively proprietary.  To prevent this, the GPL assures that\n patents cannot be used to render the program non-free.\n\n   The precise terms and conditions for copying, distribution and\n modification follow.\n\n                        TERMS AND CONDITIONS\n\n   0. Definitions.\n\n   \"This License\" refers to version 3 of the GNU General Public License.\n\n   \"Copyright\" also means copyright-like laws that apply to other kinds of\n works, such as semiconductor masks.\n\n   \"The Program\" refers to any copyrightable work licensed under this\n License.  Each licensee is addressed as \"you\".  \"Licensees\" and\n \"recipients\" may be individuals or organizations.\n\n   To \"modify\" a work means to copy from or adapt all or part of the work\n in a fashion requiring copyright permission, other than the making of an\n exact copy.  The resulting work is called a \"modified version\" of the\n earlier work or a work \"based on\" the earlier work.\n\n   A \"covered work\" means either the unmodified Program or a work based\n on the Program.\n\n   To \"propagate\" a work means to do anything with it that, without\n permission, would make you directly or secondarily liable for\n infringement under applicable copyright law, except executing it on a\n computer or modifying a private copy.  Propagation includes copying,\n distribution (with or without modification), making available to the\n public, and in some countries other activities as well.\n\n   To \"convey\" a work means any kind of propagation that enables other\n parties to make or receive copies.  Mere interaction with a user through\n a computer network, with no transfer of a copy, is not conveying.\n\n   An interactive user interface displays \"Appropriate Legal Notices\"\n to the extent that it includes a convenient and prominently visible\n feature that (1) displays an appropriate copyright notice, and (2)\n tells the user that there is no warranty for the work (except to the\n extent that warranties are provided), that licensees may convey the\n work under this License, and how to view a copy of this License.  If\n the interface presents a list of user commands or options, such as a\n menu, a prominent item in the list meets this criterion.\n\n   1. Source Code.\n\n   The \"source code\" for a work means the preferred form of the work\n for making modifications to it.  \"Object code\" means any non-source\n form of a work.\n\n   A \"Standard Interface\" means an interface that either is an official\n standard defined by a recognized standards body, or, in the case of\n interfaces specified for a particular programming language, one that\n is widely used among developers working in that language.\n\n   The \"System Libraries\" of an executable work include anything, other\n than the work as a whole, that (a) is included in the normal form of\n packaging a Major Component, but which is not part of that Major\n Component, and (b) serves only to enable use of the work with that\n Major Component, or to implement a Standard Interface for which an\n implementation is available to the public in source code form.  A\n \"Major Component\", in this context, means a major essential component\n (kernel, window system, and so on) of the specific operating system\n (if any) on which the executable work runs, or a compiler used to\n produce the work, or an object code interpreter used to run it.\n\n   The \"Corresponding Source\" for a work in object code form means all\n the source code needed to generate, install, and (for an executable\n work) run the object code and to modify the work, including scripts to\n control those activities.  However, it does not include the work's\n System Libraries, or general-purpose tools or generally available free\n programs which are used unmodified in performing those activities but\n which are not part of the work.  For example, Corresponding Source\n includes interface definition files associated with source files for\n the work, and the source code for shared libraries and dynamically\n linked subprograms that the work is specifically designed to require,\n such as by intimate data communication or control flow between those\n subprograms and other parts of the work.\n\n   The Corresponding Source need not include anything that users\n can regenerate automatically from other parts of the Corresponding\n Source.\n\n   The Corresponding Source for a work in source code form is that\n same work.\n\n   2. Basic Permissions.\n\n   All rights granted under this License are granted for the term of\n copyright on the Program, and are irrevocable provided the stated\n conditions are met.  This License explicitly affirms your unlimited\n permission to run the unmodified Program.  The output from running a\n covered work is covered by this License only if the output, given its\n content, constitutes a covered work.  This License acknowledges your\n rights of fair use or other equivalent, as provided by copyright law.\n\n   You may make, run and propagate covered works that you do not\n convey, without conditions so long as your license otherwise remains\n in force.  You may convey covered works to others for the sole purpose\n of having them make modifications exclusively for you, or provide you\n with facilities for running those works, provided that you comply with\n the terms of this License in conveying all material for which you do\n not control copyright.  Those thus making or running the covered works\n for you must do so exclusively on your behalf, under your direction\n and control, on terms that prohibit them from making any copies of\n your copyrighted material outside their relationship with you.\n\n   Conveying under any other circumstances is permitted solely under\n the conditions stated below.  Sublicensing is not allowed; section 10\n makes it unnecessary.\n\n   3. Protecting Users' Legal Rights From Anti-Circumvention Law.\n\n   No covered work shall be deemed part of an effective technological\n measure under any applicable law fulfilling obligations under article\n 11 of the WIPO copyright treaty adopted on 20 December 1996, or\n similar laws prohibiting or restricting circumvention of such\n measures.\n\n   When you convey a covered work, you waive any legal power to forbid\n circumvention of technological measures to the extent such circumvention\n is effected by exercising rights under this License with respect to\n the covered work, and you disclaim any intention to limit operation or\n modification of the work as a means of enforcing, against the work's\n users, your or third parties' legal rights to forbid circumvention of\n technological measures.\n\n   4. Conveying Verbatim Copies.\n\n   You may convey verbatim copies of the Program's source code as you\n receive it, in any medium, provided that you conspicuously and\n appropriately publish on each copy an appropriate copyright notice;\n keep intact all notices stating that this License and any\n non-permissive terms added in accord with section 7 apply to the code;\n keep intact all notices of the absence of any warranty; and give all\n recipients a copy of this License along with the Program.\n\n   You may charge any price or no price for each copy that you convey,\n and you may offer support or warranty protection for a fee.\n\n   5. Conveying Modified Source Versions.\n\n   You may convey a work based on the Program, or the modifications to\n produce it from the Program, in the form of source code under the\n terms of section 4, provided that you also meet all of these conditions:\n\n     a) The work must carry prominent notices stating that you modified\n     it, and giving a relevant date.\n\n     b) The work must carry prominent notices stating that it is\n     released under this License and any conditions added under section\n     7.  This requirement modifies the requirement in section 4 to\n     \"keep intact all notices\".\n\n     c) You must license the entire work, as a whole, under this\n     License to anyone who comes into possession of a copy.  This\n     License will therefore apply, along with any applicable section 7\n     additional terms, to the whole of the work, and all its parts,\n     regardless of how they are packaged.  This License gives no\n     permission to license the work in any other way, but it does not\n     invalidate such permission if you have separately received it.\n\n     d) If the work has interactive user interfaces, each must display\n     Appropriate Legal Notices; however, if the Program has interactive\n     interfaces that do not display Appropriate Legal Notices, your\n     work need not make them do so.\n\n   A compilation of a covered work with other separate and independent\n works, which are not by their nature extensions of the covered work,\n and which are not combined with it such as to form a larger program,\n in or on a volume of a storage or distribution medium, is called an\n \"aggregate\" if the compilation and its resulting copyright are not\n used to limit the access or legal rights of the compilation's users\n beyond what the individual works permit.  Inclusion of a covered work\n in an aggregate does not cause this License to apply to the other\n parts of the aggregate.\n\n   6. Conveying Non-Source Forms.\n\n   You may convey a covered work in object code form under the terms\n of sections 4 and 5, provided that you also convey the\n machine-readable Corresponding Source under the terms of this License,\n in one of these ways:\n\n     a) Convey the object code in, or embodied in, a physical product\n     (including a physical distribution medium), accompanied by the\n     Corresponding Source fixed on a durable physical medium\n     customarily used for software interchange.\n\n     b) Convey the object code in, or embodied in, a physical product\n     (including a physical distribution medium), accompanied by a\n     written offer, valid for at least three years and valid for as\n     long as you offer spare parts or customer support for that product\n     model, to give anyone who possesses the object code either (1) a\n     copy of the Corresponding Source for all the software in the\n     product that is covered by this License, on a durable physical\n     medium customarily used for software interchange, for a price no\n     more than your reasonable cost of physically performing this\n     conveying of source, or (2) access to copy the\n     Corresponding Source from a network server at no charge.\n\n     c) Convey individual copies of the object code with a copy of the\n     written offer to provide the Corresponding Source.  This\n     alternative is allowed only occasionally and noncommercially, and\n     only if you received the object code with such an offer, in accord\n     with subsection 6b.\n\n     d) Convey the object code by offering access from a designated\n     place (gratis or for a charge), and offer equivalent access to the\n     Corresponding Source in the same way through the same place at no\n     further charge.  You need not require recipients to copy the\n     Corresponding Source along with the object code.  If the place to\n     copy the object code is a network server, the Corresponding Source\n     may be on a different server (operated by you or a third party)\n     that supports equivalent copying facilities, provided you maintain\n     clear directions next to the object code saying where to find the\n     Corresponding Source.  Regardless of what server hosts the\n     Corresponding Source, you remain obligated to ensure that it is\n     available for as long as needed to satisfy these requirements.\n\n     e) Convey the object code using peer-to-peer transmission, provided\n     you inform other peers where the object code and Corresponding\n     Source of the work are being offered to the general public at no\n     charge under subsection 6d.\n\n   A separable portion of the object code, whose source code is excluded\n from the Corresponding Source as a System Library, need not be\n included in conveying the object code work.\n\n   A \"User Product\" is either (1) a \"consumer product\", which means any\n tangible personal property which is normally used for personal, family,\n or household purposes, or (2) anything designed or sold for incorporation\n into a dwelling.  In determining whether a product is a consumer product,\n doubtful cases shall be resolved in favor of coverage.  For a particular\n product received by a particular user, \"normally used\" refers to a\n typical or common use of that class of product, regardless of the status\n of the particular user or of the way in which the particular user\n actually uses, or expects or is expected to use, the product.  A product\n is a consumer product regardless of whether the product has substantial\n commercial, industrial or non-consumer uses, unless such uses represent\n the only significant mode of use of the product.\n\n   \"Installation Information\" for a User Product means any methods,\n procedures, authorization keys, or other information required to install\n and execute modified versions of a covered work in that User Product from\n a modified version of its Corresponding Source.  The information must\n suffice to ensure that the continued functioning of the modified object\n code is in no case prevented or interfered with solely because\n modification has been made.\n\n   If you convey an object code work under this section in, or with, or\n specifically for use in, a User Product, and the conveying occurs as\n part of a transaction in which the right of possession and use of the\n User Product is transferred to the recipient in perpetuity or for a\n fixed term (regardless of how the transaction is characterized), the\n Corresponding Source conveyed under this section must be accompanied\n by the Installation Information.  But this requirement does not apply\n if neither you nor any third party retains the ability to install\n modified object code on the User Product (for example, the work has\n been installed in ROM).\n\n   The requirement to provide Installation Information does not include a\n requirement to continue to provide support service, warranty, or updates\n for a work that has been modified or installed by the recipient, or for\n the User Product in which it has been modified or installed.  Access to a\n network may be denied when the modification itself materially and\n adversely affects the operation of the network or violates the rules and\n protocols for communication across the network.\n\n   Corresponding Source conveyed, and Installation Information provided,\n in accord with this section must be in a format that is publicly\n documented (and with an implementation available to the public in\n source code form), and must require no special password or key for\n unpacking, reading or copying.\n\n   7. Additional Terms.\n\n   \"Additional permissions\" are terms that supplement the terms of this\n License by making exceptions from one or more of its conditions.\n Additional permissions that are applicable to the entire Program shall\n be treated as though they were included in this License, to the extent\n that they are valid under applicable law.  If additional permissions\n apply only to part of the Program, that part may be used separately\n under those permissions, but the entire Program remains governed by\n this License without regard to the additional permissions.\n\n   When you convey a copy of a covered work, you may at your option\n remove any additional permissions from that copy, or from any part of\n it.  (Additional permissions may be written to require their own\n removal in certain cases when you modify the work.)  You may place\n additional permissions on material, added by you to a covered work,\n for which you have or can give appropriate copyright permission.\n\n   Notwithstanding any other provision of this License, for material you\n add to a covered work, you may (if authorized by the copyright holders of\n that material) supplement the terms of this License with terms:\n\n     a) Disclaiming warranty or limiting liability differently from the\n     terms of sections 15 and 16 of this License; or\n\n     b) Requiring preservation of specified reasonable legal notices or\n     author attributions in that material or in the Appropriate Legal\n     Notices displayed by works containing it; or\n\n     c) Prohibiting misrepresentation of the origin of that material, or\n     requiring that modified versions of such material be marked in\n     reasonable ways as different from the original version; or\n\n     d) Limiting the use for publicity purposes of names of licensors or\n     authors of the material; or\n\n     e) Declining to grant rights under trademark law for use of some\n     trade names, trademarks, or service marks; or\n\n     f) Requiring indemnification of licensors and authors of that\n     material by anyone who conveys the material (or modified versions of\n     it) with contractual assumptions of liability to the recipient, for\n     any liability that these contractual assumptions directly impose on\n     those licensors and authors.\n\n   All other non-permissive additional terms are considered \"further\n restrictions\" within the meaning of section 10.  If the Program as you\n received it, or any part of it, contains a notice stating that it is\n governed by this License along with a term that is a further\n restriction, you may remove that term.  If a license document contains\n a further restriction but permits relicensing or conveying under this\n License, you may add to a covered work material governed by the terms\n of that license document, provided that the further restriction does\n not survive such relicensing or conveying.\n\n   If you add terms to a covered work in accord with this section, you\n must place, in the relevant source files, a statement of the\n additional terms that apply to those files, or a notice indicating\n where to find the applicable terms.\n\n   Additional terms, permissive or non-permissive, may be stated in the\n form of a separately written license, or stated as exceptions;\n the above requirements apply either way.\n\n   8. Termination.\n\n   You may not propagate or modify a covered work except as expressly\n provided under this License.  Any attempt otherwise to propagate or\n modify it is void, and will automatically terminate your rights under\n this License (including any patent licenses granted under the third\n paragraph of section 11).\n\n   However, if you cease all violation of this License, then your\n license from a particular copyright holder is reinstated (a)\n provisionally, unless and until the copyright holder explicitly and\n finally terminates your license, and (b) permanently, if the copyright\n holder fails to notify you of the violation by some reasonable means\n prior to 60 days after the cessation.\n\n   Moreover, your license from a particular copyright holder is\n reinstated permanently if the copyright holder notifies you of the\n violation by some reasonable means, this is the first time you have\n received notice of violation of this License (for any work) from that\n copyright holder, and you cure the violation prior to 30 days after\n your receipt of the notice.\n\n   Termination of your rights under this section does not terminate the\n licenses of parties who have received copies or rights from you under\n this License.  If your rights have been terminated and not permanently\n reinstated, you do not qualify to receive new licenses for the same\n material under section 10.\n\n   9. Acceptance Not Required for Having Copies.\n\n   You are not required to accept this License in order to receive or\n run a copy of the Program.  Ancillary propagation of a covered work\n occurring solely as a consequence of using peer-to-peer transmission\n to receive a copy likewise does not require acceptance.  However,\n nothing other than this License grants you permission to propagate or\n modify any covered work.  These actions infringe copyright if you do\n not accept this License.  Therefore, by modifying or propagating a\n covered work, you indicate your acceptance of this License to do so.\n\n   10. Automatic Licensing of Downstream Recipients.\n\n   Each time you convey a covered work, the recipient automatically\n receives a license from the original licensors, to run, modify and\n propagate that work, subject to this License.  You are not responsible\n for enforcing compliance by third parties with this License.\n\n   An \"entity transaction\" is a transaction transferring control of an\n organization, or substantially all assets of one, or subdividing an\n organization, or merging organizations.  If propagation of a covered\n work results from an entity transaction, each party to that\n transaction who receives a copy of the work also receives whatever\n licenses to the work the party's predecessor in interest had or could\n give under the previous paragraph, plus a right to possession of the\n Corresponding Source of the work from the predecessor in interest, if\n the predecessor has it or can get it with reasonable efforts.\n\n   You may not impose any further restrictions on the exercise of the\n rights granted or affirmed under this License.  For example, you may\n not impose a license fee, royalty, or other charge for exercise of\n rights granted under this License, and you may not initiate litigation\n (including a cross-claim or counterclaim in a lawsuit) alleging that\n any patent claim is infringed by making, using, selling, offering for\n sale, or importing the Program or any portion of it.\n\n   11. Patents.\n\n   A \"contributor\" is a copyright holder who authorizes use under this\n License of the Program or a work on which the Program is based.  The\n work thus licensed is called the contributor's \"contributor version\".\n\n   A contributor's \"essential patent claims\" are all patent claims\n owned or controlled by the contributor, whether already acquired or\n hereafter acquired, that would be infringed by some manner, permitted\n by this License, of making, using, or selling its contributor version,\n but do not include claims that would be infringed only as a\n consequence of further modification of the contributor version.  For\n purposes of this definition, \"control\" includes the right to grant\n patent sublicenses in a manner consistent with the requirements of\n this License.\n\n   Each contributor grants you a non-exclusive, worldwide, royalty-free\n patent license under the contributor's essential patent claims, to\n make, use, sell, offer for sale, import and otherwise run, modify and\n propagate the contents of its contributor version.\n\n   In the following three paragraphs, a \"patent license\" is any express\n agreement or commitment, however denominated, not to enforce a patent\n (such as an express permission to practice a patent or covenant not to\n sue for patent infringement).  To \"grant\" such a patent license to a\n party means to make such an agreement or commitment not to enforce a\n patent against the party.\n\n   If you convey a covered work, knowingly relying on a patent license,\n and the Corresponding Source of the work is not available for anyone\n to copy, free of charge and under the terms of this License, through a\n publicly available network server or other readily accessible means,\n then you must either (1) cause the Corresponding Source to be so\n available, or (2) arrange to deprive yourself of the benefit of the\n patent license for this particular work, or (3) arrange, in a manner\n consistent with the requirements of this License, to extend the patent\n license to downstream recipients.  \"Knowingly relying\" means you have\n actual knowledge that, but for the patent license, your conveying the\n covered work in a country, or your recipient's use of the covered work\n in a country, would infringe one or more identifiable patents in that\n country that you have reason to believe are valid.\n\n   If, pursuant to or in connection with a single transaction or\n arrangement, you convey, or propagate by procuring conveyance of, a\n covered work, and grant a patent license to some of the parties\n receiving the covered work authorizing them to use, propagate, modify\n or convey a specific copy of the covered work, then the patent license\n you grant is automatically extended to all recipients of the covered\n work and works based on it.\n\n   A patent license is \"discriminatory\" if it does not include within\n the scope of its coverage, prohibits the exercise of, or is\n conditioned on the non-exercise of one or more of the rights that are\n specifically granted under this License.  You may not convey a covered\n work if you are a party to an arrangement with a third party that is\n in the business of distributing software, under which you make payment\n to the third party based on the extent of your activity of conveying\n the work, and under which the third party grants, to any of the\n parties who would receive the covered work from you, a discriminatory\n patent license (a) in connection with copies of the covered work\n conveyed by you (or copies made from those copies), or (b) primarily\n for and in connection with specific products or compilations that\n contain the covered work, unless you entered into that arrangement,\n or that patent license was granted, prior to 28 March 2007.\n\n   Nothing in this License shall be construed as excluding or limiting\n any implied license or other defenses to infringement that may\n otherwise be available to you under applicable patent law.\n\n   12. No Surrender of Others' Freedom.\n\n   If conditions are imposed on you (whether by court order, agreement or\n otherwise) that contradict the conditions of this License, they do not\n excuse you from the conditions of this License.  If you cannot convey a\n covered work so as to satisfy simultaneously your obligations under this\n License and any other pertinent obligations, then as a consequence you may\n not convey it at all.  For example, if you agree to terms that obligate you\n to collect a royalty for further conveying from those to whom you convey\n the Program, the only way you could satisfy both those terms and this\n License would be to refrain entirely from conveying the Program.\n\n   13. Use with the GNU Affero General Public License.\n\n   Notwithstanding any other provision of this License, you have\n permission to link or combine any covered work with a work licensed\n under version 3 of the GNU Affero General Public License into a single\n combined work, and to convey the resulting work.  The terms of this\n License will continue to apply to the part which is the covered work,\n but the special requirements of the GNU Affero General Public License,\n section 13, concerning interaction through a network will apply to the\n combination as such.\n\n   14. Revised Versions of this License.\n\n   The Free Software Foundation may publish revised and/or new versions of\n the GNU General Public License from time to time.  Such new versions will\n be similar in spirit to the present version, but may differ in detail to\n address new problems or concerns.\n\n   Each version is given a distinguishing version number.  If the\n Program specifies that a certain numbered version of the GNU General\n Public License \"or any later version\" applies to it, you have the\n option of following the terms and conditions either of that numbered\n version or of any later version published by the Free Software\n Foundation.  If the Program does not specify a version number of the\n GNU General Public License, you may choose any version ever published\n by the Free Software Foundation.\n\n   If the Program specifies that a proxy can decide which future\n versions of the GNU General Public License can be used, that proxy's\n public statement of acceptance of a version permanently authorizes you\n to choose that version for the Program.\n\n   Later license versions may give you additional or different\n permissions.  However, no additional obligations are imposed on any\n author or copyright holder as a result of your choosing to follow a\n later version.\n\n   15. Disclaimer of Warranty.\n\n   THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY\n APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT\n HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM \"AS IS\" WITHOUT WARRANTY\n OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,\n THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\n PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM\n IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF\n ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n\n   16. Limitation of Liability.\n\n   IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING\n WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS\n THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY\n GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE\n USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF\n DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD\n PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),\n EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF\n SUCH DAMAGES.\n\n   17. Interpretation of Sections 15 and 16.\n\n   If the disclaimer of warranty and limitation of liability provided\n above cannot be given local legal effect according to their terms,\n reviewing courts shall apply local law that most closely approximates\n an absolute waiver of all civil liability in connection with the\n Program, unless a warranty or assumption of liability accompanies a\n copy of the Program in return for a fee.\n\n                      END OF TERMS AND CONDITIONS\n\n             How to Apply These Terms to Your New Programs\n\n   If you develop a new program, and you want it to be of the greatest\n possible use to the public, the best way to achieve this is to make it\n free software which everyone can redistribute and change under these terms.\n\n   To do so, attach the following notices to the program.  It is safest\n to attach them to the start of each source file to most effectively\n state the exclusion of warranty; and each file should have at least\n the \"copyright\" line and a pointer to where the full notice is found.\n\n     <one line to give the program's name and a brief idea of what it does.>\n     Copyright (C) <year>  <name of author>\n\n     This program is free software: you can redistribute it and/or modify\n     it under the terms of the GNU General Public License as published by\n     the Free Software Foundation, either version 3 of the License, or\n     (at your option) any later version.\n\n     This program is distributed in the hope that it will be useful,\n     but WITHOUT ANY WARRANTY; without even the implied warranty of\n     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n     GNU General Public License for more details.\n\n     You should have received a copy of the GNU General Public License\n     along with this program.  If not, see <http://www.gnu.org/licenses/>.\n\n Also add information on how to contact you by electronic and paper mail.\n\n   If the program does terminal interaction, make it output a short\n notice like this when it starts in an interactive mode:\n\n     <program>  Copyright (C) <year>  <name of author>\n     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.\n     This is free software, and you are welcome to redistribute it\n     under certain conditions; type `show c' for details.\n\n The hypothetical commands `show w' and `show c' should show the appropriate\n parts of the General Public License.  Of course, your program's commands\n might be different; for a GUI interface, you would use an \"about box\".\n\n   You should also get your employer (if you work as a programmer) or school,\n if any, to sign a \"copyright disclaimer\" for the program, if necessary.\n For more information on this, and how to apply and follow the GNU GPL, see\n <http://www.gnu.org/licenses/>.\n\n   The GNU General Public License does not permit incorporating your program\n into proprietary programs.  If your program is a subroutine library, you\n may consider it more useful to permit linking proprietary applications with\n the library.  If this is what you want to do, use the GNU Lesser General\n Public License instead of this License.  But first, please read\n <http://www.gnu.org/philosophy/why-not-lgpl.html>.\n",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "011413b7426b75012840e35649e00fe0a2c3bae89fed433876e3a99251572efc",
+      "bytes": 20466839
+    },
+    {
+      "id": "mac-docling-semchunk",
+      "kind": "docling-wheel",
+      "name": "semchunk",
+      "version": "3.2.5",
+      "url": "https://files.pythonhosted.org/packages/f8/95/12d226ee4d207cb1f77a216baa7e1a8bae2639733c140abe8d0316d23a18/semchunk-3.2.5-py3-none-any.whl",
+      "filename": "semchunk-3.2.5-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "fd09cc5f380bd010b8ca773bd81893f7eaf11d37dd8362a83d46cedaf5dae076",
+      "bytes": 13048
+    },
+    {
+      "id": "mac-docling-setuptools",
+      "kind": "docling-wheel",
+      "name": "setuptools",
+      "version": "84.2.1",
+      "url": "https://files.pythonhosted.org/packages/ef/55/6dc6d6bb953bdfc52519a0059592c52b6e3b8ad51cf8256dffceb55b0610/setuptools-84.2.1-py3-none-any.whl",
+      "filename": "setuptools-84.2.1-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2",
+      "bytes": 876263
+    },
+    {
+      "id": "mac-docling-shapely",
+      "kind": "docling-wheel",
+      "name": "shapely",
+      "version": "2.2.0",
+      "url": "https://files.pythonhosted.org/packages/a2/c8/e8117528eb96feafcd5fced50a939ecfdc6242b3782959d202755536bb9e/shapely-2.2.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "shapely-2.2.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "0a63e6b68ec785ef3aae3935c4aa9fb8edccced94e23c79d5d85276442c60859",
+      "bytes": 1585345
+    },
+    {
+      "id": "mac-docling-shellingham",
+      "kind": "docling-wheel",
+      "name": "shellingham",
+      "version": "1.5.4",
+      "url": "https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl",
+      "filename": "shellingham-1.5.4-py2.py3-none-any.whl",
+      "license": "ISC License",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686",
+      "bytes": 9755
+    },
+    {
+      "id": "mac-docling-six",
+      "kind": "docling-wheel",
+      "name": "six",
+      "version": "1.17.0",
+      "url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+      "filename": "six-1.17.0-py2.py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "bytes": 11050
+    },
+    {
+      "id": "mac-docling-soupsieve",
+      "kind": "docling-wheel",
+      "name": "soupsieve",
+      "version": "3.0.4",
+      "url": "https://files.pythonhosted.org/packages/07/66/473f7ca0be0b06e38ee8c85ee2db184e3981bd769fac2e7c19c8a8865211/soupsieve-3.0.4-py3-none-any.whl",
+      "filename": "soupsieve-3.0.4-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "8412826614f9c632227067d0985aeb9f584bd15efc852955430e097a9fe7afbf",
+      "bytes": 42458
+    },
+    {
+      "id": "mac-docling-sympy",
+      "kind": "docling-wheel",
+      "name": "sympy",
+      "version": "1.14.0",
+      "url": "https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl",
+      "filename": "sympy-1.14.0-py3-none-any.whl",
+      "license": "BSD",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+      "bytes": 6299353
+    },
+    {
+      "id": "mac-docling-tabulate",
+      "kind": "docling-wheel",
+      "name": "tabulate",
+      "version": "0.10.0",
+      "url": "https://files.pythonhosted.org/packages/99/55/db07de81b5c630da5cbf5c7df646580ca26dfaefa593667fc6f2fe016d2e/tabulate-0.10.0-py3-none-any.whl",
+      "filename": "tabulate-0.10.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "f0b0622e567335c8fabaaa659f1b33bcb6ddfe2e496071b743aa113f8774f2d3",
+      "bytes": 39814
+    },
+    {
+      "id": "mac-docling-tokenizers",
+      "kind": "docling-wheel",
+      "name": "tokenizers",
+      "version": "0.23.3",
+      "url": "https://files.pythonhosted.org/packages/b2/72/01e49f032bb346e5aaf06c10c74fe8aeec847173adbadd66eb7c53054bf2/tokenizers-0.23.3-cp310-abi3-macosx_11_0_arm64.whl",
+      "filename": "tokenizers-0.23.3-cp310-abi3-macosx_11_0_arm64.whl",
+      "license": "",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "68649e97d5b43c44c031d8d848874a6eecae8f8fe40ea989aa777a5a83aca716",
+      "bytes": 3101381
+    },
+    {
+      "id": "mac-docling-torch",
+      "kind": "docling-wheel",
+      "name": "torch",
+      "version": "2.15.0",
+      "url": "https://files.pythonhosted.org/packages/8a/04/ff26bb464e61f83e0176deca01e72fffa779190bbb476011e89c45791589/torch-2.15.0-cp314-cp314-macosx_14_0_arm64.whl",
+      "filename": "torch-2.15.0-cp314-cp314-macosx_14_0_arm64.whl",
+      "license": "Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND BSD-2-Clause AND BSD-3-Clause AND BSL-1.0 AND ISC AND MIT AND Zlib",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "0d2b2d9674fa0b9b3f50e83231aa6545a0b19e437a52f0af939a224faaa45515",
+      "bytes": 138575002
+    },
+    {
+      "id": "mac-docling-torchvision",
+      "kind": "docling-wheel",
+      "name": "torchvision",
+      "version": "0.29.2",
+      "url": "https://files.pythonhosted.org/packages/60/ec/ce97c46e5322b588b95be388f2c21878d014ca20838478e7aab59edd128a/torchvision-0.29.2-py3-none-macosx_14_0_arm64.whl",
+      "filename": "torchvision-0.29.2-py3-none-macosx_14_0_arm64.whl",
+      "license": "BSD",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "d412494ff011f24c884a3cffd33eba1cb45a0299d4e26c1e175113f9d3b3ebc7",
+      "bytes": 1823414
+    },
+    {
+      "id": "mac-docling-tqdm",
+      "kind": "docling-wheel",
+      "name": "tqdm",
+      "version": "4.70.1",
+      "url": "https://files.pythonhosted.org/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl",
+      "filename": "tqdm-4.70.1-py3-none-any.whl",
+      "license": "MPL-2.0 AND MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
+      "bytes": 80199
+    },
+    {
+      "id": "mac-docling-transformers",
+      "kind": "docling-wheel",
+      "name": "transformers",
+      "version": "5.22.1",
+      "url": "https://files.pythonhosted.org/packages/75/75/47ebe0e2f1b04a180000e3a49ebdf4669dbab0c63489bcecf7855c26e4f4/transformers-5.22.1-py3-none-any.whl",
+      "filename": "transformers-5.22.1-py3-none-any.whl",
+      "license": "Apache 2.0 License",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "c940b4bf98de4f568723895f330ba1460a398bd83061b93b70238c3fe32e4389",
+      "bytes": 13051755
+    },
+    {
+      "id": "mac-docling-tree-sitter",
+      "kind": "docling-wheel",
+      "name": "tree-sitter",
+      "version": "0.26.0",
+      "url": "https://files.pythonhosted.org/packages/b0/d9/efe62ec65dc9d096e834d27b8c058127e2146e42ff3380b822a233f016a6/tree_sitter-0.26.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "tree_sitter-0.26.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "5fc2f41bf246ff2f70a9cc3690be35ec7580a4923151873d898c8bcb1a4503d3",
+      "bytes": 140805
+    },
+    {
+      "id": "mac-docling-tree-sitter-c",
+      "kind": "docling-wheel",
+      "name": "tree-sitter-c",
+      "version": "0.24.2",
+      "url": "https://files.pythonhosted.org/packages/c1/1c/1140db75e7e375cda3c68792a33826c4fd40b5b98c3259d93c75f6c8368f/tree_sitter_c-0.24.2-cp310-abi3-macosx_11_0_arm64.whl",
+      "filename": "tree_sitter_c-0.24.2-cp310-abi3-macosx_11_0_arm64.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "97bc80a224d48215d4e6e6376bf30d114f4c317b8145ff1b02afe785d4ba7bdd",
+      "bytes": 86213
+    },
+    {
+      "id": "mac-docling-tree-sitter-javascript",
+      "kind": "docling-wheel",
+      "name": "tree-sitter-javascript",
+      "version": "0.25.0",
+      "url": "https://files.pythonhosted.org/packages/b1/8f/6b4b2bc90d8ab3955856ce852cc9d1e82c81d7ab9646385f0e75ffd5b5d3/tree_sitter_javascript-0.25.0-cp310-abi3-macosx_11_0_arm64.whl",
+      "filename": "tree_sitter_javascript-0.25.0-cp310-abi3-macosx_11_0_arm64.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "8264a996b8845cfce06965152a013b5d9cbb7d199bc3503e12b5682e62bb1de1",
+      "bytes": 66440
+    },
+    {
+      "id": "mac-docling-tree-sitter-python",
+      "kind": "docling-wheel",
+      "name": "tree-sitter-python",
+      "version": "0.25.0",
+      "url": "https://files.pythonhosted.org/packages/e6/1d/60d8c2a0cc63d6ec4ba4e99ce61b802d2e39ef9db799bdf2a8f932a6cd4b/tree_sitter_python-0.25.0-cp310-abi3-macosx_11_0_arm64.whl",
+      "filename": "tree_sitter_python-0.25.0-cp310-abi3-macosx_11_0_arm64.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "480c21dbd995b7fe44813e741d71fed10ba695e7caab627fb034e3828469d762",
+      "bytes": 76691
+    },
+    {
+      "id": "mac-docling-tree-sitter-typescript",
+      "kind": "docling-wheel",
+      "name": "tree-sitter-typescript",
+      "version": "0.23.2",
+      "url": "https://files.pythonhosted.org/packages/8f/2f/1f36fda564518d84593f2740d5905ac127d590baf5c5753cef2a88a89c15/tree_sitter_typescript-0.23.2-cp39-abi3-macosx_11_0_arm64.whl",
+      "filename": "tree_sitter_typescript-0.23.2-cp39-abi3-macosx_11_0_arm64.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "c7cc1b0ff5d91bac863b0e38b1578d5505e718156c9db577c8baea2557f66de8",
+      "bytes": 302008
+    },
+    {
+      "id": "mac-docling-typer",
+      "kind": "docling-wheel",
+      "name": "typer",
+      "version": "0.27.3",
+      "url": "https://files.pythonhosted.org/packages/07/ea/2e31b67051e91a133189e9c000c222502ddc6969856416de0d095de4c0b0/typer-0.27.3-py3-none-any.whl",
+      "filename": "typer-0.27.3-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "e50022f28b82a86313e54501317a1db64bf8f8d036ff8cfe5ca7e47675454aff",
+      "bytes": 123312
+    },
+    {
+      "id": "mac-docling-typing-inspection",
+      "kind": "docling-wheel",
+      "name": "typing-inspection",
+      "version": "0.4.4",
+      "url": "https://files.pythonhosted.org/packages/67/81/4add07e5172b7ac40d8ed5ff580409a7801a4fe26d529bdd915401dabfbe/typing_inspection-0.4.4-py3-none-any.whl",
+      "filename": "typing_inspection-0.4.4-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147",
+      "bytes": 14750
+    },
+    {
+      "id": "mac-docling-typing_extensions",
+      "kind": "docling-wheel",
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+      "filename": "typing_extensions-4.16.0-py3-none-any.whl",
+      "license": "PSF-2.0",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "bytes": 45571
+    },
+    {
+      "id": "mac-docling-tzdata",
+      "kind": "docling-wheel",
+      "name": "tzdata",
+      "version": "2026.6",
+      "url": "https://files.pythonhosted.org/packages/0a/66/9a06c2227fedfd4919f0eaaa8b94377d9730882a7e4f95823c9a331ab5e1/tzdata-2026.6-py2.py3-none-any.whl",
+      "filename": "tzdata-2026.6-py2.py3-none-any.whl",
+      "license": "Apache-2.0",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec",
+      "bytes": 348210
+    },
+    {
+      "id": "mac-docling-urllib3",
+      "kind": "docling-wheel",
+      "name": "urllib3",
+      "version": "2.8.0",
+      "url": "https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl",
+      "filename": "urllib3-2.8.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "bytes": 135717
+    },
+    {
+      "id": "mac-docling-websockets",
+      "kind": "docling-wheel",
+      "name": "websockets",
+      "version": "17.3",
+      "url": "https://files.pythonhosted.org/packages/3d/f3/6d982c60f6c7c95e5faed53d39263df273ecfda904c7d6920c37eee58dd1/websockets-17.3-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "websockets-17.3-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "018fab26140ce221c3853454a608e4e7004f4f10641cb97819dcd5b917bb2e99",
+      "bytes": 216193
+    },
+    {
+      "id": "mac-docling-xlsxwriter",
+      "kind": "docling-wheel",
+      "name": "xlsxwriter",
+      "version": "3.3.1",
+      "url": "https://files.pythonhosted.org/packages/88/eb/1e6af9959a567901a7e7c7cef2e75883e487df223ed67f9a8977ff863bd8/xlsxwriter-3.3.1-py3-none-any.whl",
+      "filename": "xlsxwriter-3.3.1-py3-none-any.whl",
+      "license": "BSD-2-Clause",
+      "profiles": [
+        "docling"
+      ],
+      "sha256": "8e2c89e59d733fe59e112317218c64fbbc276d90a8c144ebd6f7fa15e7ab184a",
+      "bytes": 180583
+    },
+    {
+      "id": "mac-model-docling-project/docling-layout-heron/.gitattributes",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-layout-heron/.gitattributes",
+      "version": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/.gitattributes",
+      "filename": ".gitattributes",
+      "license": "apache-2.0",
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+      "bytes": 1519,
+      "model_path": "docling-project--docling-layout-heron/.gitattributes"
+    },
+    {
+      "id": "mac-model-docling-project/docling-layout-heron/config.json",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-layout-heron/config.json",
+      "version": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/config.json",
+      "filename": "config.json",
+      "license": "apache-2.0",
+      "sha256": "fdea30805ce2f5666b147fca941dcdd27ad468e27d6ed21902207d3da056a97d",
+      "bytes": 3268,
+      "model_path": "docling-project--docling-layout-heron/config.json"
+    },
+    {
+      "id": "mac-model-docling-project/docling-layout-heron/docling_heron_400.png",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-layout-heron/docling_heron_400.png",
+      "version": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/docling_heron_400.png",
+      "filename": "docling_heron_400.png",
+      "license": "apache-2.0",
+      "sha256": "e7f78610372b32a7938e480d2c7fa1c3037ee170bd82282a5bd026232f6e6f9e",
+      "bytes": 96925,
+      "model_path": "docling-project--docling-layout-heron/docling_heron_400.png"
+    },
+    {
+      "id": "mac-model-docling-project/docling-layout-heron/model.safetensors",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-layout-heron/model.safetensors",
+      "version": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/model.safetensors",
+      "filename": "model.safetensors",
+      "license": "apache-2.0",
+      "sha256": "00333a43451945aaf89db8ca9c0a17e75d1537c17db60fdb91aa95f4c7929e0c",
+      "bytes": 171658996,
+      "model_path": "docling-project--docling-layout-heron/model.safetensors"
+    },
+    {
+      "id": "mac-model-docling-project/docling-layout-heron/preprocessor_config.json",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-layout-heron/preprocessor_config.json",
+      "version": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/preprocessor_config.json",
+      "filename": "preprocessor_config.json",
+      "license": "apache-2.0",
+      "sha256": "cd38cd59999e7a95d68e487fbe5132df3d4e5c32a0836add57e6126ba0c4eaf1",
+      "bytes": 444,
+      "model_path": "docling-project--docling-layout-heron/preprocessor_config.json"
+    },
+    {
+      "id": "mac-model-docling-project/docling-layout-heron/README.md",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-layout-heron/README.md",
+      "version": "8f39ad3c0b4c58e9c2d2c84a38465abf757272d8",
+      "url": "https://huggingface.co/docling-project/docling-layout-heron/resolve/8f39ad3c0b4c58e9c2d2c84a38465abf757272d8/README.md",
+      "filename": "README.md",
+      "license": "apache-2.0",
+      "sha256": "175700839bc7808eac6af1d0c23e4f483606ab2276fe01122f4093e61a1a65b6",
+      "bytes": 3219,
+      "model_path": "docling-project--docling-layout-heron/README.md"
+    },
+    {
+      "id": "mac-model-docling-project/docling-models/.gitattributes",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-models/.gitattributes",
+      "version": "fc0f2d45e2218ea24bce5045f58a389aed16dc23",
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/.gitattributes",
+      "filename": ".gitattributes",
+      "license": "cdla-permissive-2.0",
+      "sha256": "360aba3ff7ce75396f13f0a77925fe9e79997e8d4bac064595ebb00c82700386",
+      "bytes": 1905,
+      "model_path": "docling-project--docling-models/.gitattributes"
+    },
+    {
+      "id": "mac-model-docling-project/docling-models/.gitignore",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-models/.gitignore",
+      "version": "fc0f2d45e2218ea24bce5045f58a389aed16dc23",
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/.gitignore",
+      "filename": ".gitignore",
+      "license": "cdla-permissive-2.0",
+      "sha256": "b44b404189eaff3631c470946e7350c2e88cead304d332a8ad50325e6f56e95d",
+      "bytes": 5180,
+      "model_path": "docling-project--docling-models/.gitignore"
+    },
+    {
+      "id": "mac-model-docling-project/docling-models/config.json",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-models/config.json",
+      "version": "fc0f2d45e2218ea24bce5045f58a389aed16dc23",
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/config.json",
+      "filename": "config.json",
+      "license": "cdla-permissive-2.0",
+      "sha256": "9c34024dc28ff47b75818f415e769809798c29bf9bde6f2ccc63a4acb62396d9",
+      "bytes": 41,
+      "model_path": "docling-project--docling-models/config.json"
+    },
+    {
+      "id": "mac-model-docling-project/docling-models/README.md",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-models/README.md",
+      "version": "fc0f2d45e2218ea24bce5045f58a389aed16dc23",
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/README.md",
+      "filename": "README.md",
+      "license": "cdla-permissive-2.0",
+      "sha256": "d17f233378eff1240b623b36da76ee8b40afcca05d505949713bf03f7e00822a",
+      "bytes": 3413,
+      "model_path": "docling-project--docling-models/README.md"
+    },
+    {
+      "id": "mac-model-docling-project/docling-models/model_artifacts/tableformer/accurate/tableformer_accurate.safetensors",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-models/model_artifacts/tableformer/accurate/tableformer_accurate.safetensors",
+      "version": "fc0f2d45e2218ea24bce5045f58a389aed16dc23",
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/accurate/tableformer_accurate.safetensors",
+      "filename": "tableformer_accurate.safetensors",
+      "license": "cdla-permissive-2.0",
+      "sha256": "2a7d6c924b3cd12fb99a09280ca9c33a89c5d60b93253617d2e088c1a40374d9",
+      "bytes": 212758388,
+      "model_path": "docling-project--docling-models/model_artifacts/tableformer/accurate/tableformer_accurate.safetensors"
+    },
+    {
+      "id": "mac-model-docling-project/docling-models/model_artifacts/tableformer/accurate/tm_config.json",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-models/model_artifacts/tableformer/accurate/tm_config.json",
+      "version": "fc0f2d45e2218ea24bce5045f58a389aed16dc23",
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/accurate/tm_config.json",
+      "filename": "tm_config.json",
+      "license": "cdla-permissive-2.0",
+      "sha256": "984e122ceb8ccf84d84c9d2882f6f2302a44b4f1e577babd6289892c36f3cffd",
+      "bytes": 7060,
+      "model_path": "docling-project--docling-models/model_artifacts/tableformer/accurate/tm_config.json"
+    },
+    {
+      "id": "mac-model-docling-project/docling-models/model_artifacts/tableformer/fast/tableformer_fast.safetensors",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-models/model_artifacts/tableformer/fast/tableformer_fast.safetensors",
+      "version": "fc0f2d45e2218ea24bce5045f58a389aed16dc23",
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/fast/tableformer_fast.safetensors",
+      "filename": "tableformer_fast.safetensors",
+      "license": "cdla-permissive-2.0",
+      "sha256": "3119563aab5a7c96fda4d621119b63fd8806272b86c30936d15507616422f718",
+      "bytes": 145453276,
+      "model_path": "docling-project--docling-models/model_artifacts/tableformer/fast/tableformer_fast.safetensors"
+    },
+    {
+      "id": "mac-model-docling-project/docling-models/model_artifacts/tableformer/fast/tm_config.json",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "model-file",
+      "name": "docling-project/docling-models/model_artifacts/tableformer/fast/tm_config.json",
+      "version": "fc0f2d45e2218ea24bce5045f58a389aed16dc23",
+      "url": "https://huggingface.co/docling-project/docling-models/resolve/fc0f2d45e2218ea24bce5045f58a389aed16dc23/model_artifacts/tableformer/fast/tm_config.json",
+      "filename": "tm_config.json",
+      "license": "cdla-permissive-2.0",
+      "sha256": "dca6762508dddfae6d57d6cb4ef822c6000119dff0f3b6489db7413118c2622a",
+      "bytes": 7060,
+      "model_path": "docling-project--docling-models/model_artifacts/tableformer/fast/tm_config.json"
+    },
+    {
+      "id": "mac-notice-CDLA-Permissive-2.0.txt",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "notice-file",
+      "name": "CDLA-Permissive-2.0.txt",
+      "version": "fixed-text",
+      "url": "https://raw.githubusercontent.com/Community-Data-License-Agreements/Releases/main/CDLA-Permissive-2.0.txt",
+      "filename": "CDLA-Permissive-2.0.txt",
+      "license": "Original upstream text; preserved unchanged",
+      "bytes": 2354,
+      "sha256": "4531a67d443284d93ffed0803df5b10634aff21c3d77e381f2d48af01d875868"
+    },
+    {
+      "id": "mac-notice-Apache-2.0.txt",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "notice-file",
+      "name": "Apache-2.0.txt",
+      "version": "fixed-text",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "filename": "Apache-2.0.txt",
+      "license": "Original upstream text; preserved unchanged",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "id": "mac-notice-docling-MIT.txt",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "notice-file",
+      "name": "docling-MIT.txt",
+      "version": "fixed-text",
+      "url": "https://raw.githubusercontent.com/docling-project/docling/v2.145.0/LICENSE",
+      "filename": "docling-MIT.txt",
+      "license": "Original upstream text; preserved unchanged",
+      "bytes": 1072,
+      "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c"
+    },
+    {
+      "id": "mac-notice-latex2mathml-MIT.txt",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "notice-file",
+      "name": "latex2mathml-MIT.txt",
+      "version": "fixed-text",
+      "url": "https://raw.githubusercontent.com/roniemartinez/latex2mathml/3.81.1/LICENSE",
+      "filename": "latex2mathml-MIT.txt",
+      "license": "Original upstream text; preserved unchanged",
+      "bytes": 1071,
+      "sha256": "4ac1e1da07f6b343d54191c5e1716840534e08591b3f9eaec90d6800cdc47543"
+    },
+    {
+      "id": "mac-notice-LPPL.txt",
+      "profiles": [
+        "docling"
+      ],
+      "kind": "notice-file",
+      "name": "LPPL.txt",
+      "version": "fixed-text",
+      "url": "https://www.latex-project.org/lppl.txt",
+      "filename": "LPPL.txt",
+      "license": "Original upstream text; preserved unchanged",
+      "bytes": 19102,
+      "sha256": "3d262cdf34dafa6955f703c634a8c238ec44109bc8dd6ef34fb7aa54809f7e66"
     }
   ],
   "system_python": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14",

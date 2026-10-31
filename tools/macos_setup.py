@@ -69,7 +69,21 @@ def install(root, profile, lock):
           base_prefix=sys.base_prefix, platform=platform.platform(), installer='official signed Python pkg',
           ssl_ca_file=os.environ.get('SSL_CERT_FILE'), ca_sha256=sha(root / 'bootstrap-ca.pem')))
     items = [a for a in lock['artifacts'] if profile in a['profiles']]
-    receipts = [download(a, root / 'cache', True) for a in items]
+    offline = os.environ.get('META_OFFLINE_CACHE')
+    if offline:
+        # Defense in depth: this process cannot make network connections. Child
+        # pip is --no-index and R installs explicitly use repos=NULL.
+        import socket
+        def deny(*args, **kwargs): raise RuntimeError('Offline installer network connection refused')
+        socket.socket.connect = deny
+        socket.create_connection = deny
+        for a in items:
+            dest = cache_path(root / 'cache', a)
+            src = cache_path(Path(offline), a)
+            check_file(src, a)
+            if not dest.exists(): shutil.copyfile(src, dest)
+            check_file(dest, a)
+    receipts = [download(a, root / 'cache', not bool(offline)) for a in items]
     write(root / 'download-receipts.json', receipts)
     r_pkg = next(a for a in items if a['kind'] == 'native-r-pkg')
     if not (root / 'r-installed.json').exists():
@@ -112,6 +126,35 @@ def install(root, profile, lock):
         if any(result['versions'][a['name']] != a['version'] for a in pyitems) or any(
                 not Path(p).resolve().is_relative_to(pylib.resolve()) for p in result['imports'].values()):
             raise ValueError('Python locked package/path verification failed')
+    if profile == 'docling':
+        extra = [a for a in items if a['kind'] == 'docling-wheel']
+        wheels = root / 'docling-wheel-files'; wheels.mkdir(exist_ok=True)
+        for a in extra:
+            src = cache_path(root / 'cache', a); check_file(src, a)
+            dest = wheels / a['filename']
+            if not dest.exists(): shutil.copyfile(src, dest)
+            check_file(dest, a)
+        doclib = root / 'python/docling'
+        if not doclib.exists():
+            stage = root / 'python/docling.staging'; stage.mkdir(exist_ok=True)
+            run(root, 'docling-wheels', [python, '-I', '-m', 'pip', 'install', '--no-index', '--no-deps',
+                '--no-compile', '--disable-pip-version-check', '--target', stage,
+                *[wheels / a['filename'] for a in extra]])
+            stage.rename(doclib)
+        code = "import sys,json,importlib;sys.path.insert(0,sys.argv[1]);sys.path.insert(1,sys.argv[2]);print(json.dumps({n:importlib.import_module(n).__file__ for n in ['docling','torch','cv2','pypdfium2']}))"
+        paths = json.loads(run(root, 'docling-imports', [python, '-I', '-c', code, doclib, pylib]))
+        if any(not Path(p).resolve().is_relative_to(doclib.resolve()) for p in paths.values()):
+            raise ValueError('Docling import path outside private library')
+        model_files = {}
+        for a in items:
+            if a['kind'] in ('model-file', 'notice-file'):
+                dest = root / ('models' if a['kind'] == 'model-file' else 'licences') / a.get('model_path', a['filename'])
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                if not dest.exists(): shutil.copyfile(cache_path(root / 'cache', a), dest)
+                check_file(dest, a)
+                if a['kind'] == 'model-file': model_files[a['model_path']] = a['sha256']
+        write(root / 'models/model_manifest.json', dict(schema='meta-docling-models-v1', files=model_files,
+              sources=read(SOURCE / 'app/docling-dependencies/model-sources.json'), scope='pinned CPU layout/TableFormer; optional'))
     ritems = [a for a in items if a['kind'] == 'r-mac-binary']
     library = root / 'libraries' / ('r-core' if profile == 'core' else 'r-extended')
     if not library.exists():
@@ -139,7 +182,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('action', choices=['install', 'launch'])
     parser.add_argument('--root', required=True)
-    parser.add_argument('--profile', choices=['core', 'standard'], default='standard')
+    parser.add_argument('--profile', choices=['core', 'standard', 'docling'], default='standard')
     args, rest = parser.parse_known_args()
     root = Path(args.root).expanduser().resolve()
     lock = load_lock(LOCK)
@@ -153,8 +196,8 @@ def main():
         if config['profile'] != args.profile: raise ValueError('Installed profile differs')
         env = environment(root, config['r_library'])
         env.update(META_RSCRIPT=config['rscript'], META_R_LIBRARY=config['r_library'])
-        if args.profile == 'standard':
-            env['META_METHOD_PYTHON_LIBRARY'] = config['python_library']
+        if args.profile in ('standard', 'docling'):
+            env['META_METHOD_PYTHON_LIBRARY'] = str(root / 'python/docling') if args.profile == 'docling' else config['python_library']
             env['META_FRONTEND_PYTHON_LIBRARY'] = config['python_library']
         return subprocess.run([config['python'], '-I', '-B', str(SOURCE / 'candidate_entry.py'),
                               *([*rest[1:]] if rest and rest[0] == '--' else rest)], env=env).returncode

@@ -1,0 +1,33 @@
+name: macOS arm64 offline Docling validation
+on:
+  push:
+    branches: [feature/macos-docling-offline-20261031]
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: macos-15
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Prepare locked official payload online
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(uname -m)" = arm64 && test "$RUNNER_ARCH" = ARM64
+          /usr/bin/python3 -B tools/prefetch_macos.py "$RUNNER_TEMP/Ye1 Offline Payload/cache"
+      - name: Install through customer offline entry into a fresh runtime
+        shell: bash
+        env:
+          META_OFFLINE_PAYLOAD: ${{ runner.temp }}/Ye1 Offline Payload
+        run: bash setup-offline.sh "$RUNNER_TEMP/Ye1 Offline Runtime" I_ACCEPT
+      - name: Verify public PLOS analysis and numeric protections
+        shell: bash
+        run: |
+          set -euo pipefail
+          PY="$RUNNER_TEMP/Ye1 Offline Runtime/python/venv/bin/python"
+          "$PY" -I -B -m unittest discover -s app/tests -p 'test_docling_numbers.py' -v
+          "$PY" -I -B ci/macos_acceptance.py "$RUNNER_TEMP/Ye1 Offline Runtime" "$RUNNER_TEMP/Ye1 Offline Results" docling
+      - name: Parse original PLOS PDF locally with Docling
+        shell: bash
+        run: '"$RUNNER_TEMP/Ye1 Offline Runtime/python/venv/bin/python" -I -B ci/macos_offline_pdf.py "$RUNNER_TEMP/Ye1 Offline Runtime" "$RUNNER_TEMP/Ye1 PDF Results"'

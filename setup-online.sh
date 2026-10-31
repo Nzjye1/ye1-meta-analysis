@@ -6,8 +6,8 @@ if [[ "$(uname -s)" != Darwin || "$(uname -m)" != arm64 ]]; then
   echo 'This installer requires Apple Silicon macOS 14 or newer.' >&2; exit 2
 fi
 if [[ $(sw_vers -productVersion | cut -d. -f1) -lt 14 ]]; then exit 2; fi
-if [[ $# -ne 3 || "$3" != I_ACCEPT || ! "$2" =~ ^(core|standard)$ ]]; then
-  echo 'Usage: bash setup-online.sh NEW_RUNTIME_DIRECTORY core|standard I_ACCEPT' >&2
+if [[ $# -ne 3 || "$3" != I_ACCEPT || ! "$2" =~ ^(core|standard|docling)$ ]]; then
+  echo 'Usage: bash setup-online.sh NEW_RUNTIME_DIRECTORY core|standard|docling I_ACCEPT' >&2
   echo 'Installs official Python/R system frameworks (administrator authorization) and private locked package libraries.' >&2
   exit 2
 fi
@@ -25,7 +25,7 @@ SHA=$(/usr/bin/plutil -extract artifacts.0.sha256 raw -o - "$LOCK")
 NAME=$(/usr/bin/plutil -extract artifacts.0.filename raw -o - "$LOCK")
 PKG="$ROOT/cache/${SHA}_${NAME}"
 if [[ ! -f "$PKG" ]]; then
-  /usr/bin/curl --fail --location --proto '=https' --tlsv1.2 "$URL" -o "$PKG.part"
+  if [[ -n "${META_OFFLINE_CACHE:-}" ]]; then cp "$META_OFFLINE_CACHE/${SHA}_${NAME}" "$PKG.part"; else /usr/bin/curl --fail --location --proto '=https' --tlsv1.2 "$URL" -o "$PKG.part"; fi
   [[ "$(shasum -a 256 "$PKG.part" | awk '{print $1}')" == "$SHA" ]] || { echo 'Python SHA256 mismatch; partial retained.' >&2; exit 2; }
   mv "$PKG.part" "$PKG"
 fi
@@ -42,7 +42,7 @@ PYTHON=/Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14
 IFS=$'\t' read -r CA_URL CA_SHA CA_NAME <<< "$("$PYTHON" -I -c 'import json,sys; a=next(a for a in json.load(open(sys.argv[1]))["artifacts"] if a["name"]=="certifi"); print(a["url"],a["sha256"],a["filename"],sep="\t")' "$LOCK")"
 CA_WHEEL="$ROOT/cache/${CA_SHA}_${CA_NAME}"
 if [[ ! -f "$CA_WHEEL" ]]; then
-  /usr/bin/curl --fail --location --proto '=https' --tlsv1.2 "$CA_URL" -o "$CA_WHEEL.part"
+  if [[ -n "${META_OFFLINE_CACHE:-}" ]]; then cp "$META_OFFLINE_CACHE/${CA_SHA}_${CA_NAME}" "$CA_WHEEL.part"; else /usr/bin/curl --fail --location --proto '=https' --tlsv1.2 "$CA_URL" -o "$CA_WHEEL.part"; fi
   [[ "$(shasum -a 256 "$CA_WHEEL.part" | awk '{print $1}')" == "$CA_SHA" ]] || { echo 'CA wheel SHA256 mismatch.' >&2; exit 2; }
   mv "$CA_WHEEL.part" "$CA_WHEEL"
 fi

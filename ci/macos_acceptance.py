@@ -13,10 +13,11 @@ source = Path(__file__).resolve().parents[1]
 runtime = Path(sys.argv[1]).resolve()
 out = Path(sys.argv[2]).resolve(); out.mkdir(parents=True, exist_ok=False)
 config = json.loads((runtime / 'macos-runtime.json').read_text())
+profile = sys.argv[3] if len(sys.argv) > 3 else 'standard'
 
 
 def call(label, args, cwd=None):
-    command = ['bash', str(source / 'launch.sh'), str(runtime), 'standard', *args]
+    command = ['bash', str(source / 'launch.sh'), str(runtime), profile, *args]
     r = subprocess.run(command, cwd=cwd, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     (out / (label + '.log')).write_text(r.stdout, encoding='utf-8')
     print(r.stdout, end='', flush=True)

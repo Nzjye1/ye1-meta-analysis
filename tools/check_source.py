@@ -35,7 +35,7 @@ def check(root=ROOT):
                 errors.append(f"missing method phase: {script}")
     links = 0
     for path in root.rglob("*.md"):
-        if ".git" in path.parts or "_local" in path.parts or path.is_relative_to(root / "packaging" / "customer_docs"):
+        if ".git" in path.parts or "_local" in path.parts or "offline-payload" in path.parts or path.is_relative_to(root / "packaging" / "customer_docs"):
             continue
         for target in re.findall(r"\[[^\]]*\]\(([^)]+)\)", path.read_text(encoding="utf-8")):
             target = unquote(target.strip("<>").split("#")[0])
