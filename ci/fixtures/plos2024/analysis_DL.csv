@@ -1,0 +1,2 @@
+﻿confirmed,effect_type,outcome,timepoint,contrast,adjustment,model,tau_method,test,alpha
+YES,MD,pain_6_months,6 months,non_fixation minus fixation,unadjusted,RE,DL,z,0.05

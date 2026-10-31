@@ -1,0 +1,4 @@
+study_id,cohort_id,effect_type,estimate,ci_lower,ci_upper,outcome,timepoint,contrast,adjustment,source_document,source_location
+Li et al,plos_Li et al,MD,-0.19999999999999996,-0.2876522540576581,-0.1123477459423418,pain_6_months,6 months,non_fixation minus fixation,unadjusted,study_arms.csv,Table 2 row 3; source cells retained in original input
+Kalidarei et al,plos_Kalidarei et al,MD,-0.4,-0.8031691456457115,0.003169145645711413,pain_6_months,6 months,non_fixation minus fixation,unadjusted,study_arms.csv,Table 2 row 4; source cells retained in original input
+Meshkati et al,plos_Meshkati et al,MD,-0.09999999999999999,-0.199360702338419,-0.0006392976615809953,pain_6_months,6 months,non_fixation minus fixation,unadjusted,study_arms.csv,Table 2 row 5; source cells retained in original input

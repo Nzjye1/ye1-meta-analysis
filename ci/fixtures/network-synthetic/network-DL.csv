@@ -1,0 +1,13 @@
+study_id,cohort_id,treat1,treat2,TE,seTE,effect_type,outcome,timepoint,adjustment,source_file,source_sha256,source_location
+N0,N0,A,B,-0.3,0.2,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 1
+N1,N1,A,C,-0.6410970310634472,0.21000000000000002,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 2
+N2,N2,B,C,-0.3363491801222023,0.22,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 3
+N3,N3,A,B,-0.2901215994358093,0.23,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 4
+N4,N4,A,C,-0.752976174671555,0.2,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 5
+N5,N5,B,C,-0.46712469922641975,0.21000000000000002,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 6
+N6,N6,A,B,-0.3195590848739248,0.22,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 7
+N7,N7,A,C,-0.6540109380896847,0.23,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 8
+N8,N8,B,C,-0.3307449227363633,0.2,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 9
+N9,N9,A,B,-0.27115170603307703,0.21000000000000002,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 10
+N10,N10,A,C,-0.7380814777622559,0.22,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 11
+N11,N11,B,C,-0.46999931445854926,0.23,MD,synthetic outcome,week 12,unadjusted,synthetic_source.txt,d643ab5b6cdd1c54eb02307a6f9b9e303c59169bfbc679d2964151382a4387f0,synthetic row 12

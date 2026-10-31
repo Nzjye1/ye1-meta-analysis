@@ -1,0 +1,40 @@
+name: macOS arm64 customer online installation
+on:
+  push:
+    branches: [feature/macos-arm64-online-20261031]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  customer-install:
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Verify standard runner is native arm64
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(uname -m)" = arm64
+          test "$RUNNER_ARCH" = ARM64
+          sw_vers
+          echo "Runner architecture: $RUNNER_ARCH; customer libraries will be installed afresh."
+      - name: Install from the actual customer entry into a fresh spaced path
+        shell: bash
+        run: bash setup-online.sh "$RUNNER_TEMP/Ye1 Meta Runtime" standard I_ACCEPT
+      - name: Run public PLOS case and network DL REML regression
+        shell: bash
+        run: '"$RUNNER_TEMP/Ye1 Meta Runtime/python/venv/bin/python" -I -B ci/macos_acceptance.py "$RUNNER_TEMP/Ye1 Meta Runtime" "$RUNNER_TEMP/Ye1 Meta Results"'
+      - name: Retain original receipts and actual figures and reports
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: macos-arm64-install-analysis-${{ github.sha }}
+          if-no-files-found: warn
+          path: |
+            ${{ runner.temp }}/Ye1 Meta Runtime/setup-logs/
+            ${{ runner.temp }}/Ye1 Meta Runtime/*-receipts.json
+            ${{ runner.temp }}/Ye1 Meta Runtime/*-installed.json
+            ${{ runner.temp }}/Ye1 Meta Runtime/macos-runtime.json
+            ${{ runner.temp }}/Ye1 Meta Runtime/READY
+            ${{ runner.temp }}/Ye1 Meta Results/

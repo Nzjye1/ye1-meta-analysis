@@ -1,0 +1,30 @@
+{
+  "schema": "meta-aggregate-project-v1",
+  "mode": "existing_summary_data",
+  "project_id": "plos-pain_6_months-DL",
+  "question": "Recalculate supplied non-fixation versus fixation author-extracted summary data: pain_6_months",
+  "population": "Published inguinal hernia repair study aggregates; original eligibility not independently verified",
+  "direction": "non-fixation minus fixation; lower values favour non-fixation",
+  "independence_assumption": "One estimate per supplied study ID; cohort independence remains unverified",
+  "effects": "effects.csv",
+  "analysis": "analysis_DL.csv",
+  "original_inputs": [
+    "study_arms.csv",
+    "source_tables_1_to_5.json"
+  ],
+  "source": {
+    "citation": "PLOS ONE DOI 10.1371/journal.pone.0314334; supplementary DOI 10.1371/journal.pone.0314334.s005",
+    "locator": "Supplementary first five tables; Table 2 for pain and Table 5 for recovery",
+    "supplied_data_description": "Local public-case arm transcription reused, MD = mean_t - mean_c; SE = sqrt(sd_t^2/n_t + sd_c^2/n_c); Wald 95% CI. Prior result files were not used.",
+    "verification_status": "not_independently_verified"
+  },
+  "unit": {
+    "status": "unverified",
+    "value": ""
+  },
+  "limitations": [
+    "AI preparation only; no human review is claimed.",
+    "Source transcription and clinical unit remain unverified; no second conversion of already supplied mean/SD.",
+    "This is recalculation of existing summaries, not a new systematic review."
+  ]
+}

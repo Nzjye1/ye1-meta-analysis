@@ -1,0 +1,1624 @@
+{
+  "schema": "meta-official-online-lock-v1",
+  "platform": "darwin:arm64",
+  "minimum_macos": "14.0",
+  "python": "3.14.5",
+  "r": "4.6.1",
+  "artifacts": [
+    {
+      "id": "mac-python",
+      "kind": "native-python-pkg",
+      "name": "CPython-macOS",
+      "version": "3.14.5",
+      "url": "https://www.python.org/ftp/python/3.14.5/python-3.14.5-macos11.pkg",
+      "filename": "python-3.14.5-macos11.pkg",
+      "license": "PSF-2.0 and incorporated notices",
+      "profiles": [
+        "core",
+        "standard"
+      ],
+      "sha256": "b28a8dc33c456dd06c97024697d63ca916cfb494594c06fa3e4ef4d41fa82335",
+      "bytes": 76271654
+    },
+    {
+      "id": "mac-r",
+      "kind": "native-r-pkg",
+      "name": "R-macOS-arm64",
+      "version": "4.6.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/base/R-4.6.1-arm64.pkg",
+      "filename": "R-4.6.1-arm64.pkg",
+      "license": "GPL-2 or GPL-3 and incorporated notices",
+      "profiles": [
+        "core",
+        "standard"
+      ],
+      "sha256": "67f6eea4ced4ce48f0a0d4fa3a1cac43d1859a05a88993ee3dff7c52e7edbc4b",
+      "bytes": 105066342
+    },
+    {
+      "id": "mac-r-CompQuadForm",
+      "kind": "r-mac-binary",
+      "name": "CompQuadForm",
+      "version": "1.4.4",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/CompQuadForm_1.4.4.tgz",
+      "filename": "CompQuadForm_1.4.4.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.4.4",
+      "sha256": "cd0766cbde5d1d4d757befe4f481c940354ca356a2ec81e125c93a145a624d8c",
+      "bytes": 69151,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 16:14:22 UTC; unix"
+    },
+    {
+      "id": "mac-r-R6",
+      "kind": "r-mac-binary",
+      "name": "R6",
+      "version": "2.6.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/R6_2.6.1.tgz",
+      "filename": "R6_2.6.1.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.6.1",
+      "sha256": "588a63f3a16b297bdffa5ac9ea344fa411d0337bf4c1dbd1eca168c044126e1f",
+      "bytes": 88143,
+      "built": "R 4.6.0; ; 2026-04-25 15:39:09 UTC; unix"
+    },
+    {
+      "id": "mac-r-RColorBrewer",
+      "kind": "r-mac-binary",
+      "name": "RColorBrewer",
+      "version": "1.1-3",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/RColorBrewer_1.1-3.tgz",
+      "filename": "RColorBrewer_1.1-3.tgz",
+      "license": "Apache License 2.0",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.1-3",
+      "sha256": "edbba71c5ab01eb72ae7f9ea7a47b01be3eefa8f60aa0faf0f6a471b3a07a598",
+      "bytes": 51838,
+      "built": "R 4.6.0; ; 2026-04-25 15:40:08 UTC; unix"
+    },
+    {
+      "id": "mac-r-Rcpp",
+      "kind": "r-mac-binary",
+      "name": "Rcpp",
+      "version": "1.1.2",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/Rcpp_1.1.2.tgz",
+      "filename": "Rcpp_1.1.2.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.1.2",
+      "sha256": "e135ad06daffae1f7f93da59b9789dd87b6b3c4a94ef61ccfe9b258593206aa3",
+      "bytes": 3562996,
+      "built": "R 4.6.1; aarch64-apple-darwin23; 2026-07-05 10:40:15 UTC; unix"
+    },
+    {
+      "id": "mac-r-RcppEigen",
+      "kind": "r-mac-binary",
+      "name": "RcppEigen",
+      "version": "0.3.4.0.2",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/RcppEigen_0.3.4.0.2.tgz",
+      "filename": "RcppEigen_0.3.4.0.2.tgz",
+      "license": "GPL (>= 2) | file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.3.4.0.2",
+      "sha256": "d2b9d4c83d82b23301e1a98e31fb2994db343d707fb72059dd6460ae826c14f5",
+      "bytes": 5028213,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:42:58 UTC; unix"
+    },
+    {
+      "id": "mac-r-Rdpack",
+      "kind": "r-mac-binary",
+      "name": "Rdpack",
+      "version": "2.6.6",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/Rdpack_2.6.6.tgz",
+      "filename": "Rdpack_2.6.6.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.6.6",
+      "sha256": "f42d0623cfa2768a8e4bb8956186c552c951893843586ec3c2414e8b6e7e5bba",
+      "bytes": 642797,
+      "built": "R 4.6.0; ; 2026-04-25 23:14:59 UTC; unix"
+    },
+    {
+      "id": "mac-r-S7",
+      "kind": "r-mac-binary",
+      "name": "S7",
+      "version": "0.2.2",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/S7_0.2.2.tgz",
+      "filename": "S7_0.2.2.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.2.2",
+      "sha256": "28e37e7f04a018356a73fc5d3e121ce70c0e3390d78a41a9edb63084c0f3abba",
+      "bytes": 346793,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 09:28:03 UTC; unix"
+    },
+    {
+      "id": "mac-r-abind",
+      "kind": "r-mac-binary",
+      "name": "abind",
+      "version": "1.4-8",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/abind_1.4-8.tgz",
+      "filename": "abind_1.4-8.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.4-8",
+      "sha256": "ad4e41d7ef9bef7c5d114104a74f3334bad942e19e24c740bc21539756f0ec70",
+      "bytes": 65442,
+      "built": "R 4.6.0; ; 2026-04-25 15:40:28 UTC; unix"
+    },
+    {
+      "id": "mac-r-bit",
+      "kind": "r-mac-binary",
+      "name": "bit",
+      "version": "4.6.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/bit_4.6.0.tgz",
+      "filename": "bit_4.6.0.tgz",
+      "license": "GPL-2 | GPL-3",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "4.6.0",
+      "sha256": "8def51ad36d9eaf8e8d38156efa3dda1d6fea043b1830d0e711cf79d31a8aa17",
+      "bytes": 745218,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:45:18 UTC; unix"
+    },
+    {
+      "id": "mac-r-bit64",
+      "kind": "r-mac-binary",
+      "name": "bit64",
+      "version": "4.8.6",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/bit64_4.8.6.tgz",
+      "filename": "bit64_4.8.6.tgz",
+      "license": "GPL-2 | GPL-3",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "4.8.6",
+      "sha256": "06ee1f07030abc63d18e346b4b151efa8e28fc6d1ea3160d3453e500e1070bcb",
+      "bytes": 658172,
+      "built": "R 4.6.1; aarch64-apple-darwin23; 2026-09-01 12:40:57 UTC; unix"
+    },
+    {
+      "id": "mac-r-cli",
+      "kind": "r-mac-binary",
+      "name": "cli",
+      "version": "3.6.6",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/cli_3.6.6.tgz",
+      "filename": "cli_3.6.6.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "3.6.6",
+      "sha256": "2657093517706d96047c4e30cd376dcd12651feebaaf9d7ea30a4a7227ec0464",
+      "bytes": 1487045,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:39:10 UTC; unix"
+    },
+    {
+      "id": "mac-r-clipr",
+      "kind": "r-mac-binary",
+      "name": "clipr",
+      "version": "0.8.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/clipr_0.8.1.tgz",
+      "filename": "clipr_0.8.1.tgz",
+      "license": "GPL-3",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.8.1",
+      "sha256": "8e7c45acb1bb79f905f0485ef3fd91b6accac69f0a4bae6aa9011445eab7718d",
+      "bytes": 55067,
+      "built": "R 4.6.0; ; 2026-05-25 08:30:02 UTC; unix"
+    },
+    {
+      "id": "mac-r-clubSandwich",
+      "kind": "r-mac-binary",
+      "name": "clubSandwich",
+      "version": "0.7.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/clubSandwich_0.7.0.tgz",
+      "filename": "clubSandwich_0.7.0.tgz",
+      "license": "GPL-3",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.7.0",
+      "sha256": "c440f57ebca56538df1a432a4fe9a870e8920e3b044a61a3782a5de55e2e4330",
+      "bytes": 646699,
+      "built": "R 4.6.0; ; 2026-05-04 08:07:19 UTC; unix"
+    },
+    {
+      "id": "mac-r-colorspace",
+      "kind": "r-mac-binary",
+      "name": "colorspace",
+      "version": "2.1-4",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/colorspace_2.1-4.tgz",
+      "filename": "colorspace_2.1-4.tgz",
+      "license": "BSD_3_clause + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.1-4",
+      "sha256": "01eaeab4f434c2efc54f30a3b23b617e132b54f6a5a4f60e5e052d0370ed62d4",
+      "bytes": 2524312,
+      "built": "R 4.6.1; aarch64-apple-darwin23; 2026-10-08 10:28:59 UTC; unix"
+    },
+    {
+      "id": "mac-r-cpp11",
+      "kind": "r-mac-binary",
+      "name": "cpp11",
+      "version": "0.5.5",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/cpp11_0.5.5.tgz",
+      "filename": "cpp11_0.5.5.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.5.5",
+      "sha256": "4e5f23da9816ff0555105f8718c0d80d9cb0a89281e97fe634ea797d3d337623",
+      "bytes": 303761,
+      "built": "R 4.6.0; ; 2026-05-06 16:42:29 UTC; unix"
+    },
+    {
+      "id": "mac-r-crayon",
+      "kind": "r-mac-binary",
+      "name": "crayon",
+      "version": "1.5.3",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/crayon_1.5.3.tgz",
+      "filename": "crayon_1.5.3.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.5.3",
+      "sha256": "56eb15fdd5494dabcf5fa8c7114b4d10f35b7f8640dc1fa6e643812082e6845b",
+      "bytes": 166316,
+      "built": "R 4.6.0; ; 2026-04-25 15:44:21 UTC; unix"
+    },
+    {
+      "id": "mac-r-diagmeta",
+      "kind": "r-mac-binary",
+      "name": "diagmeta",
+      "version": "0.5-1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/diagmeta_0.5-1.tgz",
+      "filename": "diagmeta_0.5-1.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.5-1",
+      "sha256": "a18d8f1925937afea6d09e58167f0f8d9852b48362e28a4307315c2ffff01d78",
+      "bytes": 161182,
+      "built": "R 4.6.0; ; 2026-04-26 17:37:59 UTC; unix"
+    },
+    {
+      "id": "mac-r-digest",
+      "kind": "r-mac-binary",
+      "name": "digest",
+      "version": "0.6.39",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/digest_0.6.39.tgz",
+      "filename": "digest_0.6.39.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "core",
+        "standard"
+      ],
+      "index_version_observed": "0.6.39",
+      "sha256": "3a2a694c9d1ab8abf7829af29c851b5c82238e2f032b7d6c34a7c85a00c6a698",
+      "bytes": 390066,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:38:59 UTC; unix"
+    },
+    {
+      "id": "mac-r-dosresmeta",
+      "kind": "r-mac-binary",
+      "name": "dosresmeta",
+      "version": "2.2.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/dosresmeta_2.2.0.tgz",
+      "filename": "dosresmeta_2.2.0.tgz",
+      "license": "GPL-2",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.2.0",
+      "sha256": "4fcf6ba39b6dbf34a66dfdb5c85eec86401e2b3aff6ee66c64a6fce450b52878",
+      "bytes": 447209,
+      "built": "R 4.6.0; ; 2026-04-25 18:22:11 UTC; unix"
+    },
+    {
+      "id": "mac-r-dplyr",
+      "kind": "r-mac-binary",
+      "name": "dplyr",
+      "version": "1.2.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/dplyr_1.2.1.tgz",
+      "filename": "dplyr_1.2.1.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.2.1",
+      "sha256": "64d1dc74891b8195c443377494a990356fe4ca965a9677630921110b7810cbf1",
+      "bytes": 1659451,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-26 11:09:07 UTC; unix"
+    },
+    {
+      "id": "mac-r-ellipse",
+      "kind": "r-mac-binary",
+      "name": "ellipse",
+      "version": "0.5.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/ellipse_0.5.0.tgz",
+      "filename": "ellipse_0.5.0.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.5.0",
+      "sha256": "f6f834634fde40f598961ac1c84a807e57eca563b811f35c26260e6d1fae2630",
+      "bytes": 220043,
+      "built": "R 4.6.0; ; 2026-04-25 15:53:09 UTC; unix"
+    },
+    {
+      "id": "mac-r-farver",
+      "kind": "r-mac-binary",
+      "name": "farver",
+      "version": "2.1.2",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/farver_2.1.2.tgz",
+      "filename": "farver_2.1.2.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.1.2",
+      "sha256": "6d89d456e9867ebdac90cb69406c7dbaab8dd7612d2fa96749febb2976deaa47",
+      "bytes": 1981737,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:40:10 UTC; unix"
+    },
+    {
+      "id": "mac-r-generics",
+      "kind": "r-mac-binary",
+      "name": "generics",
+      "version": "0.1.4",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/generics_0.1.4.tgz",
+      "filename": "generics_0.1.4.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.1.4",
+      "sha256": "cc5e292cde210abfdd991656f65fa937d1221c826a16c2772bef4970dfa852a5",
+      "bytes": 82638,
+      "built": "R 4.6.0; ; 2026-04-25 15:40:57 UTC; unix"
+    },
+    {
+      "id": "mac-r-ggplot2",
+      "kind": "r-mac-binary",
+      "name": "ggplot2",
+      "version": "4.0.3",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/ggplot2_4.0.3.tgz",
+      "filename": "ggplot2_4.0.3.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "4.0.3",
+      "sha256": "dc40cb880728522e50bbefee886779963ef182de8b246be87b27f2e05e04516b",
+      "bytes": 8468216,
+      "built": "R 4.6.0; ; 2026-04-26 05:16:05 UTC; unix"
+    },
+    {
+      "id": "mac-r-ggrepel",
+      "kind": "r-mac-binary",
+      "name": "ggrepel",
+      "version": "0.9.8",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/ggrepel_0.9.8.tgz",
+      "filename": "ggrepel_0.9.8.tgz",
+      "license": "GPL-3 | file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.9.8",
+      "sha256": "fc5719e70610480e431f1a4728860ab18757f86d8cb372924e034fdbe1121c1f",
+      "bytes": 760518,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-26 11:08:07 UTC; unix"
+    },
+    {
+      "id": "mac-r-glue",
+      "kind": "r-mac-binary",
+      "name": "glue",
+      "version": "1.8.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/glue_1.8.1.tgz",
+      "filename": "glue_1.8.1.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.8.1",
+      "sha256": "de31852e70b7c0f06380a3eec157562ab2c2ddf3ce0927c01dc8afedd8492434",
+      "bytes": 182880,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:39:32 UTC; unix"
+    },
+    {
+      "id": "mac-r-gtable",
+      "kind": "r-mac-binary",
+      "name": "gtable",
+      "version": "0.3.6",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/gtable_0.3.6.tgz",
+      "filename": "gtable_0.3.6.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.3.6",
+      "sha256": "ee9d336c79b9c06759de2476a8a24c222e0a60a7377e66ed5e4ca0aefe067c70",
+      "bytes": 226755,
+      "built": "R 4.6.0; ; 2026-04-26 02:18:41 UTC; unix"
+    },
+    {
+      "id": "mac-r-hms",
+      "kind": "r-mac-binary",
+      "name": "hms",
+      "version": "1.1.4",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/hms_1.1.4.tgz",
+      "filename": "hms_1.1.4.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.1.4",
+      "sha256": "ae8e0c976ae341f96f4d44c15e1ce629dd136fab5cc4873b023f537ecd1bb5e8",
+      "bytes": 104172,
+      "built": "R 4.6.0; ; 2026-04-25 23:15:47 UTC; unix"
+    },
+    {
+      "id": "mac-r-igraph",
+      "kind": "r-mac-binary",
+      "name": "igraph",
+      "version": "2.3.4",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/igraph_2.3.4.tgz",
+      "filename": "igraph_2.3.4.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.3.4",
+      "sha256": "1215aba42540ab9a66ecaae1ca4a66b90cb7c4b5f0e719d220d9677625e35ba7",
+      "bytes": 9002560,
+      "built": "R 4.6.1; aarch64-apple-darwin23; 2026-10-05 04:47:38 UTC; unix"
+    },
+    {
+      "id": "mac-r-isoband",
+      "kind": "r-mac-binary",
+      "name": "isoband",
+      "version": "0.3.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/isoband_0.3.0.tgz",
+      "filename": "isoband_0.3.0.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.3.0",
+      "sha256": "ce82b204e6a4bf973ad4f5ca5cfbc1cd00cc10f72fa089b418c2e37fd5139419",
+      "bytes": 1977122,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 23:14:25 UTC; unix"
+    },
+    {
+      "id": "mac-r-labeling",
+      "kind": "r-mac-binary",
+      "name": "labeling",
+      "version": "0.4.3",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/labeling_0.4.3.tgz",
+      "filename": "labeling_0.4.3.tgz",
+      "license": "MIT + file LICENSE | Unlimited",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.4.3",
+      "sha256": "25a7bb8a3bd7586ea5c5bde28dcc4a753c00b5b428ae099b7949a2ad14147071",
+      "bytes": 61235,
+      "built": "R 4.6.0; ; 2026-04-25 15:40:07 UTC; unix"
+    },
+    {
+      "id": "mac-r-lifecycle",
+      "kind": "r-mac-binary",
+      "name": "lifecycle",
+      "version": "1.0.5",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/lifecycle_1.0.5.tgz",
+      "filename": "lifecycle_1.0.5.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.0.5",
+      "sha256": "53904ae5cf3d81fb8a4590e3b6fc12157d992ce07f595079253460f6ae92395d",
+      "bytes": 133796,
+      "built": "R 4.6.0; ; 2026-04-25 10:32:18 UTC; unix"
+    },
+    {
+      "id": "mac-r-lme4",
+      "kind": "r-mac-binary",
+      "name": "lme4",
+      "version": "2.1-0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/lme4_2.1-0.tgz",
+      "filename": "lme4_2.1-0.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.1-0",
+      "sha256": "6fba8705cf1bd9a7befed87708ca0a41687dac468912f0e5efccd29165295543",
+      "bytes": 7306364,
+      "built": "R 4.6.1; aarch64-apple-darwin23; 2026-10-23 19:03:30 UTC; unix"
+    },
+    {
+      "id": "mac-r-mada",
+      "kind": "r-mac-binary",
+      "name": "mada",
+      "version": "0.5.12",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/mada_0.5.12.tgz",
+      "filename": "mada_0.5.12.tgz",
+      "license": "GPL-2",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.5.12",
+      "sha256": "d28e6ec445e4669fdd4ba71a27f7c334b8ebdcb5704157461550ac1f74c41261",
+      "bytes": 495158,
+      "built": "R 4.6.0; ; 2026-04-26 00:27:07 UTC; unix"
+    },
+    {
+      "id": "mac-r-magic",
+      "kind": "r-mac-binary",
+      "name": "magic",
+      "version": "1.6-1-1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/magic_1.6-1-1.tgz",
+      "filename": "magic_1.6-1-1.tgz",
+      "license": "GPL-2",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.6-1-1",
+      "sha256": "813fc31c5ad73224d1a652b3a8f4e426a7cf381ed9f1a7a6d0541bcb96024241",
+      "bytes": 399136,
+      "built": "R 4.6.1; ; 2026-09-25 14:45:32 UTC; unix"
+    },
+    {
+      "id": "mac-r-magrittr",
+      "kind": "r-mac-binary",
+      "name": "magrittr",
+      "version": "2.0.5",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/magrittr_2.0.5.tgz",
+      "filename": "magrittr_2.0.5.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.0.5",
+      "sha256": "67bee98a2f7dc0f4ea7269db724142af758f660b105eb1d8d68308c7258fc19f",
+      "bytes": 234917,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:39:33 UTC; unix"
+    },
+    {
+      "id": "mac-r-mathjaxr",
+      "kind": "r-mac-binary",
+      "name": "mathjaxr",
+      "version": "2.0-0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/mathjaxr_2.0-0.tgz",
+      "filename": "mathjaxr_2.0-0.tgz",
+      "license": "GPL-3",
+      "profiles": [
+        "core",
+        "standard"
+      ],
+      "index_version_observed": "2.0-0",
+      "sha256": "5cb0422008ba15a270100b7c32f09e9109658fd278f9cdb564c1355774cb9437",
+      "bytes": 2982783,
+      "built": "R 4.6.0; ; 2026-04-25 16:11:49 UTC; unix"
+    },
+    {
+      "id": "mac-r-meta",
+      "kind": "r-mac-binary",
+      "name": "meta",
+      "version": "8.5-0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/meta_8.5-0.tgz",
+      "filename": "meta_8.5-0.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "8.5-0",
+      "sha256": "ceef93725bac5e7ed70e17672aba87acc442230bb4c1ae3ca64eea4d770e54c9",
+      "bytes": 2783885,
+      "built": "R 4.6.0; ; 2026-05-25 08:32:34 UTC; unix"
+    },
+    {
+      "id": "mac-r-metabook",
+      "kind": "r-mac-binary",
+      "name": "metabook",
+      "version": "0.2-0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/metabook_0.2-0.tgz",
+      "filename": "metabook_0.2-0.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.2-0",
+      "sha256": "16d6a20fbb45e403bb31b2e11cf009a2e9563a9cb0aff45dec795a6c5f06e56b",
+      "bytes": 181880,
+      "built": "R 4.6.0; ; 2026-04-25 16:14:14 UTC; unix"
+    },
+    {
+      "id": "mac-r-metadat",
+      "kind": "r-mac-binary",
+      "name": "metadat",
+      "version": "1.6-0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/metadat_1.6-0.tgz",
+      "filename": "metadat_1.6-0.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "core",
+        "standard"
+      ],
+      "index_version_observed": "1.6-0",
+      "sha256": "082bdb3b48078876a68a8bdb3b5f84cfbb2e9a1fbdb9362c5e2c6d5d9054ff13",
+      "bytes": 1093327,
+      "built": "R 4.6.0; ; 2026-04-29 15:57:20 UTC; unix"
+    },
+    {
+      "id": "mac-r-metafor",
+      "kind": "r-mac-binary",
+      "name": "metafor",
+      "version": "5.2-1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/metafor_5.2-1.tgz",
+      "filename": "metafor_5.2-1.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "core",
+        "standard"
+      ],
+      "index_version_observed": "5.2-1",
+      "sha256": "732aef1c13e7e9695c6af2f4d329b654b1efc094da5e25a61c53e77a6b5b9b41",
+      "bytes": 5516598,
+      "built": "R 4.6.1; ; 2026-09-16 23:01:19 UTC; unix"
+    },
+    {
+      "id": "mac-r-minqa",
+      "kind": "r-mac-binary",
+      "name": "minqa",
+      "version": "1.2.8",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/minqa_1.2.8.tgz",
+      "filename": "minqa_1.2.8.tgz",
+      "license": "GPL-2",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.2.8",
+      "sha256": "f43e32cf9b3e87fd89b1a49745a61bd0e14b84b8e7ae824f9c8f009372ed6ac3",
+      "bytes": 379240,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:42:08 UTC; unix"
+    },
+    {
+      "id": "mac-r-mixmeta",
+      "kind": "r-mac-binary",
+      "name": "mixmeta",
+      "version": "1.2.2",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/mixmeta_1.2.2.tgz",
+      "filename": "mixmeta_1.2.2.tgz",
+      "license": "GPL (>= 3)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.2.2",
+      "sha256": "23a3df3f6465a9cc4f87b1630d382b9df969cff6bd78af635649c4bc55fc10a5",
+      "bytes": 434137,
+      "built": "R 4.6.0; ; 2026-04-25 16:39:31 UTC; unix"
+    },
+    {
+      "id": "mac-r-mvmeta",
+      "kind": "r-mac-binary",
+      "name": "mvmeta",
+      "version": "1.0.3",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/mvmeta_1.0.3.tgz",
+      "filename": "mvmeta_1.0.3.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.0.3",
+      "sha256": "a3dbb98c5e8c1c12bdbe931500f8396841612c7f81d08f3bcb5a06fd706c415c",
+      "bytes": 303344,
+      "built": "R 4.6.0; ; 2026-04-25 23:47:21 UTC; unix"
+    },
+    {
+      "id": "mac-r-mvtnorm",
+      "kind": "r-mac-binary",
+      "name": "mvtnorm",
+      "version": "1.4-2",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/mvtnorm_1.4-2.tgz",
+      "filename": "mvtnorm_1.4-2.tgz",
+      "license": "GPL-2",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.4-2",
+      "sha256": "3b756221c8458289ee8b3385185995de84094924ed9b8e6ba2e9e3109b21be85",
+      "bytes": 1165005,
+      "built": "R 4.6.1; aarch64-apple-darwin23; 2026-07-12 10:23:18 UTC; unix"
+    },
+    {
+      "id": "mac-r-netmeta",
+      "kind": "r-mac-binary",
+      "name": "netmeta",
+      "version": "3.7-0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/netmeta_3.7-0.tgz",
+      "filename": "netmeta_3.7-0.tgz",
+      "license": "GPL (>= 2) | file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "3.7-0",
+      "sha256": "077aaf7f0af21b8e31b54a13f9f13d4597ef817ec63906b73f42df4622857f4a",
+      "bytes": 2123429,
+      "built": "R 4.6.1; ; 2026-09-18 16:33:58 UTC; unix"
+    },
+    {
+      "id": "mac-r-nloptr",
+      "kind": "r-mac-binary",
+      "name": "nloptr",
+      "version": "2.2.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/nloptr_2.2.1.tgz",
+      "filename": "nloptr_2.2.1.tgz",
+      "license": "LGPL (>= 3)",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.2.1",
+      "sha256": "d99f938f6d65d98ced6fe99365ceef84ed2c515810cb764d59244cd73e914507",
+      "bytes": 548354,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:42:27 UTC; unix"
+    },
+    {
+      "id": "mac-r-numDeriv",
+      "kind": "r-mac-binary",
+      "name": "numDeriv",
+      "version": "2016.8-1.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/numDeriv_2016.8-1.1.tgz",
+      "filename": "numDeriv_2016.8-1.1.tgz",
+      "license": "GPL-2",
+      "profiles": [
+        "core",
+        "standard"
+      ],
+      "index_version_observed": "2016.8-1.1",
+      "sha256": "cbbb50a0f0474265c6cbb55672a625be8b1382ad5507b0137c0db74e4491523e",
+      "bytes": 114928,
+      "built": "R 4.6.0; ; 2026-04-25 15:42:27 UTC; unix"
+    },
+    {
+      "id": "mac-r-pbapply",
+      "kind": "r-mac-binary",
+      "name": "pbapply",
+      "version": "1.7-5",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/pbapply_1.7-5.tgz",
+      "filename": "pbapply_1.7-5.tgz",
+      "license": "GPL (>= 2)",
+      "profiles": [
+        "core",
+        "standard"
+      ],
+      "index_version_observed": "1.7-5",
+      "sha256": "993994d7e454914f0387dd4fd6125b8a6e891ea413949f4a9f0ab8803299c2b0",
+      "bytes": 100667,
+      "built": "R 4.6.1; ; 2026-09-01 12:39:47 UTC; unix"
+    },
+    {
+      "id": "mac-r-pillar",
+      "kind": "r-mac-binary",
+      "name": "pillar",
+      "version": "1.11.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/pillar_1.11.1.tgz",
+      "filename": "pillar_1.11.1.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.11.1",
+      "sha256": "75c5fd903e337290ba278b56d3bf325c5b0d6e9ceba2196bae4bf35274d6eb2f",
+      "bytes": 661969,
+      "built": "R 4.6.0; ; 2026-04-25 11:14:26 UTC; unix"
+    },
+    {
+      "id": "mac-r-pkgconfig",
+      "kind": "r-mac-binary",
+      "name": "pkgconfig",
+      "version": "2.0.3",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/pkgconfig_2.0.3.tgz",
+      "filename": "pkgconfig_2.0.3.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.0.3",
+      "sha256": "b0ff5f2b2583a959d22fa62b1ec6c0043d59379c7dc49c9a210552a8b73959ed",
+      "bytes": 18445,
+      "built": "R 4.6.0; ; 2026-04-25 15:40:59 UTC; unix"
+    },
+    {
+      "id": "mac-r-plyr",
+      "kind": "r-mac-binary",
+      "name": "plyr",
+      "version": "1.8.9",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/plyr_1.8.9.tgz",
+      "filename": "plyr_1.8.9.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.8.9",
+      "sha256": "de8c920b7e7cd0e8b2b0a3a60f6a3d3eda2f5938edc831be4ce7e24effed0b5c",
+      "bytes": 1001839,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:43:36 UTC; unix"
+    },
+    {
+      "id": "mac-r-prettyunits",
+      "kind": "r-mac-binary",
+      "name": "prettyunits",
+      "version": "1.2.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/prettyunits_1.2.0.tgz",
+      "filename": "prettyunits_1.2.0.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.2.0",
+      "sha256": "8a8433c4a509a09458a41e21ad149803af60edea25408e2b375f39830d76fa67",
+      "bytes": 156183,
+      "built": "R 4.6.0; ; 2026-04-25 15:44:33 UTC; unix"
+    },
+    {
+      "id": "mac-r-progress",
+      "kind": "r-mac-binary",
+      "name": "progress",
+      "version": "1.2.3",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/progress_1.2.3.tgz",
+      "filename": "progress_1.2.3.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.2.3",
+      "sha256": "03acf947a663f225d3944184b6436d1d463f41073a1e7a7b0a73c9e614034e14",
+      "bytes": 89439,
+      "built": "R 4.6.0; ; 2026-04-25 23:16:07 UTC; unix"
+    },
+    {
+      "id": "mac-r-purrr",
+      "kind": "r-mac-binary",
+      "name": "purrr",
+      "version": "1.2.2",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/purrr_1.2.2.tgz",
+      "filename": "purrr_1.2.2.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.2.2",
+      "sha256": "a3f4c578e2ae652207b35364d3fcac7044cda4cb53499e54fe115e016ce832e9",
+      "bytes": 587799,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 11:14:29 UTC; unix"
+    },
+    {
+      "id": "mac-r-rbibutils",
+      "kind": "r-mac-binary",
+      "name": "rbibutils",
+      "version": "2.4.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/rbibutils_2.4.1.tgz",
+      "filename": "rbibutils_2.4.1.tgz",
+      "license": "GPL-2",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.4.1",
+      "sha256": "04bf58c070a92cc11575e8b49251de8354027c86d87776dd68bbea89e765c401",
+      "bytes": 1334491,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:42:07 UTC; unix"
+    },
+    {
+      "id": "mac-r-readr",
+      "kind": "r-mac-binary",
+      "name": "readr",
+      "version": "2.2.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/readr_2.2.0.tgz",
+      "filename": "readr_2.2.0.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "2.2.0",
+      "sha256": "a79f9cf4168716ae3aa1d275fe9534ab91f7a8b6fe51a927969ec778c9971068",
+      "bytes": 1981626,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-26 15:50:28 UTC; unix"
+    },
+    {
+      "id": "mac-r-reformulas",
+      "kind": "r-mac-binary",
+      "name": "reformulas",
+      "version": "0.4.4",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/reformulas_0.4.4.tgz",
+      "filename": "reformulas_0.4.4.tgz",
+      "license": "GPL-3",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.4.4",
+      "sha256": "a8aa5ed4a6eab01403071ac9c1c5bbbd6e5a21076c8c8d7b3b5568c9717e8720",
+      "bytes": 157769,
+      "built": "R 4.6.0; ; 2026-04-26 02:19:52 UTC; unix"
+    },
+    {
+      "id": "mac-r-reshape2",
+      "kind": "r-mac-binary",
+      "name": "reshape2",
+      "version": "1.4.5",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/reshape2_1.4.5.tgz",
+      "filename": "reshape2_1.4.5.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.4.5",
+      "sha256": "0774797b8596bcc9455c533cdd0c44c675e6617237f1c257ff954ae77f112a9e",
+      "bytes": 370721,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-26 02:20:52 UTC; unix"
+    },
+    {
+      "id": "mac-r-rlang",
+      "kind": "r-mac-binary",
+      "name": "rlang",
+      "version": "1.3.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/rlang_1.3.0.tgz",
+      "filename": "rlang_1.3.0.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.3.0",
+      "sha256": "edc1b88a8c6c26e8f370801677dd03b1348ac00dcc89b6f46ffc67c5e33965a8",
+      "bytes": 1943288,
+      "built": "R 4.6.1; aarch64-apple-darwin23; 2026-07-05 10:40:38 UTC; unix"
+    },
+    {
+      "id": "mac-r-robvis",
+      "kind": "r-mac-binary",
+      "name": "robvis",
+      "version": "0.3.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/robvis_0.3.1.tgz",
+      "filename": "robvis_0.3.1.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.3.1",
+      "sha256": "8537a186eb5b2dd86b16c1a9fe56acbdbe110ac2ffadf8fa44b642a697c6a6ba",
+      "bytes": 1321705,
+      "built": "R 4.6.0; ; 2026-06-02 16:56:26 UTC; unix"
+    },
+    {
+      "id": "mac-r-sandwich",
+      "kind": "r-mac-binary",
+      "name": "sandwich",
+      "version": "3.1-3",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/sandwich_3.1-3.tgz",
+      "filename": "sandwich_3.1-3.tgz",
+      "license": "GPL-2 | GPL-3",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "3.1-3",
+      "sha256": "a3bd02858da3bfd1003148eee3fd23df4622bf0e425b70575d43bc47bb670020",
+      "bytes": 1543544,
+      "built": "R 4.6.1; ; 2026-08-03 13:54:56 UTC; unix"
+    },
+    {
+      "id": "mac-r-scales",
+      "kind": "r-mac-binary",
+      "name": "scales",
+      "version": "1.4.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/scales_1.4.0.tgz",
+      "filename": "scales_1.4.0.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.4.0",
+      "sha256": "01e01385cff48008bac341c514e79506a9c4df6e9b2c026ab996726e37fb42f9",
+      "bytes": 873090,
+      "built": "R 4.6.0; ; 2026-04-25 23:14:37 UTC; unix"
+    },
+    {
+      "id": "mac-r-stringi",
+      "kind": "r-mac-binary",
+      "name": "stringi",
+      "version": "1.8.9",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/stringi_1.8.9.tgz",
+      "filename": "stringi_1.8.9.tgz",
+      "license": "file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.8.9",
+      "sha256": "fd953068a1797b4ae35b7b6b479882c4692d946111a29908a1192a8f691222b3",
+      "bytes": 14788967,
+      "built": "R 4.6.1; aarch64-apple-darwin23; 2026-08-04 18:11:06 UTC; unix"
+    },
+    {
+      "id": "mac-r-stringr",
+      "kind": "r-mac-binary",
+      "name": "stringr",
+      "version": "1.6.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/stringr_1.6.0.tgz",
+      "filename": "stringr_1.6.0.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.6.0",
+      "sha256": "18d978859add36d38d61787327a66710652691204b417954e9130e3a10ad5c45",
+      "bytes": 338009,
+      "built": "R 4.6.0; ; 2026-04-25 11:14:29 UTC; unix"
+    },
+    {
+      "id": "mac-r-tibble",
+      "kind": "r-mac-binary",
+      "name": "tibble",
+      "version": "3.3.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/tibble_3.3.1.tgz",
+      "filename": "tibble_3.3.1.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "3.3.1",
+      "sha256": "c18658af88dbd25005b083137679c67e2bb2768fdf0517ad90914d5aa14cb58e",
+      "bytes": 661970,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-26 05:14:40 UTC; unix"
+    },
+    {
+      "id": "mac-r-tidyr",
+      "kind": "r-mac-binary",
+      "name": "tidyr",
+      "version": "1.3.2",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/tidyr_1.3.2.tgz",
+      "filename": "tidyr_1.3.2.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.3.2",
+      "sha256": "b58265d41e70e04de1542257a279499d0b0ff91e3857289aeaf0f7ccb795e8c9",
+      "bytes": 1331886,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-26 15:50:18 UTC; unix"
+    },
+    {
+      "id": "mac-r-tidyselect",
+      "kind": "r-mac-binary",
+      "name": "tidyselect",
+      "version": "1.2.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/tidyselect_1.2.1.tgz",
+      "filename": "tidyselect_1.2.1.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.2.1",
+      "sha256": "64d91f5013e5f0c505addd4061b901b81d51a278b8e9f2b5bcd6f4178de30e1f",
+      "bytes": 226618,
+      "built": "R 4.6.0; ; 2026-04-26 02:19:10 UTC; unix"
+    },
+    {
+      "id": "mac-r-tzdb",
+      "kind": "r-mac-binary",
+      "name": "tzdb",
+      "version": "0.5.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/tzdb_0.5.0.tgz",
+      "filename": "tzdb_0.5.0.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.5.0",
+      "sha256": "3e35303ea15e11c6c0bc7dac9d14cbc7c8b3780a49d7fde74978341c97f531e9",
+      "bytes": 1315103,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:44:31 UTC; unix"
+    },
+    {
+      "id": "mac-r-utf8",
+      "kind": "r-mac-binary",
+      "name": "utf8",
+      "version": "1.2.6",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/utf8_1.2.6.tgz",
+      "filename": "utf8_1.2.6.tgz",
+      "license": "Apache License (== 2.0) | file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.2.6",
+      "sha256": "1427d3a0fbdc0f38ded6ab6227f4c4f5fa6cf0219977d9fafd38f5e6249000f1",
+      "bytes": 216163,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 15:41:06 UTC; unix"
+    },
+    {
+      "id": "mac-r-vctrs",
+      "kind": "r-mac-binary",
+      "name": "vctrs",
+      "version": "0.7.3",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/vctrs_0.7.3.tgz",
+      "filename": "vctrs_0.7.3.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.7.3",
+      "sha256": "be489b807f8e8353e24dc03ac411b9ee69fa420200550df37215c73e7450538c",
+      "bytes": 2671701,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-25 23:15:23 UTC; unix"
+    },
+    {
+      "id": "mac-r-viridisLite",
+      "kind": "r-mac-binary",
+      "name": "viridisLite",
+      "version": "0.4.3",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/viridisLite_0.4.3.tgz",
+      "filename": "viridisLite_0.4.3.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "0.4.3",
+      "sha256": "9c1f622eb7f9d2679d0ad25321fb85d438e39500e4c2455ff0bafeefc6df3620",
+      "bytes": 1298168,
+      "built": "R 4.6.0; ; 2026-04-25 15:40:19 UTC; unix"
+    },
+    {
+      "id": "mac-r-vroom",
+      "kind": "r-mac-binary",
+      "name": "vroom",
+      "version": "1.7.1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/vroom_1.7.1.tgz",
+      "filename": "vroom_1.7.1.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.7.1",
+      "sha256": "69781b6563d899b139271a9408f34693b1efd2e6749ec973cb80529d5ec56d9f",
+      "bytes": 3257447,
+      "built": "R 4.6.0; aarch64-apple-darwin23; 2026-04-26 11:09:05 UTC; unix"
+    },
+    {
+      "id": "mac-r-withr",
+      "kind": "r-mac-binary",
+      "name": "withr",
+      "version": "3.0.3",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/withr_3.0.3.tgz",
+      "filename": "withr_3.0.3.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "3.0.3",
+      "sha256": "275298ea7376cff75549f822d309b90ad8416812ceacef70011b25c2f2a02f67",
+      "bytes": 225064,
+      "built": "R 4.6.0; ; 2026-06-19 06:07:49 UTC; unix"
+    },
+    {
+      "id": "mac-r-xml2",
+      "kind": "r-mac-binary",
+      "name": "xml2",
+      "version": "1.6.0",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/xml2_1.6.0.tgz",
+      "filename": "xml2_1.6.0.tgz",
+      "license": "MIT + file LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.6.0",
+      "sha256": "98a742a8d8dcca43309c4071f1a95091085ea90d32d48f636f094334337e5386",
+      "bytes": 1035968,
+      "built": "R 4.6.1; aarch64-apple-darwin23; 2026-06-22 16:51:32 UTC; unix"
+    },
+    {
+      "id": "mac-r-zoo",
+      "kind": "r-mac-binary",
+      "name": "zoo",
+      "version": "1.9-1",
+      "url": "https://cran.r-project.org/bin/macosx/sonoma-arm64/contrib/4.6/zoo_1.9-1.tgz",
+      "filename": "zoo_1.9-1.tgz",
+      "license": "GPL-2 | GPL-3",
+      "profiles": [
+        "standard"
+      ],
+      "index_version_observed": "1.9-1",
+      "sha256": "ef4fd153d5a78a56f0ddbbc85740db99188d352b4d6e665035d39525371ab5ec",
+      "bytes": 960012,
+      "built": "R 4.6.1; aarch64-apple-darwin23; 2026-09-25 09:31:13 UTC; unix"
+    },
+    {
+      "id": "mac-py-cffi",
+      "kind": "python-wheel",
+      "name": "cffi",
+      "version": "2.1.1",
+      "url": "https://files.pythonhosted.org/packages/b3/a9/9db617d05d7367c1ad0ab00b3aa6e6f9281edd689b4ee9ea0e5a84e89c97/cffi-2.1.1-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "cffi-2.1.1-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "MIT-0",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "661c298b4821edebead0c91edd2b00374d67ad7c5a1f7a91d4442633b79d6a72",
+      "bytes": 184962,
+      "pypi_metadata_url": "https://pypi.org/pypi/cffi/2.1.1/json"
+    },
+    {
+      "id": "mac-py-charset-normalizer",
+      "kind": "python-wheel",
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "url": "https://files.pythonhosted.org/packages/7c/8a/40db9aa9f5907bb0e6f8b6d64064bf8852fb33d4b813ff9414911df7647c/charset_normalizer-3.5.2-cp314-cp314-macosx_10_15_universal2.whl",
+      "filename": "charset_normalizer-3.5.2-cp314-cp314-macosx_10_15_universal2.whl",
+      "license": "MIT",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "fcff63213e8e6e47770541a4607175404f47cbb3ebea7b6058cc82d524a0e424",
+      "bytes": 367815,
+      "pypi_metadata_url": "https://pypi.org/pypi/charset-normalizer/3.5.2/json"
+    },
+    {
+      "id": "mac-py-cryptography",
+      "kind": "python-wheel",
+      "name": "cryptography",
+      "version": "50.0.2",
+      "url": "https://files.pythonhosted.org/packages/e5/56/d194340cc4a57535e82e1bee9e89667ac4b7c13b5d3f59686deae3094dd5/cryptography-50.0.2-cp311-abi3-macosx_11_0_arm64.whl",
+      "filename": "cryptography-50.0.2-cp311-abi3-macosx_11_0_arm64.whl",
+      "license": "Apache-2.0 OR BSD-3-Clause",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "fa8f5efb344d6908a1ce62f4a24e2e5780f825d6f53f5f50ec5ffacac72936cb",
+      "bytes": 3914904,
+      "pypi_metadata_url": "https://pypi.org/pypi/cryptography/50.0.2/json"
+    },
+    {
+      "id": "mac-py-pdfminer.six",
+      "kind": "python-wheel",
+      "name": "pdfminer.six",
+      "version": "20260107",
+      "url": "https://files.pythonhosted.org/packages/20/8b/28c4eaec9d6b036a52cb44720408f26b1a143ca9bce76cc19e8f5de00ab4/pdfminer_six-20260107-py3-none-any.whl",
+      "filename": "pdfminer_six-20260107-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "366585ba97e80dffa8f00cebe303d2f381884d8637af4ce422f1df3ef38111a9",
+      "bytes": 6592252,
+      "pypi_metadata_url": "https://pypi.org/pypi/pdfminer.six/20260107/json"
+    },
+    {
+      "id": "mac-py-pdfplumber",
+      "kind": "python-wheel",
+      "name": "pdfplumber",
+      "version": "0.11.10",
+      "url": "https://files.pythonhosted.org/packages/a2/9a/07d658e1e7fad860f1c541ab941348125dbdab773be3a0afaf32361866c7/pdfplumber-0.11.10-py3-none-any.whl",
+      "filename": "pdfplumber-0.11.10-py3-none-any.whl",
+      "license": "SEE_UPSTREAM_LICENSE",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "7741ea81bf165b474b153e6789d10d18e06b6ddcf3ec84289c3ef2fed6802580",
+      "bytes": 60047,
+      "pypi_metadata_url": "https://pypi.org/pypi/pdfplumber/0.11.10/json"
+    },
+    {
+      "id": "mac-py-pillow",
+      "kind": "python-wheel",
+      "name": "pillow",
+      "version": "13.0.0",
+      "url": "https://files.pythonhosted.org/packages/b5/f4/0bf6f1ac9ba7ee2ffe9914aeb410a1035a0c1a3c42f122388d7fc950bc4b/pillow-13.0.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "pillow-13.0.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "MIT-CMU",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "d9b0a2bee3f3e03e9f29057aedb807dbf1e1d96ee1b9d0f422d9db6c8583271d",
+      "bytes": 4852269,
+      "pypi_metadata_url": "https://pypi.org/pypi/pillow/13.0.0/json"
+    },
+    {
+      "id": "mac-py-pycparser",
+      "kind": "python-wheel",
+      "name": "pycparser",
+      "version": "3.12",
+      "url": "https://files.pythonhosted.org/packages/b6/ae/315bbeee126a769cbde43cf4908acb4b40408d8bf8bbf334dd7368d8dadf/pycparser-3.12-py3-none-any.whl",
+      "filename": "pycparser-3.12-py3-none-any.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "a076f3f489b39b43ed13563a1dafe42447445bec2e294154ec5c57fcdda4c85e",
+      "bytes": 62600,
+      "pypi_metadata_url": "https://pypi.org/pypi/pycparser/3.12/json"
+    },
+    {
+      "id": "mac-py-pypdfium2",
+      "kind": "python-wheel",
+      "name": "pypdfium2",
+      "version": "5.14.0",
+      "url": "https://files.pythonhosted.org/packages/d1/ea/14673bc9d8b7beeaa1eb46e9951b22543edaf2a4676c586e3b1e032ff6ee/pypdfium2-5.14.0-py3-none-macosx_13_0_arm64.whl",
+      "filename": "pypdfium2-5.14.0-py3-none-macosx_13_0_arm64.whl",
+      "license": "BSD-3-Clause, Apache-2.0, dependency licenses",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "2de384df66ba55fcaab0775f30f28ec1090af3dfa60276a07821efc96d993118",
+      "bytes": 3542294,
+      "pypi_metadata_url": "https://pypi.org/pypi/pypdfium2/5.14.0/json"
+    },
+    {
+      "id": "mac-py-attrs",
+      "kind": "python-wheel",
+      "name": "attrs",
+      "version": "26.1.0",
+      "url": "https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl",
+      "filename": "attrs-26.1.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309",
+      "bytes": 67548,
+      "pypi_metadata_url": "https://pypi.org/pypi/attrs/26.1.0/json"
+    },
+    {
+      "id": "mac-py-bib-dedupe",
+      "kind": "python-wheel",
+      "name": "bib-dedupe",
+      "version": "0.11.0",
+      "url": "https://files.pythonhosted.org/packages/9e/e7/5528c262f460baee7ce7a3121cc065339bde62bf1ad6f7aeabfab5ef4da7/bib_dedupe-0.11.0-py3-none-any.whl",
+      "filename": "bib_dedupe-0.11.0-py3-none-any.whl",
+      "license": "MIT License",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "acc4f20f7ead74f88fba1a8e194e8cff8a79f6e99fbe5233c6aba38dda4a98e0",
+      "bytes": 69209,
+      "pypi_metadata_url": "https://pypi.org/pypi/bib-dedupe/0.11.0/json"
+    },
+    {
+      "id": "mac-py-certifi",
+      "kind": "python-wheel",
+      "name": "certifi",
+      "version": "2026.10.23",
+      "url": "https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl",
+      "filename": "certifi-2026.10.23-py3-none-any.whl",
+      "license": "MPL-2.0",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1",
+      "bytes": 135082,
+      "pypi_metadata_url": "https://pypi.org/pypi/certifi/2026.10.23/json"
+    },
+    {
+      "id": "mac-py-colorama",
+      "kind": "python-wheel",
+      "name": "colorama",
+      "version": "0.4.6",
+      "url": "https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl",
+      "filename": "colorama-0.4.6-py2.py3-none-any.whl",
+      "license": "NOT_DECLARED_IN_METADATA",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6",
+      "bytes": 25335,
+      "pypi_metadata_url": "https://pypi.org/pypi/colorama/0.4.6/json"
+    },
+    {
+      "id": "mac-py-idna",
+      "kind": "python-wheel",
+      "name": "idna",
+      "version": "3.20",
+      "url": "https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl",
+      "filename": "idna-3.20-py3-none-any.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "bytes": 69583,
+      "pypi_metadata_url": "https://pypi.org/pypi/idna/3.20/json"
+    },
+    {
+      "id": "mac-py-number-parser",
+      "kind": "python-wheel",
+      "name": "number-parser",
+      "version": "0.3.2",
+      "url": "https://files.pythonhosted.org/packages/c7/33/85138cd4a8561d7f1722490612d30cbfab170fd6d38021b193072eecc1db/number_parser-0.3.2-py2.py3-none-any.whl",
+      "filename": "number_parser-0.3.2-py2.py3-none-any.whl",
+      "license": "NOT_DECLARED_IN_METADATA",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "beb20ce4c66d8e8f34dde1512a21f7c2a2aa3b068c60e230c4388d548ef3e3ca",
+      "bytes": 51260,
+      "pypi_metadata_url": "https://pypi.org/pypi/number-parser/0.3.2/json"
+    },
+    {
+      "id": "mac-py-numpy",
+      "kind": "python-wheel",
+      "name": "numpy",
+      "version": "2.5.4",
+      "url": "https://files.pythonhosted.org/packages/d5/b2/c6ce165acffceb15a82c07b9cc77d391f86b3f379ba62911908ae5d34b91/numpy-2.5.4-cp314-cp314-macosx_14_0_arm64.whl",
+      "filename": "numpy-2.5.4-cp314-cp314-macosx_14_0_arm64.whl",
+      "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "956555e0603a4d38019ae6925711cb9dc43195c076a928accf7ea5d50bddfe53",
+      "bytes": 5455617,
+      "pypi_metadata_url": "https://pypi.org/pypi/numpy/2.5.4/json"
+    },
+    {
+      "id": "mac-py-pandas",
+      "kind": "python-wheel",
+      "name": "pandas",
+      "version": "3.1.0",
+      "url": "https://files.pythonhosted.org/packages/83/38/6be618d98e2cbbb99a40349717532f0c2b6794ddc62f1199e3f83e45a40f/pandas-3.1.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "pandas-3.1.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "BSD-3-Clause",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "89b66823678cdd53cf97187e7cd6861402bdd147d11a383706093136a4e83f45",
+      "bytes": 11262553,
+      "pypi_metadata_url": "https://pypi.org/pypi/pandas/3.1.0/json"
+    },
+    {
+      "id": "mac-py-python-dateutil",
+      "kind": "python-wheel",
+      "name": "python-dateutil",
+      "version": "3.0.0",
+      "url": "https://files.pythonhosted.org/packages/5a/17/cebee01d1c0c1441174cf0456ddc91b280d79acb65340c05e41d77866ee8/python_dateutil-3.0.0-py2.py3-none-any.whl",
+      "filename": "python_dateutil-3.0.0-py2.py3-none-any.whl",
+      "license": "Dual License",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd",
+      "bytes": 94659,
+      "pypi_metadata_url": "https://pypi.org/pypi/python-dateutil/3.0.0/json"
+    },
+    {
+      "id": "mac-py-RapidFuzz",
+      "kind": "python-wheel",
+      "name": "RapidFuzz",
+      "version": "3.14.6",
+      "url": "https://files.pythonhosted.org/packages/3e/28/282e8c76b7dcc91e8f5aa1a594168d2136639f29dfda11384c6d36aabca0/rapidfuzz-3.14.6-cp314-cp314-macosx_11_0_arm64.whl",
+      "filename": "rapidfuzz-3.14.6-cp314-cp314-macosx_11_0_arm64.whl",
+      "license": "MIT",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "8fa7d45388dec34a86038f2a38380f4922b74b5dd8991247f629a531178db10f",
+      "bytes": 1246072,
+      "pypi_metadata_url": "https://pypi.org/pypi/RapidFuzz/3.14.6/json"
+    },
+    {
+      "id": "mac-py-requests",
+      "kind": "python-wheel",
+      "name": "requests",
+      "version": "2.34.2",
+      "url": "https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl",
+      "filename": "requests-2.34.2-py3-none-any.whl",
+      "license": "Apache-2.0",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "bytes": 73075,
+      "pypi_metadata_url": "https://pypi.org/pypi/requests/2.34.2/json"
+    },
+    {
+      "id": "mac-py-search-query",
+      "kind": "python-wheel",
+      "name": "search-query",
+      "version": "0.15.0",
+      "url": "https://files.pythonhosted.org/packages/1f/1f/71b1cfce6dd2c6b05bb334e8fb60a0c43ef05acd79267ccb3a26ac598d51/search_query-0.15.0-py3-none-any.whl",
+      "filename": "search_query-0.15.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "c73af1eb06a26b3863c38151c2dfecf3a1945f8df6a9608aec0b7970ee1ac638",
+      "bytes": 112122,
+      "pypi_metadata_url": "https://pypi.org/pypi/search-query/0.15.0/json"
+    },
+    {
+      "id": "mac-py-six",
+      "kind": "python-wheel",
+      "name": "six",
+      "version": "1.17.0",
+      "url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+      "filename": "six-1.17.0-py2.py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "bytes": 11050,
+      "pypi_metadata_url": "https://pypi.org/pypi/six/1.17.0/json"
+    },
+    {
+      "id": "mac-py-tqdm",
+      "kind": "python-wheel",
+      "name": "tqdm",
+      "version": "4.70.1",
+      "url": "https://files.pythonhosted.org/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl",
+      "filename": "tqdm-4.70.1-py3-none-any.whl",
+      "license": "MPL-2.0 AND MIT",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
+      "bytes": 80199,
+      "pypi_metadata_url": "https://pypi.org/pypi/tqdm/4.70.1/json"
+    },
+    {
+      "id": "mac-py-tzdata",
+      "kind": "python-wheel",
+      "name": "tzdata",
+      "version": "2026.5",
+      "url": "https://files.pythonhosted.org/packages/94/21/1e5995a1c920cce14e4bffae20c665ec10e7ed03ab25e006cd741092b718/tzdata-2026.5-py2.py3-none-any.whl",
+      "filename": "tzdata-2026.5-py2.py3-none-any.whl",
+      "license": "Apache-2.0",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac",
+      "bytes": 347996,
+      "pypi_metadata_url": "https://pypi.org/pypi/tzdata/2026.5/json"
+    },
+    {
+      "id": "mac-py-urllib3",
+      "kind": "python-wheel",
+      "name": "urllib3",
+      "version": "2.8.0",
+      "url": "https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl",
+      "filename": "urllib3-2.8.0-py3-none-any.whl",
+      "license": "MIT",
+      "profiles": [
+        "standard"
+      ],
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "bytes": 135717,
+      "pypi_metadata_url": "https://pypi.org/pypi/urllib3/2.8.0/json"
+    }
+  ],
+  "system_python": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3.14",
+  "system_rscript": "/Library/Frameworks/R.framework/Versions/4.6-arm64/Resources/bin/Rscript",
+  "hash_basis": "Official HTTPS acquisition; PyPI supplied SHA256 where available; native packages require Apple pkgutil signature check at install"
+}

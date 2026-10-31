@@ -1,0 +1,16 @@
+{
+  "source_kind": "synthetic_fixture",
+  "outcome": "synthetic outcome",
+  "timepoint": "week 12",
+  "adjustment": "unadjusted",
+  "alpha": 0.05,
+  "effect_direction": "lower is better",
+  "schema": "meta-network-plan-v1",
+  "reference_treatment": "A",
+  "effect_type": "MD",
+  "model": "RE",
+  "tau_method": "REML",
+  "small_values": "good",
+  "multiarm_policy": "two_arm_only",
+  "transitivity_rationale": "Wholly synthetic common endpoint and population for method smoke only"
+}

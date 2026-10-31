@@ -1,0 +1,43 @@
+﻿study,outcome,group,unit,unit_note,sample_size,mean,sd,events,footnote_marker,source_table,source_row,source_column,source_cell_text,source_study_cell,source_doi
+Smith et al,recurrence,non_fixation,,Not explicitly stated in this supplementary table; do not infer,263,,,0,,1,3,2,0 (263),Smith et al,10.1371/journal.pone.0314334.s005
+Smith et al,recurrence,fixation,,Not explicitly stated in this supplementary table; do not infer,273,,,3,,1,3,3,3 (273),Smith et al,10.1371/journal.pone.0314334.s005
+Li et al,recurrence,non_fixation,,Not explicitly stated in this supplementary table; do not infer,50,,,0,,1,4,2,0 (50),Li et al,10.1371/journal.pone.0314334.s005
+Li et al,recurrence,fixation,,Not explicitly stated in this supplementary table; do not infer,50,,,0,,1,4,3,0 (50),Li et al,10.1371/journal.pone.0314334.s005
+Kalidarei et al,recurrence,non_fixation,,Not explicitly stated in this supplementary table; do not infer,48,,,2,,1,5,2,2 (48),Kalidarei et al,10.1371/journal.pone.0314334.s005
+Kalidarei et al,recurrence,fixation,,Not explicitly stated in this supplementary table; do not infer,48,,,0,,1,5,3,0 (48),Kalidarei et al,10.1371/journal.pone.0314334.s005
+Habeeb et al,recurrence,non_fixation,,Not explicitly stated in this supplementary table; do not infer,266,,,2,,1,6,2,2 (266),Habeeb et al,10.1371/journal.pone.0314334.s005
+Habeeb et al,recurrence,fixation,,Not explicitly stated in this supplementary table; do not infer,532,,,3,,1,6,3,3 (532),Habeeb et al,10.1371/journal.pone.0314334.s005
+Azevedo et al,recurrence,non_fixation,,Not explicitly stated in this supplementary table; do not infer,21,,,0,,1,7,2,0 (21),Azevedo et al,10.1371/journal.pone.0314334.s005
+Azevedo et al,recurrence,fixation,,Not explicitly stated in this supplementary table; do not infer,42,,,0,,1,7,3,0 (42),Azevedo et al,10.1371/journal.pone.0314334.s005
+Meshkati et al,recurrence,non_fixation,,Not explicitly stated in this supplementary table; do not infer,50,,,0,,1,8,2,0 (50),Meshkati et al,10.1371/journal.pone.0314334.s005
+Meshkati et al,recurrence,fixation,,Not explicitly stated in this supplementary table; do not infer,50,,,1,,1,8,3,1 (50),Meshkati et al,10.1371/journal.pone.0314334.s005
+Li et al,pain_6_months,non_fixation,VAS score,VAS 0-10 described in article Methods/Results,50,0.8,0.3,,,2,3,2,0.8±0.3 (50),Li et al,10.1371/journal.pone.0314334.s005
+Li et al,pain_6_months,fixation,VAS score,VAS 0-10 described in article Methods/Results,50,1.0,0.1,,,2,3,3,1.0±0.1 (50),Li et al,10.1371/journal.pone.0314334.s005
+Kalidarei et al,pain_6_months,non_fixation,VAS score,VAS 0-10 described in article Methods/Results,39,0.26,0.59,,,2,4,2,0.26±0.59 (39),Kalidarei et al,10.1371/journal.pone.0314334.s005
+Kalidarei et al,pain_6_months,fixation,VAS score,VAS 0-10 described in article Methods/Results,41,0.66,1.17,,,2,4,3,0.66±1.17 (41),Kalidarei et al,10.1371/journal.pone.0314334.s005
+Meshkati et al,pain_6_months,non_fixation,VAS score,VAS 0-10 described in article Methods/Results,50,0.02,0.14,,a,2,5,2,0.02±0.14 (50)a,Meshkati et al,10.1371/journal.pone.0314334.s005
+Meshkati et al,pain_6_months,fixation,VAS score,VAS 0-10 described in article Methods/Results,50,0.12,0.33,,a,2,5,3,0.12±0.33 (50)a,Meshkati et al,10.1371/journal.pone.0314334.s005
+Smith et al,infection,non_fixation,,Not explicitly stated in this supplementary table; do not infer,253,,,4,,3,3,2,4 (253),Smith et al,10.1371/journal.pone.0314334.s005
+Smith et al,infection,fixation,,Not explicitly stated in this supplementary table; do not infer,249,,,5,,3,3,3,5 (249),Smith et al,10.1371/journal.pone.0314334.s005
+Li et al,infection,non_fixation,,Not explicitly stated in this supplementary table; do not infer,50,,,0,,3,4,2,0 (50),Li et al,10.1371/journal.pone.0314334.s005
+Li et al,infection,fixation,,Not explicitly stated in this supplementary table; do not infer,50,,,0,,3,4,3,0 (50),Li et al,10.1371/journal.pone.0314334.s005
+Kalidarei et al,infection,non_fixation,,Not explicitly stated in this supplementary table; do not infer,39,,,2,,3,5,2,2 (39),Kalidarei et al,10.1371/journal.pone.0314334.s005
+Kalidarei et al,infection,fixation,,Not explicitly stated in this supplementary table; do not infer,41,,,0,,3,5,3,0 (41),Kalidarei et al,10.1371/journal.pone.0314334.s005
+Habeeb et al,infection,non_fixation,,Not explicitly stated in this supplementary table; do not infer,266,,,0,,3,6,2,0 (266),Habeeb et al,10.1371/journal.pone.0314334.s005
+Habeeb et al,infection,fixation,,Not explicitly stated in this supplementary table; do not infer,532,,,0,,3,6,3,0 (532),Habeeb et al,10.1371/journal.pone.0314334.s005
+Smith et al,seroma,non_fixation,,Not explicitly stated in this supplementary table; do not infer,234,,,35,,4,3,2,35 (234),Smith et al,10.1371/journal.pone.0314334.s005
+Smith et al,seroma,fixation,,Not explicitly stated in this supplementary table; do not infer,213,,,24,,4,3,3,24 (213),Smith et al,10.1371/journal.pone.0314334.s005
+Li et al,seroma,non_fixation,,Not explicitly stated in this supplementary table; do not infer,50,,,4,,4,4,2,4 (50),Li et al,10.1371/journal.pone.0314334.s005
+Li et al,seroma,fixation,,Not explicitly stated in this supplementary table; do not infer,50,,,5,,4,4,3,5 (50),Li et al,10.1371/journal.pone.0314334.s005
+Kalidarei et al,seroma,non_fixation,,Not explicitly stated in this supplementary table; do not infer,39,,,2,,4,5,2,2 (39),Kalidarei et al,10.1371/journal.pone.0314334.s005
+Kalidarei et al,seroma,fixation,,Not explicitly stated in this supplementary table; do not infer,41,,,3,,4,5,3,3 (41),Kalidarei et al,10.1371/journal.pone.0314334.s005
+Habeeb et al,seroma,non_fixation,,Not explicitly stated in this supplementary table; do not infer,266,,,1,,4,6,2,1 (266),Habeeb et al,10.1371/journal.pone.0314334.s005
+Habeeb et al,seroma,fixation,,Not explicitly stated in this supplementary table; do not infer,532,,,17,,4,6,3,17 (532),Habeeb et al,10.1371/journal.pone.0314334.s005
+Azevedo et al,seroma,non_fixation,,Not explicitly stated in this supplementary table; do not infer,21,,,2,,4,7,2,2 (21),Azevedo et al,10.1371/journal.pone.0314334.s005
+Azevedo et al,seroma,fixation,,Not explicitly stated in this supplementary table; do not infer,42,,,3,,4,7,3,3 (42),Azevedo et al,10.1371/journal.pone.0314334.s005
+Smith et al,time_to_normal_activity,non_fixation,,Not explicitly stated in this supplementary table; do not infer,253,12.0,9.17,,a,5,3,2,12±9.17 (253) a,Smith et al,10.1371/journal.pone.0314334.s005
+Smith et al,time_to_normal_activity,fixation,,Not explicitly stated in this supplementary table; do not infer,249,13.0,10.83,,a,5,3,3,13±10.83 (249) a,Smith et al,10.1371/journal.pone.0314334.s005
+Kalidarei et al,time_to_normal_activity,non_fixation,,Not explicitly stated in this supplementary table; do not infer,39,6.9,1.92,,,5,4,2,6.90±1.92 (39),Kalidarei et al,10.1371/journal.pone.0314334.s005
+Kalidarei et al,time_to_normal_activity,fixation,,Not explicitly stated in this supplementary table; do not infer,41,8.79,2.27,,,5,4,3,8.79±2.27 (41),Kalidarei et al,10.1371/journal.pone.0314334.s005
+Meshkati et al,time_to_normal_activity,non_fixation,,Not explicitly stated in this supplementary table; do not infer,50,6.0,2.62,,b,5,5,2,6±2.62 (50) b,Meshkati et al,10.1371/journal.pone.0314334.s005
+Meshkati et al,time_to_normal_activity,fixation,,Not explicitly stated in this supplementary table; do not infer,50,18.0,5.24,,b,5,5,3,18±5.24 (50) b,Meshkati et al,10.1371/journal.pone.0314334.s005

@@ -1,0 +1,212 @@
+[
+  {
+    "source_table": 1,
+    "source_row": 3,
+    "cells": [
+      "Smith et al",
+      "0 (263)",
+      "3 (273)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 1,
+    "source_row": 4,
+    "cells": [
+      "Li et al",
+      "0 (50)",
+      "0 (50)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 1,
+    "source_row": 5,
+    "cells": [
+      "Kalidarei et al",
+      "2 (48)",
+      "0 (48)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 1,
+    "source_row": 6,
+    "cells": [
+      "Habeeb et al",
+      "2 (266)",
+      "3 (532)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 1,
+    "source_row": 7,
+    "cells": [
+      "Azevedo et al",
+      "0 (21)",
+      "0 (42)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 1,
+    "source_row": 8,
+    "cells": [
+      "Meshkati et al",
+      "0 (50)",
+      "1 (50)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 2,
+    "source_row": 3,
+    "cells": [
+      "Li et al",
+      "0.8±0.3 (50)",
+      "1.0±0.1 (50)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 2,
+    "source_row": 4,
+    "cells": [
+      "Kalidarei et al",
+      "0.26±0.59 (39)",
+      "0.66±1.17 (41)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 2,
+    "source_row": 5,
+    "cells": [
+      "Meshkati et al",
+      "0.02±0.14 (50)a",
+      "0.12±0.33 (50)a"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 3,
+    "source_row": 3,
+    "cells": [
+      "Smith et al",
+      "4 (253)",
+      "5 (249)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 3,
+    "source_row": 4,
+    "cells": [
+      "Li et al",
+      "0 (50)",
+      "0 (50)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 3,
+    "source_row": 5,
+    "cells": [
+      "Kalidarei et al",
+      "2 (39)",
+      "0 (41)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 3,
+    "source_row": 6,
+    "cells": [
+      "Habeeb et al",
+      "0 (266)",
+      "0 (532)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 4,
+    "source_row": 3,
+    "cells": [
+      "Smith et al",
+      "35 (234)",
+      "24 (213)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 4,
+    "source_row": 4,
+    "cells": [
+      "Li et al",
+      "4 (50)",
+      "5 (50)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 4,
+    "source_row": 5,
+    "cells": [
+      "Kalidarei et al",
+      "2 (39)",
+      "3 (41)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 4,
+    "source_row": 6,
+    "cells": [
+      "Habeeb et al",
+      "1 (266)",
+      "17 (532)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 4,
+    "source_row": 7,
+    "cells": [
+      "Azevedo et al",
+      "2 (21)",
+      "3 (42)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 5,
+    "source_row": 3,
+    "cells": [
+      "Smith et al",
+      "12±9.17 (253) a",
+      "13±10.83 (249) a"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 5,
+    "source_row": 4,
+    "cells": [
+      "Kalidarei et al",
+      "6.90±1.92 (39)",
+      "8.79±2.27 (41)"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  },
+  {
+    "source_table": 5,
+    "source_row": 5,
+    "cells": [
+      "Meshkati et al",
+      "6±2.62 (50) b",
+      "18±5.24 (50) b"
+    ],
+    "origin": "user-supplied first-five-table execution input; headers not supplied"
+  }
+]
