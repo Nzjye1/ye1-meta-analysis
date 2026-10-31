@@ -1,0 +1,14 @@
+{
+  "bytes": 838111,
+  "sha256": "8dd7b774bf8997af5ced1868845ab3b3b67347a5ba640239555b4c08accaddf2",
+  "source_commit": "7077a174875fa6d8b2cb44cb158835b53040bdca",
+  "tested_code_commit": "fa3f7e6c164a908d5b961d751a7b755f69fd4618",
+  "members": 178,
+  "crc": "PASS",
+  "full_extract": "PASS",
+  "filename": "Ye1-Meta-macOS-arm64-Online-20261031.zip",
+  "ci_url": "https://github.com/Nzjye1/ye1-meta-analysis/actions/runs/41162223909",
+  "platform": "macOS 15.8.2 arm64 actual CI; minimum macOS 14",
+  "third_party_runtime_included": false,
+  "installation_download_bytes": 328985895
+}
