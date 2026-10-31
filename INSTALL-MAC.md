@@ -11,7 +11,7 @@ bash launch.sh "$HOME/Ye1 Meta Runtime" standard check
 
 首次安装需联网，standard 的固定文件合计 328,985,895 字节（约 314 MiB），不含网络协议开销。运行目录建议预留至少 2 GB。`core` 仅安装两两统计核心；频率学网络、诊断、多阈值、剂量反应、相关效应、单组和常用 PDF 解析使用 `standard`。
 
-安装器从 Python、CRAN、PyPI 官方文件服务器获取固定版本，逐文件核验 SHA256。Python 3.14.5 与 R 4.6.1 使用官方签名 macOS PKG，通过系统安装器写入 `/Library/Frameworks`，需要正常管理员授权；它们不是完全隔离的应用内运行时。若该电脑已有其他版本，请先让 Agent 说明同版本框架可能被安装器更新，再由用户确认。此操作不修改安全策略或全局环境变量。
+安装器从 Python、CRAN、PyPI 官方文件服务器获取固定版本，逐文件核验 SHA256。Python 3.14.5 与 R 4.6.1 使用官方签名 macOS PKG，通过系统安装器写入 `/Library/Frameworks`，需要正常管理员授权；它们不是完全隔离的应用内运行时。若电脑已有 Python 3.14 或 R 4.6，官方安装器可能更新同版本框架；Agent 应说明这个影响，并依照用户本次安装授权执行。官方安装器会安装系统框架、应用及命令行链接；启动使用明确路径，不修改安全策略。Python HTTPS 使用锁定 certifi wheel 的运行目录内 CA 文件，不借用 runner 已有证书配置。
 
 Python 包位于运行目录的 `python/standard`，R 包位于 `libraries/r-extended`，启动时仅为子进程配置路径。安装器核验所有锁定 R 包的实际加载位置及 Python 包版本和导入路径；`READY` 表示校验完成。依赖锁在 `dependencies/macos-arm64-lock.json`。
 
@@ -21,7 +21,7 @@ Python 包位于运行目录的 `python/standard`，R 包位于 `libraries/r-ext
 
 ```bash
 bash launch.sh "$HOME/Ye1 Meta Runtime" standard meta --help
-bash launch.sh "$HOME/Ye1 Meta Runtime" standard meta run --project /path/to/project.json --rscript /Library/Frameworks/R.framework/Versions/4.6-arm64/Resources/bin/Rscript --out /path/to/new-result
+bash launch.sh "$HOME/Ye1 Meta Runtime" standard meta run --project /path/to/project.json --rscript /Library/Frameworks/R.framework/Resources/bin/Rscript --out /path/to/new-result
 ```
 
 全文仍优先 XML/HTML，并保留 PDF 解析。standard 提供 pdfplumber/pdfminer/pypdfium2；缺少全文时由用户补充。可选 Docling 的 Windows 安装方案和模型清单保留，Mac Docling 模型安装不包含在本次 standard 入口中，不能假称已完成模型推理验收。

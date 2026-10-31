@@ -1,5 +1,7 @@
 # 安装与使用
 
+Apple 芯片 macOS 请读 [Mac 联网安装说明](INSTALL-MAC.md)，使用 `setup-online.sh` 与 `launch.sh`。以下为 Windows x64 步骤。
+
 在 Windows x64 上，将仓库或安装 ZIP 完整解压，交给具备本地文件读写和命令执行能力的 Agent，先读 SKILL.md。本目录需要保持 app、tools、dependencies 与入口文件的相对位置。
 
 ## 官方依赖准备

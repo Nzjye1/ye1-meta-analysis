@@ -13,3 +13,5 @@
 | Heron / TableFormer 模型 | 固定官方 repo commit 与逐文件 SHA；分别 Apache-2.0 / CDLA-Permissive-2.0，保留模型卡与原许可 |
 
 下载至个人专用目录并不改变任何第三方的原许可。使用安装参数 I_ACCEPT 前，用户应已允许本次安装并接受适用条款；软件组件、研究数据、论文与模型均保留各自权利。
+
+Mac arm64 的官方安装包与二进制依赖固定记录在 [macos-arm64-lock.json](dependencies/macos-arm64-lock.json)，对应 Python 官方 universal2 PKG、CRAN arm64 R PKG/tgz 和 PyPI arm64/universal wheels。Mac 联网 ZIP 同样不内含这些第三方原生文件；安装后保留原软件包许可。

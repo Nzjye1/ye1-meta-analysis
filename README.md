@@ -1,14 +1,14 @@
 # 安装到你的 Agent
 
-适用于 **Windows x64**，由能读写本地文件并执行命令的 Agent 使用。
+适用于 **Windows x64、Apple 芯片 macOS 14+**，由能读写本地文件和执行命令的 Agent 使用。
 
-把下面一句复制给 Agent：
+任选一句复制给 Agent：
 
-> 请从 https://github.com/Nzjye1/ye1-meta-analysis 获取 Ye1 Meta，先读 SKILL.md 和 INSTALL.md，准备官方依赖并完成环境自检，然后告诉我如何开始。
+> 从 https://github.com/Nzjye1/ye1-meta-analysis/tree/feature/macos-arm64-online-20261031 获取 Ye1 Meta，识别我的系统，先读 SKILL.md 和对应平台安装说明，准备官方依赖并完成自检，然后告诉我如何开始。
 
-> 我想做一项 Meta 分析，请从这个仓库获取 Ye1 Meta 并按包内说明准备环境和自检，再帮我明确研究问题、PICO、结局及需要提供的材料：https://github.com/Nzjye1/ye1-meta-analysis 。
+> 我要做一个 Meta 分析，请从 https://github.com/Nzjye1/ye1-meta-analysis/tree/feature/macos-arm64-online-20261031 安装适合我系统的 Ye1 Meta，完成自检，再帮我明确研究问题、PICO、结局和需要提供的材料。
 
-> 我已有方案、题录或研究级汇总数据，请从这个仓库获取 Ye1 Meta、读说明并检查运行环境，带我选择合适路线、确认配置并开始分析：https://github.com/Nzjye1/ye1-meta-analysis 。
+> 我已有题录、合法全文或研究汇总数据，请从 https://github.com/Nzjye1/ye1-meta-analysis/tree/feature/macos-arm64-online-20261031 获取 Ye1 Meta，按系统安装并自检，选择分析路线、确认方案后开始分析。
 
 ## Ye1 Meta｜系统综述与 Meta 分析 Skill
 
@@ -19,11 +19,15 @@
 ## 下载与开始
 
 - [Windows 安装 ZIP：首次联网准备官方依赖](https://github.com/Nzjye1/ye1-meta-analysis/raw/refs/heads/main/downloads/Ye1-Meta-Online-Candidate-20261031-r-version-fix.zip)
-- [ZIP 的 SHA256](downloads/SHA256SUMS.txt)
-- [获取本仓库源码](https://github.com/Nzjye1/ye1-meta-analysis/archive/refs/heads/main.zip)
+- [Windows ZIP 的 SHA256](downloads/SHA256SUMS.txt)
+- [Apple 芯片 Mac 联网安装 ZIP](https://github.com/Nzjye1/ye1-meta-analysis/raw/refs/heads/feature/macos-arm64-online-20261031/downloads/Ye1-Meta-macOS-arm64-Online-20261031.zip)
+- [Mac ZIP 的 SHA256](https://github.com/Nzjye1/ye1-meta-analysis/blob/feature/macos-arm64-online-20261031/downloads/MACOS-SHA256SUMS.txt) · [Mac 安装与恢复说明](INSTALL-MAC.md)
+- [获取本分支源码](https://github.com/Nzjye1/ye1-meta-analysis/archive/refs/heads/feature/macos-arm64-online-20261031.zip)
 - [安装与使用说明](INSTALL.md) · [Agent 指令](SKILL.md)
 
-安装 ZIP 已包含 Skill、源码与安装脚本；首次使用从固定官方来源取得 Python、R 和依赖。标准安装下载约 **277 MB**，需要结构化 PDF 解析时可按需追加 Docling 和本地模型。详细命令放在 [INSTALL.md](INSTALL.md)，交给 Agent 按本机环境执行即可。
+安装 ZIP 已包含 Skill、源码与安装脚本；首次使用从固定官方来源取得 Python、R 和依赖。Windows 标准安装下载约 **277 MB**，Mac 约 **329 MB**，Windows 需要结构化 PDF 解析时可按需追加 Docling 和本地模型；Mac standard 保留常用 PDF 解析。详细命令放在 [INSTALL.md](INSTALL.md)，交给 Agent 按本机环境执行即可。
+
+Apple 芯片版本已在 GitHub 的真实 macOS arm64 环境完成联网安装、PLOS 文献案例重算和图表/Word 输出，并通过网络 DL/REML 基本回归：[查看运行结果](https://github.com/Nzjye1/ye1-meta-analysis/actions/runs/41162223909)。
 
 ## 从已有材料继续
 
