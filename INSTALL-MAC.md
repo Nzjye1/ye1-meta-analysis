@@ -33,6 +33,6 @@ bash launch.sh "$HOME/Ye1 Meta Docling Runtime" docling check
 
 Docling 配置从固定官方来源下载 225 项、合计 1,188,354,313 字节；已有同锁缓存可复用。客户离线包使用 [离线安装说明](INSTALL-MAC-OFFLINE.md)。缺少全文时由用户补充。
 
-第三方软件保留其原许可：Python 使用 PSF 及内含声明，R 与各 R 包保留各自 GPL/其他许可，Python wheels 保留各自许可。此联网 ZIP 不包含这些原生安装包、编译依赖或模型；自有代码使用仓库 MIT。官方文件的版本、来源、SHA256、字节数和许可摘要在锁文件中，安装后的原许可保留在各包目录。Windows 安装入口及下载文件保持不变。
+第三方软件保留其原许可：Python 使用 PSF 及内含声明，R 与各 R 包保留各自 GPL/其他许可，Python wheels 保留各自许可。此联网 ZIP 不包含这些原生安装包、编译依赖或模型；Ye1 拥有授权权利的内容使用仓库 CC BY-NC 4.0。官方文件的版本、来源、SHA256、字节数和许可摘要在锁文件中，安装后的原许可保留在各包目录。Windows 安装入口及下载文件保持不变。
 
 维护者 CI 使用 GitHub 官方 `macos-15` 标准 runner，并同时断言 `uname -m=arm64` 与 `RUNNER_ARCH=ARM64`。安装不调用 setup-python、setup-r 或 runner 包缓存，实际经过上述客户入口。

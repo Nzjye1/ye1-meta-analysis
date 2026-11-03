@@ -1,6 +1,6 @@
 # 第三方软件、数据与模型
 
-本仓库自有源码、说明和安装工具采用 [MIT](LICENSE)。源码与小安装 ZIP 不携带第三方解释器、编译 wheel、R 二进制库或模型。首次使用时由安装器从固定官方来源取得依赖，并保留原许可、版权、模型卡与 NOTICE。
+本仓库中 Ye1 拥有授权权利的内容采用 [CC BY-NC 4.0](LICENSE)。源码与小安装 ZIP 不携带第三方解释器、编译 wheel、R 二进制库或模型。首次使用时由安装器从固定官方来源取得依赖，并保留原许可、版权、模型卡与 NOTICE。
 
 逐组件名称、版本、官方 URL、字节数、SHA256 与原许可标签记录在 [online-lock.json](dependencies/online-lock.json)；补充原文来源在 [notice-source-lock.json](dependencies/notice-source-lock.json)。
 

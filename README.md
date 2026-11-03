@@ -97,4 +97,4 @@ Apple 芯片版本已在 GitHub 的真实 macOS arm64 环境完成离线安装�
 
 微信：**`ye1aikeyan`** · 邮箱：[ye1aikeyan@163.com](mailto:ye1aikeyan@163.com) · [GitHub Issues](https://github.com/Nzjye1/ye1-meta-analysis/issues)
 
-自有代码采用 [MIT](LICENSE)；依赖与模型保留 [各自原许可](THIRD-PARTY.md)。[隐私说明](PRIVACY.md) · [能力与数据条件](CAPABILITIES.md)
+Ye1 拥有授权权利的内容采用 [CC BY-NC 4.0](LICENSE)；依赖与模型保留 [各自原许可](THIRD-PARTY.md)。历史许可见 [许可说明](LICENSING.md)。[隐私说明](PRIVACY.md) · [能力与数据条件](CAPABILITIES.md)

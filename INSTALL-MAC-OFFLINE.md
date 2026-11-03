@@ -13,4 +13,4 @@ bash launch.sh "$HOME/Ye1 Meta Offline Runtime" docling check
 
 安装器将官方框架安装到系统框架目录，将 Python 包、R 包、模型和日志放到指定运行目录。重复使用必须保持同一依赖锁。`setup-logs` 保存安装回执；不要修改系统安全设置来解决错误。
 
-第三方 wheel、R 包和模型保留原许可与内含声明。`thirdparty-sources` 包含对应版本源码与补充材料；`WHEEL-LICENSE-INVENTORY.json` 列出 wheel 中的许可元数据及文件。源码自有部分使用 MIT，其他材料按各自许可。
+第三方 wheel、R 包和模型保留原许可与内含声明。`thirdparty-sources` 包含对应版本源码与补充材料；`WHEEL-LICENSE-INVENTORY.json` 列出 wheel 中的许可元数据及文件。Ye1 拥有授权权利的内容采用 CC BY-NC 4.0，其他材料按各自许可。
